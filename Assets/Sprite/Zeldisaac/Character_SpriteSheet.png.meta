@@ -922,7 +922,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Character_SpriteSheet_0: -3968182364789597635
+      Character_SpriteSheet_1: 4587666066383894207
+      Character_SpriteSheet_10: -676850138257642730
+      Character_SpriteSheet_11: -7902739706456451877
+      Character_SpriteSheet_12: -115837940102341915
+      Character_SpriteSheet_13: -6246271817960646373
+      Character_SpriteSheet_14: 1607868690767927948
+      Character_SpriteSheet_15: 5948598769290663945
+      Character_SpriteSheet_16: 6194918281461035763
+      Character_SpriteSheet_17: -9080679272877997824
+      Character_SpriteSheet_18: -895090323545849745
+      Character_SpriteSheet_19: -6532186402380629182
+      Character_SpriteSheet_2: 6454227986848301601
+      Character_SpriteSheet_20: 3627913970140852182
+      Character_SpriteSheet_21: 447675835101638137
+      Character_SpriteSheet_22: 2221672078251663482
+      Character_SpriteSheet_23: -4354308217364853909
+      Character_SpriteSheet_24: 4763314683543948858
+      Character_SpriteSheet_25: -7126432948160309013
+      Character_SpriteSheet_26: 1302787915549646367
+      Character_SpriteSheet_27: 7225317132242547198
+      Character_SpriteSheet_28: 3577895508131968801
+      Character_SpriteSheet_29: 6098205833264332395
+      Character_SpriteSheet_3: -3674686839259255706
+      Character_SpriteSheet_30: 438451547233277997
+      Character_SpriteSheet_31: -728049785126361438
+      Character_SpriteSheet_4: 1841653929773381103
+      Character_SpriteSheet_5: 1299626203083564264
+      Character_SpriteSheet_6: 4241633468348594140
+      Character_SpriteSheet_7: -7556729986977294602
+      Character_SpriteSheet_8: 8276834685723025959
+      Character_SpriteSheet_9: 725130494271647534
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
