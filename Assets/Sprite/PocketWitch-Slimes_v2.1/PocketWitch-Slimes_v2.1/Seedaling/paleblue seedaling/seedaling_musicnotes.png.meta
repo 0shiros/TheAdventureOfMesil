@@ -1,0 +1,655 @@
+fileFormatVersion: 2
+guid: bb0c0e96720d7b64d8df711ae421c28e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1037145604352948010
+    second: seedaling_musicnotes_0
+  - first:
+      213: -2658926279381216945
+    second: seedaling_musicnotes_1
+  - first:
+      213: 5157855475695639679
+    second: seedaling_musicnotes_2
+  - first:
+      213: -1131569622933525822
+    second: seedaling_musicnotes_3
+  - first:
+      213: -2290976277325388308
+    second: seedaling_musicnotes_4
+  - first:
+      213: 5273449524501270935
+    second: seedaling_musicnotes_5
+  - first:
+      213: -3820538704923352737
+    second: seedaling_musicnotes_6
+  - first:
+      213: -2486283486788442588
+    second: seedaling_musicnotes_7
+  - first:
+      213: -1177703304677052273
+    second: seedaling_musicnotes_8
+  - first:
+      213: -5618142754436464334
+    second: seedaling_musicnotes_9
+  - first:
+      213: 8547299450853095716
+    second: seedaling_musicnotes_10
+  - first:
+      213: -705759337176967760
+    second: seedaling_musicnotes_11
+  - first:
+      213: -8241557099295792312
+    second: seedaling_musicnotes_12
+  - first:
+      213: 673978290129729229
+    second: seedaling_musicnotes_13
+  - first:
+      213: -2904043211319781816
+    second: seedaling_musicnotes_14
+  - first:
+      213: 179949677706938933
+    second: seedaling_musicnotes_15
+  - first:
+      213: -1458847917767815179
+    second: seedaling_musicnotes_16
+  - first:
+      213: -2909556303112574116
+    second: seedaling_musicnotes_17
+  - first:
+      213: 4379086822604266718
+    second: seedaling_musicnotes_18
+  - first:
+      213: -8082366983831067391
+    second: seedaling_musicnotes_19
+  - first:
+      213: 7470792664781338746
+    second: seedaling_musicnotes_20
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: seedaling_musicnotes_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 93
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a27b0df9e6ea46e00800000000000000
+      internalID: 1037145604352948010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedaling_musicnotes_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 93
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f411881f2a8991bd0800000000000000
+      internalID: -2658926279381216945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedaling_musicnotes_2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 93
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c54a74a32649740800000000000000
+      internalID: 5157855475695639679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedaling_musicnotes_3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 78
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2caac6a5c6bdb40f0800000000000000
+      internalID: -1131569622933525822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedaling_musicnotes_4
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 78
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce56c21c631d430e0800000000000000
+      internalID: -2290976277325388308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedaling_musicnotes_5
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 78
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791d9d0176e0f2940800000000000000
+      internalID: 5273449524501270935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedaling_musicnotes_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 63
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f51a96a3a48bafac0800000000000000
+      internalID: -3820538704923352737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedaling_musicnotes_7
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 63
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4262e077752fe7dd0800000000000000
+      internalID: -2486283486788442588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedaling_musicnotes_8
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 63
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f80bbe98515f7afe0800000000000000
+      internalID: -1177703304677052273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedaling_musicnotes_9
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 48
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23141685ee85802b0800000000000000
+      internalID: -5618142754436464334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedaling_musicnotes_10
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 48
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4297df4a09b1e9670800000000000000
+      internalID: 8547299450853095716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedaling_musicnotes_11
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 48
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b5d6a24f93a436f0800000000000000
+      internalID: -705759337176967760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedaling_musicnotes_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 33
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843206cdb7b10ad80800000000000000
+      internalID: -8241557099295792312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedaling_musicnotes_13
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 33
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6f1891fa37a5900800000000000000
+      internalID: 673978290129729229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedaling_musicnotes_14
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 33
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84656e8e514c2b7d0800000000000000
+      internalID: -2904043211319781816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedaling_musicnotes_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 18
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a0b29474f4f7200800000000000000
+      internalID: 179949677706938933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedaling_musicnotes_16
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 18
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff81205c8121cbe0800000000000000
+      internalID: -1458847917767815179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedaling_musicnotes_17
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 18
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5be9f235fd2f97d0800000000000000
+      internalID: -2909556303112574116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedaling_musicnotes_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edcdbe58344a5cc30800000000000000
+      internalID: 4379086822604266718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedaling_musicnotes_19
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 3
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1056768ec0aa5df80800000000000000
+      internalID: -8082366983831067391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: seedaling_musicnotes_20
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 3
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78b2eeb8569da760800000000000000
+      internalID: 7470792664781338746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

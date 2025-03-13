@@ -1,0 +1,1180 @@
+fileFormatVersion: 2
+guid: 0a2a687e4e0ac5640bfc198f5445fb77
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4309453053441201704
+    second: Jar_SpriteSheet_0
+  - first:
+      213: 9180077222475471670
+    second: Jar_SpriteSheet_1
+  - first:
+      213: 7481379490020538310
+    second: Jar_SpriteSheet_2
+  - first:
+      213: 6790421323812085258
+    second: Jar_SpriteSheet_3
+  - first:
+      213: 2434539998428990628
+    second: Jar_SpriteSheet_4
+  - first:
+      213: -964833462541448612
+    second: Jar_SpriteSheet_5
+  - first:
+      213: -7074586876801964293
+    second: Jar_SpriteSheet_6
+  - first:
+      213: -6762147297451537602
+    second: Jar_SpriteSheet_7
+  - first:
+      213: 8522492610034796895
+    second: Jar_SpriteSheet_8
+  - first:
+      213: -1591304995025921352
+    second: Jar_SpriteSheet_9
+  - first:
+      213: -1583981011502713303
+    second: Jar_SpriteSheet_10
+  - first:
+      213: 4340959525955187363
+    second: Jar_SpriteSheet_11
+  - first:
+      213: -7176515052498906405
+    second: Jar_SpriteSheet_12
+  - first:
+      213: 1160811127948948674
+    second: Jar_SpriteSheet_13
+  - first:
+      213: 7098333581166306489
+    second: Jar_SpriteSheet_14
+  - first:
+      213: 1975588048149215046
+    second: Jar_SpriteSheet_15
+  - first:
+      213: -888035220162777361
+    second: Jar_SpriteSheet_16
+  - first:
+      213: -5014365445656641968
+    second: Jar_SpriteSheet_17
+  - first:
+      213: 1593311026506294772
+    second: Jar_SpriteSheet_18
+  - first:
+      213: 2832442772125594617
+    second: Jar_SpriteSheet_19
+  - first:
+      213: 6627262432112548380
+    second: Jar_SpriteSheet_20
+  - first:
+      213: 5464550449361785756
+    second: Jar_SpriteSheet_21
+  - first:
+      213: -1966666464998980437
+    second: Jar_SpriteSheet_22
+  - first:
+      213: -8241909821854163771
+    second: Jar_SpriteSheet_23
+  - first:
+      213: -3040691709683400736
+    second: Jar_SpriteSheet_24
+  - first:
+      213: 1699670219276221817
+    second: Jar_SpriteSheet_25
+  - first:
+      213: 7120833079245348625
+    second: Jar_SpriteSheet_26
+  - first:
+      213: -2853068219791856368
+    second: Jar_SpriteSheet_27
+  - first:
+      213: -713211414211354858
+    second: Jar_SpriteSheet_28
+  - first:
+      213: -3311938311977434973
+    second: Jar_SpriteSheet_29
+  - first:
+      213: 5409872642449134943
+    second: Jar_SpriteSheet_30
+  - first:
+      213: -6057346480755622962
+    second: Jar_SpriteSheet_31
+  - first:
+      213: -6739569617938580000
+    second: Jar_SpriteSheet_32
+  - first:
+      213: -3045565181122777681
+    second: Jar_SpriteSheet_33
+  - first:
+      213: -8379988796101132180
+    second: Jar_SpriteSheet_34
+  - first:
+      213: -7607593673247616792
+    second: Jar_SpriteSheet_35
+  - first:
+      213: -1090733683840104384
+    second: Jar_SpriteSheet_36
+  - first:
+      213: -3778416943924205037
+    second: Jar_SpriteSheet_37
+  - first:
+      213: -2577804612100628230
+    second: Jar_SpriteSheet_38
+  - first:
+      213: 2195173814453237916
+    second: Jar_SpriteSheet_39
+  - first:
+      213: 5678841917244559967
+    second: Jar_SpriteSheet_40
+  - first:
+      213: 7874835261909152691
+    second: Jar_SpriteSheet_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 18
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826d59a38b04ecb30800000000000000
+      internalID: 4309453053441201704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 16
+        width: 35
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63b1e40889f266f70800000000000000
+      internalID: 9180077222475471670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 37
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c73194120333d760800000000000000
+      internalID: 7481379490020538310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 39
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e9e01873c6c3e50800000000000000
+      internalID: 6790421323812085258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 32
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac07d5da3939c120800000000000000
+      internalID: 2434539998428990628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 40
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5a8ec5e3193c92f0800000000000000
+      internalID: -964833462541448612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 37
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf62493e7b402dd90800000000000000
+      internalID: -7074586876801964293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 33
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b88804cd60822a0800000000000000
+      internalID: -6762147297451537602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 22
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f59040eefd9f54670800000000000000
+      internalID: 8522492610034796895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 28
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8badc22c98c8ae9e0800000000000000
+      internalID: -1591304995025921352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 27
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926ba6e89a1940ae0800000000000000
+      internalID: -1583981011502713303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 21
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a238e080bf2e3c30800000000000000
+      internalID: 4340959525955187363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 15
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd21f822595e76c90800000000000000
+      internalID: -7176515052498906405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 30
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4b7b412970c1010800000000000000
+      internalID: 1160811127948948674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 22
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4e4a298c8528260800000000000000
+      internalID: 7098333581166306489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 21
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647f078dcd2ba6b10800000000000000
+      internalID: 1975588048149215046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 30
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee692a1ca01da3f0800000000000000
+      internalID: -888035220162777361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 27
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e74a5c135696ab0800000000000000
+      internalID: -5014365445656641968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 17
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f5ee97dfe39c1610800000000000000
+      internalID: 1593311026506294772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 15
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f33b2fb1bbde4720800000000000000
+      internalID: 2832442772125594617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 27
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1a1c5bb114c8fb50800000000000000
+      internalID: 6627262432112548380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 29
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9319676eabf5db40800000000000000
+      internalID: 5464550449361785756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 22
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba4001a154ff4b4e0800000000000000
+      internalID: -1966666464998980437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 22
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cc549d3faade9d80800000000000000
+      internalID: -8241909821854163771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 13
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef78d4100b4dc5d0800000000000000
+      internalID: -3040691709683400736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 26
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97df4472f01769710800000000000000
+      internalID: 1699670219276221817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 14
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f154135f742d260800000000000000
+      internalID: 7120833079245348625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 13
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01da95ff19dd768d0800000000000000
+      internalID: -2853068219791856368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 23
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61f9d2e5ff92a16f0800000000000000
+      internalID: -713211414211354858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 12
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0049417a1a902d0800000000000000
+      internalID: -3311938311977434973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 17
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55d84d618ab31b40800000000000000
+      internalID: 5409872642449134943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 15
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb391d087bffeba0800000000000000
+      internalID: -6057346480755622962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 17
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed71c7e32d3872a0800000000000000
+      internalID: -6739569617938580000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 22
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fade0e69a9afbb5d0800000000000000
+      internalID: -3045565181122777681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 19
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6083aac69c44bb80800000000000000
+      internalID: -8379988796101132180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_35
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 16
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e011966cd56c6690800000000000000
+      internalID: -7607593673247616792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_36
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 12
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04848265e7fecd0f0800000000000000
+      internalID: -1090733683840104384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_37
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 18
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31aa414fecd509bc0800000000000000
+      internalID: -3778416943924205037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_38
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 14
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af0e063fc5cc93cd0800000000000000
+      internalID: -2577804612100628230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_39
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 13
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9879b624f2d67e10800000000000000
+      internalID: 2195173814453237916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_40
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 14
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52d5fcc2ac4fce40800000000000000
+      internalID: 5678841917244559967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Jar_SpriteSheet_41
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 12
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3b0d2b2f8094d60800000000000000
+      internalID: 7874835261909152691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

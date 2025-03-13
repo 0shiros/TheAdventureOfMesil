@@ -1,0 +1,1455 @@
+fileFormatVersion: 2
+guid: 49c5576e3c542164d9e521e58e9d1716
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5168219125968422930
+    second: DoorGrid_0
+  - first:
+      213: -4432231106860448076
+    second: DoorGrid_1
+  - first:
+      213: 3091828646273221491
+    second: DoorGrid_2
+  - first:
+      213: -2234288052037000557
+    second: DoorGrid_3
+  - first:
+      213: -5169524792840523780
+    second: DoorGrid_4
+  - first:
+      213: -3996083887340669175
+    second: DoorGrid_5
+  - first:
+      213: -3355667365671554119
+    second: DoorGrid_6
+  - first:
+      213: 113534146507699301
+    second: DoorGrid_7
+  - first:
+      213: 2129547102789258176
+    second: DoorGrid_8
+  - first:
+      213: 249464565013345779
+    second: DoorGrid_9
+  - first:
+      213: 4395751517387305301
+    second: DoorGrid_10
+  - first:
+      213: 1567394228012773707
+    second: DoorGrid_11
+  - first:
+      213: 5088360139704456227
+    second: DoorGrid_12
+  - first:
+      213: -3669624312213889961
+    second: DoorGrid_13
+  - first:
+      213: 6154132792751940026
+    second: DoorGrid_14
+  - first:
+      213: 7855549601430531532
+    second: DoorGrid_15
+  - first:
+      213: -4837517720338040611
+    second: DoorGrid_16
+  - first:
+      213: -2968527820653965251
+    second: DoorGrid_17
+  - first:
+      213: 7737378553367171850
+    second: DoorGrid_18
+  - first:
+      213: 8404345159049480766
+    second: DoorGrid_19
+  - first:
+      213: -3163685912560567735
+    second: DoorGrid_20
+  - first:
+      213: -7290383580843428120
+    second: DoorGrid_21
+  - first:
+      213: 1613409799291915091
+    second: DoorGrid_22
+  - first:
+      213: -1546360477532046355
+    second: DoorGrid_23
+  - first:
+      213: -2327595966492626205
+    second: DoorGrid_24
+  - first:
+      213: -8911917457456986977
+    second: DoorGrid_25
+  - first:
+      213: -4084591161893625403
+    second: DoorGrid_26
+  - first:
+      213: -1546796456536969068
+    second: DoorGrid_27
+  - first:
+      213: -8338600307913211138
+    second: DoorGrid_28
+  - first:
+      213: 306223730326184033
+    second: DoorGrid_29
+  - first:
+      213: -5912105693700935159
+    second: DoorGrid_30
+  - first:
+      213: -2530884533587396443
+    second: DoorGrid_31
+  - first:
+      213: -8325918147668099767
+    second: DoorGrid_32
+  - first:
+      213: 6988415675162062994
+    second: DoorGrid_33
+  - first:
+      213: 2191290991280087349
+    second: DoorGrid_34
+  - first:
+      213: 5520855274373397526
+    second: DoorGrid_35
+  - first:
+      213: 4071737985256313126
+    second: DoorGrid_36
+  - first:
+      213: 1549783276363363229
+    second: DoorGrid_37
+  - first:
+      213: 7380680800735007958
+    second: DoorGrid_38
+  - first:
+      213: -4586683228974023781
+    second: DoorGrid_39
+  - first:
+      213: 2580176416300886230
+    second: DoorGrid_40
+  - first:
+      213: -1308671599174017594
+    second: DoorGrid_41
+  - first:
+      213: -2045973728298719661
+    second: DoorGrid_42
+  - first:
+      213: -4261751924432164743
+    second: DoorGrid_43
+  - first:
+      213: 6159650229833404455
+    second: DoorGrid_44
+  - first:
+      213: -2785714544283141692
+    second: DoorGrid_45
+  - first:
+      213: -4104749141106324642
+    second: DoorGrid_46
+  - first:
+      213: -2092138862030443151
+    second: DoorGrid_47
+  - first:
+      213: 6477739833235262285
+    second: DoorGrid_48
+  - first:
+      213: -5285126732715191060
+    second: DoorGrid_49
+  - first:
+      213: 5378955768988118263
+    second: DoorGrid_50
+  - first:
+      213: -4029564579200225679
+    second: DoorGrid_51
+  - first:
+      213: 4359741158786457091
+    second: DoorGrid_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DoorGrid_0
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 300
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee7b54b561cc648b0800000000000000
+      internalID: -5168219125968422930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 302
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b685219a4d8d72c0800000000000000
+      internalID: -4432231106860448076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 305
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3730e77c5c168ea20800000000000000
+      internalID: 3091828646273221491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_3
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 302
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3926f6cbad63ef0e0800000000000000
+      internalID: -2234288052037000557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_4
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 300
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff6a2917982248b0800000000000000
+      internalID: -5169524792840523780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_5
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 288
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 907b56a60ee0b88c0800000000000000
+      internalID: -3996083887340669175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_6
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 289
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3b6cc5f464e61d0800000000000000
+      internalID: -3355667365671554119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_7
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 291
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564f77864ba539100800000000000000
+      internalID: 113534146507699301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_8
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 289
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb4732aecbad8d10800000000000000
+      internalID: 2129547102789258176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_9
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 288
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f5faad33b6467300800000000000000
+      internalID: 249464565013345779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_10
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 265
+        width: 11
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55131c227b8d00d30800000000000000
+      internalID: 4395751517387305301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_11
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 265
+        width: 11
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41f2b7feb080c510800000000000000
+      internalID: 1567394228012773707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_12
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 265
+        width: 18
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3245758769c7d9640800000000000000
+      internalID: 5088360139704456227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_13
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 265
+        width: 12
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c9a5b6120e21dc0800000000000000
+      internalID: -3669624312213889961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_14
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 176
+        width: 12
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1ef844b2fd76550800000000000000
+      internalID: 6154132792751940026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_15
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 178
+        width: 11
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd6ab4fdb4840d60800000000000000
+      internalID: 7855549601430531532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_16
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 178
+        width: 18
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8f79c734faddcb0800000000000000
+      internalID: -4837517720338040611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_17
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 177
+        width: 12
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d305e00dcabadc6d0800000000000000
+      internalID: -2968527820653965251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_18
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 175
+        width: 12
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a031d26ccc0b06b60800000000000000
+      internalID: 7737378553367171850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_19
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 175
+        width: 10
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a0beed46b32a470800000000000000
+      internalID: 8404345159049480766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_20
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 175
+        width: 18
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a7be8ac645814d0800000000000000
+      internalID: -3163685912560567735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_21
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 175
+        width: 13
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e6bc7362ca53da90800000000000000
+      internalID: -7290383580843428120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_22
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 176
+        width: 12
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35bcdeb0aabf36610800000000000000
+      internalID: 1613409799291915091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_23
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 177
+        width: 11
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: debbff1b6593a8ae0800000000000000
+      internalID: -1546360477532046355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_24
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 176
+        width: 18
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e23394fcc7b2bfd0800000000000000
+      internalID: -2327595966492626205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_25
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 176
+        width: 13
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f948ca03a42825480800000000000000
+      internalID: -8911917457456986977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_26
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 175
+        width: 12
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c161a6bafd9057c0800000000000000
+      internalID: -4084591161893625403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_27
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 175
+        width: 10
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 490f74c61dca88ae0800000000000000
+      internalID: -1546796456536969068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_28
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 175
+        width: 18
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef2ced22337574c80800000000000000
+      internalID: -8338600307913211138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_29
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 175
+        width: 13
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16023eb3cdcef3400800000000000000
+      internalID: 306223730326184033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_30
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 95
+        width: 12
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 902346cf13bf3fda0800000000000000
+      internalID: -5912105693700935159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_31
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 95
+        width: 11
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a83ef70ded70ecd0800000000000000
+      internalID: -2530884533587396443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_32
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 95
+        width: 18
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94db34bae85647c80800000000000000
+      internalID: -8325918147668099767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_33
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 95
+        width: 13
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2907ec4c707dbf060800000000000000
+      internalID: 6988415675162062994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_34
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 105
+        width: 11
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53163ceeb87096e10800000000000000
+      internalID: 2191290991280087349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_35
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 105
+        width: 11
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61c3e5d0f940e9c40800000000000000
+      internalID: 5520855274373397526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_36
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 105
+        width: 18
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 621daa5ef18b18830800000000000000
+      internalID: 4071737985256313126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_37
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 105
+        width: 12
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93ba72cdafe18510800000000000000
+      internalID: 1549783276363363229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_38
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 118
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d41b5075127d6660800000000000000
+      internalID: 7380680800735007958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_39
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 119
+        width: 9
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9bf2cf87e3d850c0800000000000000
+      internalID: -4586683228974023781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_40
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 121
+        width: 9
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8647fb7c0aec320800000000000000
+      internalID: 2580176416300886230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_41
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 119
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd179b3d1aa6dde0800000000000000
+      internalID: -1308671599174017594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_42
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 118
+        width: 10
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35629f0fbbd3b93e0800000000000000
+      internalID: -2045973728298719661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_43
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 128
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978226754373bd4c0800000000000000
+      internalID: -4261751924432164743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_44
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 129
+        width: 9
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7209fd1bf397b7550800000000000000
+      internalID: 6159650229833404455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_45
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 131
+        width: 9
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c93d5e91672759d0800000000000000
+      internalID: -2785714544283141692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_46
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 129
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5b844077600907c0800000000000000
+      internalID: -4104749141106324642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_47
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 128
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17da2e32aca37f2e0800000000000000
+      internalID: -2092138862030443151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_48
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 60
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4bc26bce0e85e950800000000000000
+      internalID: 6477739833235262285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 62
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce417970d3577a6b0800000000000000
+      internalID: -5285126732715191060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_50
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 65
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fc2311e5c3e5aa40800000000000000
+      internalID: 5378955768988118263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_51
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 62
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17e26416d5c1418c0800000000000000
+      internalID: -4029564579200225679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DoorGrid_52
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 60
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30edd1a2c79e08c30800000000000000
+      internalID: 4359741158786457091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

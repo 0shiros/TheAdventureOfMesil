@@ -1,0 +1,1305 @@
+fileFormatVersion: 2
+guid: e54edc841ea101a4f9114f2055586619
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8175651187072754906
+    second: SqueletteDeath&Block_0
+  - first:
+      213: -1649542922135353896
+    second: SqueletteDeath&Block_1
+  - first:
+      213: 197260952141344173
+    second: SqueletteDeath&Block_2
+  - first:
+      213: -291808480741507456
+    second: SqueletteDeath&Block_3
+  - first:
+      213: 7435559075973030611
+    second: SqueletteDeath&Block_4
+  - first:
+      213: 5973925196861255005
+    second: SqueletteDeath&Block_5
+  - first:
+      213: -1306108654122082084
+    second: SqueletteDeath&Block_6
+  - first:
+      213: 8704758182509324951
+    second: SqueletteDeath&Block_7
+  - first:
+      213: 889616580487911499
+    second: SqueletteDeath&Block_8
+  - first:
+      213: -7350138030218986118
+    second: SqueletteDeath&Block_9
+  - first:
+      213: 7946897211096832658
+    second: SqueletteDeath&Block_10
+  - first:
+      213: -1899145458271013435
+    second: SqueletteDeath&Block_11
+  - first:
+      213: 7393148490514408442
+    second: SqueletteDeath&Block_12
+  - first:
+      213: 8427203967822456366
+    second: SqueletteDeath&Block_13
+  - first:
+      213: -7657055642855128143
+    second: SqueletteDeath&Block_14
+  - first:
+      213: 3451119061260254268
+    second: SqueletteDeath&Block_15
+  - first:
+      213: -1578561917769760921
+    second: SqueletteDeath&Block_16
+  - first:
+      213: 4205109128981600228
+    second: SqueletteDeath&Block_17
+  - first:
+      213: -4959367811335162235
+    second: SqueletteDeath&Block_18
+  - first:
+      213: -7946485002520894309
+    second: SqueletteDeath&Block_19
+  - first:
+      213: 6305533186787910053
+    second: SqueletteDeath&Block_20
+  - first:
+      213: 4523414818494033337
+    second: SqueletteDeath&Block_21
+  - first:
+      213: 50042887999353914
+    second: SqueletteDeath&Block_22
+  - first:
+      213: 5546849060537032423
+    second: SqueletteDeath&Block_23
+  - first:
+      213: -47853799774482406
+    second: SqueletteDeath&Block_24
+  - first:
+      213: -6765981737902083228
+    second: SqueletteDeath&Block_25
+  - first:
+      213: 5671954351468342577
+    second: SqueletteDeath&Block_26
+  - first:
+      213: 5760973408325190559
+    second: SqueletteDeath&Block_27
+  - first:
+      213: -7297311740649915624
+    second: SqueletteDeath&Block_28
+  - first:
+      213: 5633861428043213012
+    second: SqueletteDeath&Block_29
+  - first:
+      213: 4641753694929847532
+    second: SqueletteDeath&Block_30
+  - first:
+      213: 1566762867049856235
+    second: SqueletteDeath&Block_31
+  - first:
+      213: -6706667138695719363
+    second: SqueletteDeath&Block_32
+  - first:
+      213: -3877035138783587619
+    second: SqueletteDeath&Block_33
+  - first:
+      213: -7098624035809559162
+    second: SqueletteDeath&Block_34
+  - first:
+      213: -4669375695037074339
+    second: SqueletteDeath&Block_35
+  - first:
+      213: 1991103792410150312
+    second: SqueletteDeath&Block_36
+  - first:
+      213: 4342833432883217384
+    second: SqueletteDeath&Block_37
+  - first:
+      213: 8180152815785099426
+    second: SqueletteDeath&Block_38
+  - first:
+      213: -4710318030648556997
+    second: SqueletteDeath&Block_39
+  - first:
+      213: 6566746986651290598
+    second: SqueletteDeath&Block_40
+  - first:
+      213: 1607001418983487131
+    second: SqueletteDeath&Block_41
+  - first:
+      213: -6280382644921859422
+    second: SqueletteDeath&Block_42
+  - first:
+      213: 1847370578649692826
+    second: SqueletteDeath&Block_43
+  - first:
+      213: -7110461289137092008
+    second: SqueletteDeath&Block_44
+  - first:
+      213: 3248878396847714852
+    second: SqueletteDeath&Block_45
+  - first:
+      213: 3013309289958233419
+    second: SqueletteDeath&Block_46
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 205
+        width: 56
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad4e8fc207fb57170800000000000000
+      internalID: 8175651187072754906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 202
+        width: 69
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5cc54b375ab19e0800000000000000
+      internalID: -1649542922135353896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_2
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 204
+        width: 37
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dada0747acfccb200800000000000000
+      internalID: 197260952141344173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_3
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 220
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08eb4fa9bb943fbf0800000000000000
+      internalID: -291808480741507456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_4
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 216
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d2edc59599603760800000000000000
+      internalID: 7435559075973030611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_5
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 203
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5daba9b055a7e250800000000000000
+      internalID: 5973925196861255005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_6
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 204
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd06df06915cfdde0800000000000000
+      internalID: -1306108654122082084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 219
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79aa42c72738dc870800000000000000
+      internalID: 8704758182509324951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_8
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 215
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b48974a019d885c00800000000000000
+      internalID: 889616580487911499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_9
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 202
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d35ba77601ff990800000000000000
+      internalID: -7350138030218986118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_10
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 204
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29a18f5b8ec094e60800000000000000
+      internalID: 7946897211096832658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_11
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 206
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c5b5fe8441e4a5e0800000000000000
+      internalID: -1899145458271013435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_12
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 206
+        width: 47
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3a3dca16db99660800000000000000
+      internalID: 7393148490514408442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_13
+      rect:
+        serializedVersion: 2
+        x: 568
+        y: 205
+        width: 46
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e26e1d70c5173f470800000000000000
+      internalID: 8427203967822456366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_14
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 204
+        width: 46
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3483e267cacb590800000000000000
+      internalID: -7657055642855128143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_15
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 202
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c3ffb5086d4ef20800000000000000
+      internalID: 3451119061260254268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_16
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 139
+        width: 60
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76fbf53ac42d71ae0800000000000000
+      internalID: -1578561917769760921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_17
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 137
+        width: 69
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e753b2297c8b5a30800000000000000
+      internalID: 4205109128981600228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_18
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 136
+        width: 70
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5867cde5049cc2bb0800000000000000
+      internalID: -4959367811335162235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_19
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 136
+        width: 37
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94e5c31ef968b190800000000000000
+      internalID: -7946485002520894309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_20
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 136
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a12ee57601c18750800000000000000
+      internalID: 6305533186787910053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_21
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 136
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd2314bfc566ce30800000000000000
+      internalID: 4523414818494033337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_22
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 143
+        width: 52
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a347cb2ddb9c1b000800000000000000
+      internalID: 50042887999353914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_23
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 138
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eed40405dd5afc40800000000000000
+      internalID: 5546849060537032423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_24
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 142
+        width: 48
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a101a4ff83df55ff0800000000000000
+      internalID: -47853799774482406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_25
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 143
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 463f09305776a12a0800000000000000
+      internalID: -6765981737902083228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_26
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 143
+        width: 50
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d608d6e64d6be40800000000000000
+      internalID: 5671954351468342577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_27
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 77
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93c1bbbac613ff40800000000000000
+      internalID: 5760973408325190559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_28
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 70
+        width: 48
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b364b72adbaba90800000000000000
+      internalID: -7297311740649915624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_29
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 69
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d86a4c8e1f7f2e40800000000000000
+      internalID: 5633861428043213012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_30
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 66
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce486297462da6040800000000000000
+      internalID: 4641753694929847532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_31
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 75
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bec77c9c6824eb510800000000000000
+      internalID: 1566762867049856235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_32
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 65
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d36914355c12de2a0800000000000000
+      internalID: -6706667138695719363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_33
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 66
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2d81b2511023ac0800000000000000
+      internalID: -3877035138783587619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_34
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 65
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d758fac0f9c7d90800000000000000
+      internalID: -7098624035809559162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_35
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 65
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54f8767b8b033fb0800000000000000
+      internalID: -4669375695037074339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_36
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 66
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a54a819952d1ab10800000000000000
+      internalID: 1991103792410150312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_37
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 13
+        width: 42
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3c1b57ff7d44c30800000000000000
+      internalID: 4342833432883217384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_38
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 6
+        width: 48
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0484945adb58170800000000000000
+      internalID: 8180152815785099426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_39
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 5
+        width: 52
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b32431c15b691aeb0800000000000000
+      internalID: -4710318030648556997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_40
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 11
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb873d9795c12b50800000000000000
+      internalID: 6566746986651290598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_41
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 2
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b963f0cb6473d4610800000000000000
+      internalID: 1607001418983487131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_42
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 1
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a287e3624997d8a0800000000000000
+      internalID: -6280382644921859422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_43
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 2
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a3ce4e0cd23a910800000000000000
+      internalID: 1847370578649692826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_44
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 1
+        width: 29
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a41df5121925d90800000000000000
+      internalID: -7110461289137092008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_45
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 1
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4227c8a40b5561d20800000000000000
+      internalID: 3248878396847714852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SqueletteDeath&Block_46
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 2
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45585285dc61d920800000000000000
+      internalID: 3013309289958233419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
