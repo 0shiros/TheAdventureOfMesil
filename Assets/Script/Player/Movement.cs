@@ -5,6 +5,7 @@ public class Movement : MonoBehaviour
 {
     [SerializeField] private float _playerSpeed = 5f;
     private Transform _playerTransform;
+    [HideInInspector] public Vector2 _movementInput = Vector2.zero;
 
     private void Awake()
     {
@@ -18,11 +19,9 @@ public class Movement : MonoBehaviour
 
     private void Move()
     {
-        Vector2 movementInput = Vector2.zero;
+        _movementInput.x = Input.GetAxisRaw("Horizontal");
+        _movementInput.y = Input.GetAxisRaw("Vertical");
 
-        movementInput.x = Input.GetAxisRaw("Horizontal");
-        movementInput.y = Input.GetAxisRaw("Vertical");
-
-        _playerTransform.position += (Vector3)movementInput.normalized * _playerSpeed * Time.deltaTime;
+        _playerTransform.position += (Vector3)_movementInput.normalized * _playerSpeed * Time.deltaTime;
     }
 }
