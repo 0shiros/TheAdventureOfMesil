@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 256
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AdeptNecromancer_0: -5428268510093732355
+      AdeptNecromancer_1: -3175805117764450347
+      AdeptNecromancer_2: -1051582895056405226
+      AdeptNecromancer_3: 3099677246927349407
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
