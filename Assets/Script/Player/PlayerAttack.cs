@@ -14,7 +14,7 @@ public class PlayerAttack : MonoBehaviour
     [SerializeField] private float _attackRange = 0.5f;
 
     private bool _attackTriggered = false;
-    private Vector2 _attackDirection = Vector2.zero;
+    [HideInInspector] public Vector2 _attackDirection = Vector2.zero;
 
     private void Awake()
     {
@@ -66,8 +66,6 @@ public class PlayerAttack : MonoBehaviour
     public void OnDrawGizmos()
     {
         SetAttackDirection();
-
-        Debug.Log(_attackDirection);
 
         Gizmos.color = Color.red;
         if (_attackTriggered)
