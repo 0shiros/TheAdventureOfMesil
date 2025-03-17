@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class Characteristics : MonoBehaviour
 {
-    [SerializeField] public int _currentHealth;
-    [SerializeField] public int _maxHealth;
-    [SerializeField] public int _damage;
+    [SerializeField] public int currentHealth;
+    [SerializeField] public int maxHealth;
+    [SerializeField] public int damage;
 
     public void TakeDamage(int damage)
     {
-        _currentHealth -= damage;
+        currentHealth -= damage;
 
-        if (_currentHealth <= 0)
+        if (currentHealth <= 0)
         {
             gameObject.SetActive(false);
         }

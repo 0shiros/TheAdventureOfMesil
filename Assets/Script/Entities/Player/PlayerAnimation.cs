@@ -3,10 +3,15 @@ using UnityEngine;
 public class PlayerAnimation : MonoBehaviour
 {
     private Animator _playerAnimator;
+    private PlayerBar _playerBar;
+    private PlayerCharacteristics _playerCharacteristics;
+    [SerializeField] private int _basicAttackStaminaCost;
 
     private void Awake()
     {
         _playerAnimator = GetComponent<Animator>();
+        _playerBar = GetComponent<PlayerBar>();
+        _playerCharacteristics = GetComponent<PlayerCharacteristics>();
     }
 
     private void Update()
@@ -18,7 +23,13 @@ public class PlayerAnimation : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            _playerAnimator.SetBool("IsAttacking", true);
+            if(_playerCharacteristics.currentStamina >= _basicAttackStaminaCost)
+            {
+                _playerCharacteristics.currentStamina -= _basicAttackStaminaCost;
+                _playerBar.StaminaBar();
+                _playerBar._staminaDelay = Time.time;
+                _playerAnimator.SetBool("IsAttacking", true);
+            }
         }
         else
         {
