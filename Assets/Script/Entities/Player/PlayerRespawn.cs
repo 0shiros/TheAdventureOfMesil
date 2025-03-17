@@ -4,6 +4,7 @@ public class PlayerRespawn : MonoBehaviour
 {    
     public static PlayerRespawn instance { get; private set; }
 
+    [Header("References")]
     private Transform _playerTransform;
     private PlayerBar _playerBar;
     private PlayerCharacteristics _playerCharacteristics;

@@ -343,7 +343,7 @@ MonoBehaviour:
   currentHealth: 100
   maxHealth: 100
   damage: 50
-  grantExperience: 10
+  grantExperience: 20000
 --- !u!4 &405951418 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4901042047267176634, guid: 9e124c5f5e4cc5e47b757b886705a9e5, type: 3}
@@ -1181,6 +1181,7 @@ GameObject:
   - component: {fileID: 1877859031}
   - component: {fileID: 1877859033}
   - component: {fileID: 1877859034}
+  - component: {fileID: 1877859035}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -1306,7 +1307,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a604fd4308a6c3342aee93933fa9439b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _basicAttackStaminaCost: 100
 --- !u!114 &1877859028
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1319,13 +1319,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c24c8e6108c80cc4594c7fd91ad5d55e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _attackArea: {x: 1, y: 1}
   _enemyLayer:
     serializedVersion: 2
     m_Bits: 64
+  _attackDirection: {x: 0, y: 0}
+  _attackArea: {x: 1, y: 1}
   _attackRange: 0.35
   _enemyKnockback: 0.02
-  _attackDirection: {x: 0, y: 0}
+  _basicAttackStaminaCost: 25
 --- !u!50 &1877859030
 Rigidbody2D:
   serializedVersion: 5
@@ -1416,13 +1417,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentHealth: 100
   maxHealth: 100
-  damage: 5
+  damage: 50
   currentStamina: 200
   maxStamina: 200
   regenStamina: 50
+  level: 1
   currentExperience: 0
-  maxExperience: 0
-  lvl: 1
+  maxExperiences: 0000000014000000320000005a0000008c000000c80000000e0100005e010000b80100001c0200008a020000020300008403000010040000a604000046050000f0050000a40600006207000034080000
 --- !u!114 &1877859034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1438,6 +1439,22 @@ MonoBehaviour:
   _healthBar: {fileID: 409662826}
   _staminaBar: {fileID: 1425167438}
   playerCharacteristics: {fileID: 0}
+  _staminaRegenTime: 2.5
+  _staminaDelay: 1
+  isRegen: 0
+--- !u!114 &1877859035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877859020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 716ad6e484c5b304991594ade6003f04, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerCharacteristics: {fileID: 0}
 --- !u!1 &1912105515
 GameObject:
   m_ObjectHideFlags: 0

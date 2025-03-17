@@ -11,14 +11,16 @@ public class PlayerAttack : MonoBehaviour
     private PlayerBar _playerBar;
 
     [Header("Attack Settings")]
-    [SerializeField] private Vector2 _attackArea;
-    private Vector2 _playerDirection;
     [SerializeField] private LayerMask _enemyLayer;
+    [HideInInspector] public Vector2 _attackDirection = Vector2.zero;
+    private Vector2 _playerDirection;
+    [SerializeField] private Vector2 _attackArea;
     [SerializeField] private float _attackRange = 0.5f;
     [SerializeField] private float _enemyKnockback = 0.5f;
+    [SerializeField] public int _basicAttackStaminaCost = 25;
+
 
     private bool _attackTriggered = false;
-    [HideInInspector] public Vector2 _attackDirection = Vector2.zero;
 
     private void Awake()
     {
@@ -72,6 +74,10 @@ public class PlayerAttack : MonoBehaviour
                 EnemyCharacteristics _enemyCharacteristics = hitEnemies[i].GetComponent<EnemyCharacteristics>();
 
                 _enemyCharacteristics.TakeDamage(_playerCharacteristics.damage);
+                if (!_enemyCharacteristics.gameObject.activeSelf)
+                {
+                    _playerCharacteristics.GainExperience(_enemyCharacteristics.grantExperience);
+                }
                 _enemyRb.AddForce(_attackDirection * _enemyKnockback, ForceMode2D.Impulse);
                 _enemyRenderer.material.color = Color.red;
                 yield return new WaitForSeconds(0.1f);

@@ -3,14 +3,17 @@ using UnityEngine;
 
 public class EnemyAttack : MonoBehaviour
 {
+    [Header("References")]
     [SerializeField] private GameObject _player;
-    [SerializeField] private float _playerKnockback;
     private EnemyPattern _enemyPattern;
     private EnemyCharacteristics _enemyCharacteristics;
     private Rigidbody2D _playerRb;
     private Renderer _playerRenderer;
     private PlayerCharacteristics _playerCaracteristics;
     private PlayerBar _playerBar;
+
+    [Header("AttackSettings")]
+    [SerializeField] private float _playerKnockback;
 
     private void Awake()
     {

@@ -2,9 +2,10 @@ using UnityEngine;
 
 public class Characteristics : MonoBehaviour
 {
-    [SerializeField] public int currentHealth;
-    [SerializeField] public int maxHealth;
-    [SerializeField] public int damage;
+    [Header("EntitesStatistics")]
+    public int currentHealth;
+    public int maxHealth;
+    public int damage;
 
     public void TakeDamage(int damage)
     {

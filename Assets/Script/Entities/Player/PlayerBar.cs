@@ -4,10 +4,12 @@ using UnityEngine.UI;
 
 public class PlayerBar : MonoBehaviour
 {
+    [Header("References")]
     [SerializeField] private Slider _healthBar;
     [SerializeField] private Slider _staminaBar;
     [HideInInspector] public PlayerCharacteristics playerCharacteristics;
 
+    [Header("StaminaSettings")]
     [SerializeField] private float _staminaRegenTime = 2.5f;
     public float _staminaDelay = 1f;
     public bool isRegen = false;
@@ -37,10 +39,17 @@ public class PlayerBar : MonoBehaviour
 
         if(Time.time - _staminaDelay > _staminaRegenTime)
         {
-            while(playerCharacteristics.currentStamina < playerCharacteristics.maxStamina)
+            if(playerCharacteristics.currentStamina < playerCharacteristics.maxStamina)
             {
                 playerCharacteristics.currentStamina += playerCharacteristics.regenStamina;
-                StaminaBar();
+
+                if(playerCharacteristics.currentStamina > playerCharacteristics.maxStamina)
+                {
+                    playerCharacteristics.currentStamina = playerCharacteristics.maxStamina;
+                }
+
+                StaminaBar(); 
+
                 yield return new WaitForSeconds(1f);
             }
         }
