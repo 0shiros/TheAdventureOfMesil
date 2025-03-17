@@ -1,3 +1,4 @@
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -12,6 +13,7 @@ public class PlayerAttack : MonoBehaviour
     private Vector2 _playerDirection;
     [SerializeField] private LayerMask _enemyLayer;
     [SerializeField] private float _attackRange = 0.5f;
+    [SerializeField] private float _enemyKnockback = 0.5f;
 
     private bool _attackTriggered = false;
     [HideInInspector] public Vector2 _attackDirection = Vector2.zero;
@@ -45,7 +47,7 @@ public class PlayerAttack : MonoBehaviour
         }
     }
 
-    public void BasicAttack()
+    public IEnumerator BasicAttack()
     {
         SetAttackDirection();
 
@@ -53,15 +55,21 @@ public class PlayerAttack : MonoBehaviour
 
         if(hitEnemies.Length > 0)
         {
-            Debug.Log("Hit Enemy");
-
             for(int i = 0; i < hitEnemies.Length; i++)
             {
-                hitEnemies[i].gameObject.SetActive(false);
+                Rigidbody2D _enemyRb = hitEnemies[i].GetComponent<Rigidbody2D>();
+                Renderer _enemyRenderer = hitEnemies[i].GetComponent<Renderer>();
+
+                _enemyRb.AddForce(_attackDirection * _enemyKnockback, ForceMode2D.Impulse);
+                _enemyRenderer.material.color = Color.red;
+                yield return new WaitForSeconds(0.1f);
+                _enemyRenderer.material.color = Color.white;
+
+                //hitEnemies[i].gameObject.SetActive(false);
             }
         }
         
-    }    
+    }        
 
     public void OnDrawGizmos()
     {
