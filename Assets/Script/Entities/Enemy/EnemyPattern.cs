@@ -3,6 +3,7 @@ using UnityEngine;
 public class EnemyPattern : MonoBehaviour
 {
     private Transform _enemyTransform;
+    private EnemyCharacteristics _enemyCharacteristics;
     [SerializeField] private float _enemySpeed = 2f;
     [SerializeField] private Transform _playerTransform;
     [HideInInspector] public Vector2 _enemyDirection;
@@ -10,7 +11,13 @@ public class EnemyPattern : MonoBehaviour
     private void Awake()
     {
         _enemyTransform = GetComponent<Transform>();
-    }        
+        _enemyCharacteristics = GetComponent<EnemyCharacteristics>();
+    }
+
+    private void Start()
+    {
+        _enemyTransform.position = _enemyCharacteristics.startPosition;
+    }
 
     public void FollowPlayer()
     {
@@ -28,5 +35,16 @@ public class EnemyPattern : MonoBehaviour
         }
 
         _enemyDirection = (_playerTransform.position - _enemyTransform.position).normalized;
+    }
+
+    public void ResetEnemy()
+    {
+        if(!gameObject.activeSelf)
+        {
+            gameObject.SetActive(true);
+        }
+
+        _enemyTransform.position = _enemyCharacteristics.startPosition;
+        _enemyCharacteristics.currentHealth = _enemyCharacteristics.maxHealth;
     }
 }
