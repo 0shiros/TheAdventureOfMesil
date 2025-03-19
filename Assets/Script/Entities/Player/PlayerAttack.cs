@@ -12,12 +12,12 @@ public class PlayerAttack : MonoBehaviour
 
     [Header("Attack Settings")]
     [SerializeField] private LayerMask _enemyLayer;
-    [HideInInspector] public Vector2 _attackDirection = Vector2.zero;
+    [HideInInspector] public Vector2 attackDirection = Vector2.zero;
     private Vector2 _playerDirection;
     [SerializeField] private Vector2 _attackArea;
     [SerializeField] private float _attackRange = 0.5f;
     [SerializeField] private float _enemyKnockback = 0.5f;
-    [SerializeField] public int _basicAttackStaminaCost = 25;
+    public int attackStaminaCost = 25;
 
 
     private bool _attackTriggered = false;
@@ -43,19 +43,19 @@ public class PlayerAttack : MonoBehaviour
         }
     }
 
-    private void SetAttackDirection()
+    public void SetAttackDirection()
     {
         _playerDirection = _playerMovement._movementInput.normalized;
 
         if (_playerDirection.x != 0)
         {
-            _attackDirection.x = Mathf.Sign(_playerDirection.x);
-            _attackDirection.y = 0;
+            attackDirection.x = Mathf.Sign(_playerDirection.x);
+            attackDirection.y = 0;
         }
         else if (_playerDirection.y != 0)
         {
-            _attackDirection.y = Mathf.Sign(_playerDirection.y);
-            _attackDirection.x = 0;
+            attackDirection.y = Mathf.Sign(_playerDirection.y);
+            attackDirection.x = 0;
         }
     }
 
@@ -63,7 +63,7 @@ public class PlayerAttack : MonoBehaviour
     {
         SetAttackDirection();
 
-        Collider2D[] hitEnemies = Physics2D.OverlapBoxAll(_playerTransform.position + (Vector3)_attackDirection * _attackRange, _attackArea, 0, _enemyLayer);
+        Collider2D[] hitEnemies = Physics2D.OverlapBoxAll(_playerTransform.position + (Vector3)attackDirection * _attackRange, _attackArea, 0, _enemyLayer);
 
         if(hitEnemies.Length > 0)
         {
@@ -78,7 +78,7 @@ public class PlayerAttack : MonoBehaviour
                 {
                     _playerCharacteristics.GainExperience(_enemyCharacteristics.grantExperience);
                 }
-                _enemyRb.AddForce(_attackDirection * _enemyKnockback, ForceMode2D.Impulse);
+                _enemyRb.AddForce(attackDirection * _enemyKnockback, ForceMode2D.Impulse);
                 _enemyRenderer.material.color = Color.red;
                 yield return new WaitForSeconds(0.1f);
                 _enemyRenderer.material.color = Color.white;
@@ -94,7 +94,7 @@ public class PlayerAttack : MonoBehaviour
         Gizmos.color = Color.red;
         if (_attackTriggered)
         {
-            Gizmos.DrawWireCube(_playerTransform.position + (Vector3)_attackDirection * _attackRange, _attackArea);
+            Gizmos.DrawWireCube(_playerTransform.position + (Vector3)attackDirection * _attackRange, _attackArea);
             _attackTriggered = false;
         }
     }

@@ -132,9 +132,9 @@ GameObject:
   - component: {fileID: 170457664}
   - component: {fileID: 170457663}
   - component: {fileID: 170457657}
+  - component: {fileID: 170457665}
   - component: {fileID: 170457661}
   - component: {fileID: 170457662}
-  - component: {fileID: 170457665}
   m_Layer: 6
   m_Name: Necromancien
   m_TagString: Enemy
@@ -343,7 +343,7 @@ MonoBehaviour:
   currentHealth: 100
   maxHealth: 100
   damage: 50
-  grantExperience: 20000
+  grantExperience: 2000
 --- !u!4 &405951418 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4901042047267176634, guid: 9e124c5f5e4cc5e47b757b886705a9e5, type: 3}
@@ -1175,13 +1175,13 @@ GameObject:
   - component: {fileID: 1877859030}
   - component: {fileID: 1877859032}
   - component: {fileID: 1877859025}
-  - component: {fileID: 1877859021}
   - component: {fileID: 1877859027}
-  - component: {fileID: 1877859028}
-  - component: {fileID: 1877859031}
-  - component: {fileID: 1877859033}
   - component: {fileID: 1877859034}
+  - component: {fileID: 1877859021}
+  - component: {fileID: 1877859033}
+  - component: {fileID: 1877859028}
   - component: {fileID: 1877859035}
+  - component: {fileID: 1877859031}
   m_Layer: 7
   m_Name: Player
   m_TagString: Player
@@ -1322,11 +1322,11 @@ MonoBehaviour:
   _enemyLayer:
     serializedVersion: 2
     m_Bits: 64
-  _attackDirection: {x: 0, y: 0}
+  attackDirection: {x: 0, y: 0}
   _attackArea: {x: 1, y: 1}
   _attackRange: 0.35
   _enemyKnockback: 0.02
-  _basicAttackStaminaCost: 25
+  attackStaminaCost: 25
 --- !u!50 &1877859030
 Rigidbody2D:
   serializedVersion: 5
@@ -1451,10 +1451,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1877859020}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 716ad6e484c5b304991594ade6003f04, type: 3}
+  m_Script: {fileID: 11500000, guid: 00deb640b0ca67e44982785126abb014, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerCharacteristics: {fileID: 0}
+  isDefending: 0
 --- !u!1 &1912105515
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,6 +7,7 @@ public class PlayerAnimation : MonoBehaviour
     private PlayerBar _playerBar;
     private PlayerCharacteristics _playerCharacteristics;
     private PlayerAttack _playerAttack;
+    private PlayerDefense _playerDefense;
 
     private void Awake()
     {
@@ -14,6 +15,7 @@ public class PlayerAnimation : MonoBehaviour
         _playerBar = GetComponent<PlayerBar>();
         _playerCharacteristics = GetComponent<PlayerCharacteristics>();
         _playerAttack = GetComponent<PlayerAttack>();
+        _playerDefense = GetComponent<PlayerDefense>();
     }
 
     private void Update()
@@ -25,9 +27,9 @@ public class PlayerAnimation : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            if(_playerCharacteristics.currentStamina >= _playerAttack._basicAttackStaminaCost)
+            if(_playerCharacteristics.currentStamina >= _playerAttack.attackStaminaCost)
             {
-                _playerCharacteristics.currentStamina -= _playerAttack._basicAttackStaminaCost;
+                _playerCharacteristics.currentStamina -= _playerAttack.attackStaminaCost;
                 _playerBar.isRegen = false;
                 _playerBar.StaminaBar();
                 _playerBar._staminaDelay = Time.time;
@@ -37,6 +39,22 @@ public class PlayerAnimation : MonoBehaviour
         else
         {
             _playerAnimator.SetBool("IsAttacking", false);
+        }
+
+        if(Input.GetKeyDown(KeyCode.LeftShift)) 
+        {
+            if(_playerCharacteristics.currentStamina >= _playerDefense.defenseStaminaCost)
+            {
+                _playerCharacteristics.currentStamina -= _playerDefense.defenseStaminaCost;
+                _playerBar.isRegen = false;
+                _playerBar.StaminaBar();
+                _playerBar._staminaDelay = Time.time;
+                _playerAnimator.SetBool("IsDefending", true);
+            }
+        }
+        else
+        {
+            _playerAnimator.SetBool("IsDefending", false);
         }
 
         if (Input.GetKey(KeyCode.D))

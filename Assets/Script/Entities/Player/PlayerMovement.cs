@@ -6,15 +6,20 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float _playerSpeed = 5f;
     private Transform _playerTransform;
     [HideInInspector] public Vector2 _movementInput = Vector2.zero;
+    private PlayerDefense _playerDefense;
 
     private void Awake()
     {
-        _playerTransform = transform;
+        _playerTransform = GetComponent<Transform>();
+        _playerDefense = GetComponent<PlayerDefense>();
     }
 
     private void Update()
     {
-        Move();
+        if (!_playerDefense.isDefending)
+        {
+            Move();
+        }
     }
 
     private void Move()
