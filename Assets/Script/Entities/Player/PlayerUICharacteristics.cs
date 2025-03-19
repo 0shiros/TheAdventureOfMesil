@@ -10,11 +10,9 @@ public class PlayerUICharacteristics : MonoBehaviour
     [SerializeField] private TextMeshProUGUI _staminaTxt;
     [SerializeField] private TextMeshProUGUI _damageTxt;
 
-    private PlayerCharacteristics _playerCharacteristics;
-
     private void Awake()
     {
-        _playerCharacteristics = GetComponent<PlayerCharacteristics>();
+        UpdateStatisticsUI();
     }
 
     private void Update()
@@ -31,13 +29,15 @@ public class PlayerUICharacteristics : MonoBehaviour
 
     public void UpdateStatisticsUI()
     {
+        PlayerCharacteristics _playerCharacteristics = _playerCharacteristics = GetComponent<PlayerCharacteristics>();
+
         _levelTxt.text = $"Niveau : {_playerCharacteristics.level.ToString()}";
 
         _experienceTxt.text = $"Expérience : {_playerCharacteristics.currentExperience.ToString()}/{_playerCharacteristics.maxExperiences[_playerCharacteristics.level].ToString()}";
 
-        _healthTxt.text = $"Point de vie : {_playerCharacteristics.maxHealth.ToString()}/{_playerCharacteristics.maxHealth.ToString()}";
+        _healthTxt.text = $"Point de vie : {_playerCharacteristics.currentHealth.ToString()}/{_playerCharacteristics.maxHealth.ToString()}";
 
-        _staminaTxt.text = $"Endurance : {_playerCharacteristics.maxStamina.ToString()}/{_playerCharacteristics.maxStamina.ToString()}";
+        _staminaTxt.text = $"Endurance : {_playerCharacteristics.currentStamina.ToString()}/{_playerCharacteristics.maxStamina.ToString()}";
 
         _damageTxt.text = $"Dégâts : {_playerCharacteristics.damage.ToString()}";
     }

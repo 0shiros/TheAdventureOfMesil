@@ -3,8 +3,8 @@ using UnityEngine;
 public class Characteristics : MonoBehaviour
 {
     [Header("EntitesStatistics")]
-    public int currentHealth;
-    public int maxHealth;
+    public float currentHealth;
+    public float maxHealth;
     public int damage;
 
     public void TakeDamage(int damage)

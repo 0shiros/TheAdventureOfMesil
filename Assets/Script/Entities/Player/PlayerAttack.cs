@@ -20,7 +20,7 @@ public class PlayerAttack : MonoBehaviour
     public int attackStaminaCost = 25;
 
 
-    private bool _attackTriggered = false;
+    //private bool _attackTriggered = false;
 
     private void Awake()
     {
@@ -32,15 +32,17 @@ public class PlayerAttack : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            _attackTriggered = !_attackTriggered; 
-        }
+        //if (Input.GetKeyDown(KeyCode.Space))
+        //{
+        //    _attackTriggered = !_attackTriggered; 
+        //}
 
         if (!_playerBar.isRegen)
         {
             StartCoroutine(_playerBar.StaminaRegen());
         }
+
+        SetAttackDirection();
     }
 
     public void SetAttackDirection()
@@ -61,8 +63,6 @@ public class PlayerAttack : MonoBehaviour
 
     public IEnumerator BasicAttack()
     {
-        SetAttackDirection();
-
         Collider2D[] hitEnemies = Physics2D.OverlapBoxAll(_playerTransform.position + (Vector3)attackDirection * _attackRange, _attackArea, 0, _enemyLayer);
 
         if(hitEnemies.Length > 0)
@@ -83,19 +83,16 @@ public class PlayerAttack : MonoBehaviour
                 yield return new WaitForSeconds(0.1f);
                 _enemyRenderer.material.color = Color.white;
             }
-        }
-        
-    }        
-
-    public void OnDrawGizmos()
-    {
-        SetAttackDirection();
-
-        Gizmos.color = Color.red;
-        if (_attackTriggered)
-        {
-            Gizmos.DrawWireCube(_playerTransform.position + (Vector3)attackDirection * _attackRange, _attackArea);
-            _attackTriggered = false;
-        }
+        }        
     }
+
+    //public void OnDrawGizmos()
+    //{
+    //    Gizmos.color = Color.red;
+    //    if (_attackTriggered)
+    //    {
+    //        Gizmos.DrawWireCube(_playerTransform.position + (Vector3)attackDirection * _attackRange, _attackArea);
+    //        _attackTriggered = false;
+    //    }
+    //}
 }
