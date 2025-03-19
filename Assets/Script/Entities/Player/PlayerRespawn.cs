@@ -22,6 +22,6 @@ public class PlayerRespawn : MonoBehaviour
         gameObject.SetActive(true);
         _playerTransform.position = new Vector3(3, 3, 0);
         _playerCharacteristics.currentHealth = _playerCharacteristics.maxHealth;
-        _playerBar.HealthBar();
+        _playerBar.UpdateHealthBar();
     }
 }

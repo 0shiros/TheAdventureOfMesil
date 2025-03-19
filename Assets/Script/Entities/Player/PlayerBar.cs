@@ -8,6 +8,7 @@ public class PlayerBar : MonoBehaviour
     [SerializeField] private Slider _healthBar;
     [SerializeField] private Slider _staminaBar;
     [HideInInspector] public PlayerCharacteristics playerCharacteristics;
+    private PlayerUICharacteristics _playerUICharacteristics;
 
     [Header("StaminaSettings")]
     [SerializeField] private float _staminaRegenTime = 2.5f;
@@ -17,21 +18,24 @@ public class PlayerBar : MonoBehaviour
     private void Awake()
     {
         playerCharacteristics = GetComponent<PlayerCharacteristics>();
-        HealthBar();
-        StaminaBar();
+        _playerUICharacteristics = GetComponent<PlayerUICharacteristics>();
+        UpdateHealthBar();
+        UpdateStaminaBar();
     }       
 
-    public void HealthBar()
+    public void UpdateHealthBar()
     {
         _healthBar.maxValue = playerCharacteristics.maxHealth;
         _healthBar.value = playerCharacteristics.currentHealth;
+        _playerUICharacteristics.UpdateStatisticsUI();
     }
 
-    public void StaminaBar()
+    public void UpdateStaminaBar()
     {
         _staminaBar.maxValue = playerCharacteristics.maxStamina;
         _staminaBar.value = playerCharacteristics.currentStamina;
-    }    
+        _playerUICharacteristics.UpdateStatisticsUI();
+    }
 
     public IEnumerator StaminaRegen()
     {
@@ -48,7 +52,7 @@ public class PlayerBar : MonoBehaviour
                     playerCharacteristics.currentStamina = playerCharacteristics.maxStamina;
                 }
 
-                StaminaBar(); 
+                UpdateStaminaBar(); 
 
                 yield return new WaitForSeconds(1f);
             }

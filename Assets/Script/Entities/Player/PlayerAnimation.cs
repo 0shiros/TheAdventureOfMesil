@@ -31,7 +31,7 @@ public class PlayerAnimation : MonoBehaviour
             {
                 _playerCharacteristics.currentStamina -= _playerAttack.attackStaminaCost;
                 _playerBar.isRegen = false;
-                _playerBar.StaminaBar();
+                _playerBar.UpdateStaminaBar();
                 _playerBar._staminaDelay = Time.time;
                 _playerAnimator.SetBool("IsAttacking", true);
             }
@@ -47,7 +47,7 @@ public class PlayerAnimation : MonoBehaviour
             {
                 _playerCharacteristics.currentStamina -= _playerDefense.defenseStaminaCost;
                 _playerBar.isRegen = false;
-                _playerBar.StaminaBar();
+                _playerBar.UpdateStaminaBar();
                 _playerBar._staminaDelay = Time.time;
                 _playerAnimator.SetBool("IsDefending", true);
             }
