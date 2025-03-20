@@ -31,7 +31,7 @@ public class EnemyDetection : MonoBehaviour
             if (_enemyTransform.position.x > cameraLeftLimit && _enemyTransform.position.x < cameraRightLimit && _enemyTransform.position.y > cameraBottomLimit && _enemyTransform.position.y < cameraTopLimit)
             {
                 _enemyPattern.FollowPlayer();
-                _enemyAnimator.SetBool("isFollowingPlayer", true);
+                _enemyAnimator.SetBool("isFollowing", true);
             }
         }
     }
@@ -40,7 +40,7 @@ public class EnemyDetection : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            _enemyAnimator.SetBool("isFollowingPlayer", false);
+            _enemyAnimator.SetBool("isFollowing", false);
         }
     }
 }
