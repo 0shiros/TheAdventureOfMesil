@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class MainMenu : MonoBehaviour
 {
@@ -11,10 +12,5 @@ public class MainMenu : MonoBehaviour
     public void StartGame()
     {
         SceneManager.LoadSceneAsync("Game");
-    }
-
-    public void Fullscreen()
-    {
-        Screen.fullScreen = !Screen.fullScreen;
-    }   
+    }  
 }

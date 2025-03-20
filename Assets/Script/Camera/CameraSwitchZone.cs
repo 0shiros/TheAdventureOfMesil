@@ -54,7 +54,10 @@ public class CameraSwitchZone : MonoBehaviour
             SwitchZone(collisionPoint);
             foreach (EnemyPattern enemy in _enemyPatterns)
             {
-                enemy.ResetEnemy();
+                if (enemy != null)
+                {
+                    enemy.ResetEnemy();
+                }
             }
         }
     }

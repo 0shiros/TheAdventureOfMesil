@@ -5,6 +5,11 @@ public class InGameUI : MonoBehaviour
 {
     [SerializeField] private GameObject _pauseMenu;
 
+    private void Awake()
+    {
+        SetGamePause(false);
+    }
+
     private void Update()
     {
         if(Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P))

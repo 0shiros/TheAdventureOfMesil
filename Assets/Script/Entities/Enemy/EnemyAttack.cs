@@ -32,6 +32,7 @@ public class EnemyAttack : MonoBehaviour
     private IEnumerator AttackEffect()
     {
         _playerCaracteristics.TakeDamage(_enemyCharacteristics.damage);
+        SFXManager.instance.PlaySFX("Rise");
         _playerBar.UpdateHealthBar();
         _playerRb.AddForce( _enemyPattern._enemyDirection * _playerKnockback, ForceMode2D.Impulse);
         _playerRenderer.material.color = Color.red;

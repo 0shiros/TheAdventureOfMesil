@@ -38,8 +38,8 @@ public class EnemyPattern : MonoBehaviour
     }
 
     public void ResetEnemy()
-    {
-        if(!gameObject.activeSelf)
+    { 
+        if (!gameObject.activeSelf)
         {
             gameObject.SetActive(true);
         }
