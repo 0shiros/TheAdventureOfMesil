@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
         _playerDefense = GetComponent<PlayerDefense>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         if (!_playerDefense.isDefending)
         {
