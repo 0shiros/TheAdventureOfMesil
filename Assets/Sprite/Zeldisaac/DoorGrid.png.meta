@@ -193,7 +193,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -231,7 +231,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1447,7 +1447,60 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DoorGrid_0: -5168219125968422930
+      DoorGrid_1: -4432231106860448076
+      DoorGrid_10: 4395751517387305301
+      DoorGrid_11: 1567394228012773707
+      DoorGrid_12: 5088360139704456227
+      DoorGrid_13: -3669624312213889961
+      DoorGrid_14: 6154132792751940026
+      DoorGrid_15: 7855549601430531532
+      DoorGrid_16: -4837517720338040611
+      DoorGrid_17: -2968527820653965251
+      DoorGrid_18: 7737378553367171850
+      DoorGrid_19: 8404345159049480766
+      DoorGrid_2: 3091828646273221491
+      DoorGrid_20: -3163685912560567735
+      DoorGrid_21: -7290383580843428120
+      DoorGrid_22: 1613409799291915091
+      DoorGrid_23: -1546360477532046355
+      DoorGrid_24: -2327595966492626205
+      DoorGrid_25: -8911917457456986977
+      DoorGrid_26: -4084591161893625403
+      DoorGrid_27: -1546796456536969068
+      DoorGrid_28: -8338600307913211138
+      DoorGrid_29: 306223730326184033
+      DoorGrid_3: -2234288052037000557
+      DoorGrid_30: -5912105693700935159
+      DoorGrid_31: -2530884533587396443
+      DoorGrid_32: -8325918147668099767
+      DoorGrid_33: 6988415675162062994
+      DoorGrid_34: 2191290991280087349
+      DoorGrid_35: 5520855274373397526
+      DoorGrid_36: 4071737985256313126
+      DoorGrid_37: 1549783276363363229
+      DoorGrid_38: 7380680800735007958
+      DoorGrid_39: -4586683228974023781
+      DoorGrid_4: -5169524792840523780
+      DoorGrid_40: 2580176416300886230
+      DoorGrid_41: -1308671599174017594
+      DoorGrid_42: -2045973728298719661
+      DoorGrid_43: -4261751924432164743
+      DoorGrid_44: 6159650229833404455
+      DoorGrid_45: -2785714544283141692
+      DoorGrid_46: -4104749141106324642
+      DoorGrid_47: -2092138862030443151
+      DoorGrid_48: 6477739833235262285
+      DoorGrid_49: -5285126732715191060
+      DoorGrid_5: -3996083887340669175
+      DoorGrid_50: 5378955768988118263
+      DoorGrid_51: -4029564579200225679
+      DoorGrid_52: 4359741158786457091
+      DoorGrid_6: -3355667365671554119
+      DoorGrid_7: 113534146507699301
+      DoorGrid_8: 2129547102789258176
+      DoorGrid_9: 249464565013345779
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

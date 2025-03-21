@@ -175,7 +175,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -213,7 +213,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1297,7 +1297,54 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      SqueletteDeath&Block_0: 8175651187072754906
+      SqueletteDeath&Block_1: -1649542922135353896
+      SqueletteDeath&Block_10: 7946897211096832658
+      SqueletteDeath&Block_11: -1899145458271013435
+      SqueletteDeath&Block_12: 7393148490514408442
+      SqueletteDeath&Block_13: 8427203967822456366
+      SqueletteDeath&Block_14: -7657055642855128143
+      SqueletteDeath&Block_15: 3451119061260254268
+      SqueletteDeath&Block_16: -1578561917769760921
+      SqueletteDeath&Block_17: 4205109128981600228
+      SqueletteDeath&Block_18: -4959367811335162235
+      SqueletteDeath&Block_19: -7946485002520894309
+      SqueletteDeath&Block_2: 197260952141344173
+      SqueletteDeath&Block_20: 6305533186787910053
+      SqueletteDeath&Block_21: 4523414818494033337
+      SqueletteDeath&Block_22: 50042887999353914
+      SqueletteDeath&Block_23: 5546849060537032423
+      SqueletteDeath&Block_24: -47853799774482406
+      SqueletteDeath&Block_25: -6765981737902083228
+      SqueletteDeath&Block_26: 5671954351468342577
+      SqueletteDeath&Block_27: 5760973408325190559
+      SqueletteDeath&Block_28: -7297311740649915624
+      SqueletteDeath&Block_29: 5633861428043213012
+      SqueletteDeath&Block_3: -291808480741507456
+      SqueletteDeath&Block_30: 4641753694929847532
+      SqueletteDeath&Block_31: 1566762867049856235
+      SqueletteDeath&Block_32: -6706667138695719363
+      SqueletteDeath&Block_33: -3877035138783587619
+      SqueletteDeath&Block_34: -7098624035809559162
+      SqueletteDeath&Block_35: -4669375695037074339
+      SqueletteDeath&Block_36: 1991103792410150312
+      SqueletteDeath&Block_37: 4342833432883217384
+      SqueletteDeath&Block_38: 8180152815785099426
+      SqueletteDeath&Block_39: -4710318030648556997
+      SqueletteDeath&Block_4: 7435559075973030611
+      SqueletteDeath&Block_40: 6566746986651290598
+      SqueletteDeath&Block_41: 1607001418983487131
+      SqueletteDeath&Block_42: -6280382644921859422
+      SqueletteDeath&Block_43: 1847370578649692826
+      SqueletteDeath&Block_44: -7110461289137092008
+      SqueletteDeath&Block_45: 3248878396847714852
+      SqueletteDeath&Block_46: 3013309289958233419
+      SqueletteDeath&Block_5: 5973925196861255005
+      SqueletteDeath&Block_6: -1306108654122082084
+      SqueletteDeath&Block_7: 8704758182509324951
+      SqueletteDeath&Block_8: 889616580487911499
+      SqueletteDeath&Block_9: -7350138030218986118
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

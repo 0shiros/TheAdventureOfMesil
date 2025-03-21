@@ -160,7 +160,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -198,7 +198,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -1172,7 +1172,49 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Jar_SpriteSheet_0: 4309453053441201704
+      Jar_SpriteSheet_1: 9180077222475471670
+      Jar_SpriteSheet_10: -1583981011502713303
+      Jar_SpriteSheet_11: 4340959525955187363
+      Jar_SpriteSheet_12: -7176515052498906405
+      Jar_SpriteSheet_13: 1160811127948948674
+      Jar_SpriteSheet_14: 7098333581166306489
+      Jar_SpriteSheet_15: 1975588048149215046
+      Jar_SpriteSheet_16: -888035220162777361
+      Jar_SpriteSheet_17: -5014365445656641968
+      Jar_SpriteSheet_18: 1593311026506294772
+      Jar_SpriteSheet_19: 2832442772125594617
+      Jar_SpriteSheet_2: 7481379490020538310
+      Jar_SpriteSheet_20: 6627262432112548380
+      Jar_SpriteSheet_21: 5464550449361785756
+      Jar_SpriteSheet_22: -1966666464998980437
+      Jar_SpriteSheet_23: -8241909821854163771
+      Jar_SpriteSheet_24: -3040691709683400736
+      Jar_SpriteSheet_25: 1699670219276221817
+      Jar_SpriteSheet_26: 7120833079245348625
+      Jar_SpriteSheet_27: -2853068219791856368
+      Jar_SpriteSheet_28: -713211414211354858
+      Jar_SpriteSheet_29: -3311938311977434973
+      Jar_SpriteSheet_3: 6790421323812085258
+      Jar_SpriteSheet_30: 5409872642449134943
+      Jar_SpriteSheet_31: -6057346480755622962
+      Jar_SpriteSheet_32: -6739569617938580000
+      Jar_SpriteSheet_33: -3045565181122777681
+      Jar_SpriteSheet_34: -8379988796101132180
+      Jar_SpriteSheet_35: -7607593673247616792
+      Jar_SpriteSheet_36: -1090733683840104384
+      Jar_SpriteSheet_37: -3778416943924205037
+      Jar_SpriteSheet_38: -2577804612100628230
+      Jar_SpriteSheet_39: 2195173814453237916
+      Jar_SpriteSheet_4: 2434539998428990628
+      Jar_SpriteSheet_40: 5678841917244559967
+      Jar_SpriteSheet_41: 7874835261909152691
+      Jar_SpriteSheet_5: -964833462541448612
+      Jar_SpriteSheet_6: -7074586876801964293
+      Jar_SpriteSheet_7: -6762147297451537602
+      Jar_SpriteSheet_8: 8522492610034796895
+      Jar_SpriteSheet_9: -1591304995025921352
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

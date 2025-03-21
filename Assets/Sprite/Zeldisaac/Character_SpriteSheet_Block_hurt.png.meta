@@ -121,7 +121,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -159,7 +159,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -847,7 +847,36 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Character_SpriteSheet_Block_hurt_0: 3846290417125898228
+      Character_SpriteSheet_Block_hurt_1: 260934184739015867
+      Character_SpriteSheet_Block_hurt_10: -3898494140669709314
+      Character_SpriteSheet_Block_hurt_11: -8900084484350407904
+      Character_SpriteSheet_Block_hurt_12: -3806567746681729503
+      Character_SpriteSheet_Block_hurt_13: -5175286865382432564
+      Character_SpriteSheet_Block_hurt_14: 3375302939011521299
+      Character_SpriteSheet_Block_hurt_15: 2961738260521192577
+      Character_SpriteSheet_Block_hurt_16: -8428357482764613203
+      Character_SpriteSheet_Block_hurt_17: -1121738866347471780
+      Character_SpriteSheet_Block_hurt_18: -9007404133524057621
+      Character_SpriteSheet_Block_hurt_19: -4259421535282689116
+      Character_SpriteSheet_Block_hurt_2: -5728099993357274939
+      Character_SpriteSheet_Block_hurt_20: -2569830543946383684
+      Character_SpriteSheet_Block_hurt_21: -4799270606433322
+      Character_SpriteSheet_Block_hurt_22: -6289961130091914143
+      Character_SpriteSheet_Block_hurt_23: -9164766620244775891
+      Character_SpriteSheet_Block_hurt_24: 5339652915007618820
+      Character_SpriteSheet_Block_hurt_25: 3404787215784775746
+      Character_SpriteSheet_Block_hurt_26: 2622491680838387811
+      Character_SpriteSheet_Block_hurt_27: 7231310208440487070
+      Character_SpriteSheet_Block_hurt_28: 2064373367840097221
+      Character_SpriteSheet_Block_hurt_3: -7728108293520559555
+      Character_SpriteSheet_Block_hurt_4: -5999107198882563563
+      Character_SpriteSheet_Block_hurt_5: 6840495067915997680
+      Character_SpriteSheet_Block_hurt_6: 3070692513520846255
+      Character_SpriteSheet_Block_hurt_7: -1427911668017306913
+      Character_SpriteSheet_Block_hurt_8: -2195280576464684452
+      Character_SpriteSheet_Block_hurt_9: 3469894083657859507
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

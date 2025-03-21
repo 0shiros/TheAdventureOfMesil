@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -322,7 +322,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Squelette_SpriteSheet_Hurt_0: -3028586695463249525
+      Squelette_SpriteSheet_Hurt_1: -3577677018423138237
+      Squelette_SpriteSheet_Hurt_2: -6241169864755950908
+      Squelette_SpriteSheet_Hurt_3: -1625997061177476419
+      Squelette_SpriteSheet_Hurt_4: 2971332035657595359
+      Squelette_SpriteSheet_Hurt_5: -6534764602047945918
+      Squelette_SpriteSheet_Hurt_6: 3964725718402445894
+      Squelette_SpriteSheet_Hurt_7: -5089182873224753764
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
