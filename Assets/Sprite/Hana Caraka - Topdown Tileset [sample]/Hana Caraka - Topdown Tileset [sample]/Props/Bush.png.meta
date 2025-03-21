@@ -63,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -129,16 +129,22 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
+        y: 24
         width: 16
-        height: 16
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      physicsShape:
+      - - {x: 7, y: -3}
+        - {x: 3, y: 1}
+        - {x: -2, y: 2}
+        - {x: -7, y: -3}
+        - {x: -7, y: -4}
+        - {x: 7, y: -4}
+      tessellationDetail: 1
       bones: []
       spriteID: 026e013dc252f9b30800000000000000
       internalID: 4296193443984631328
@@ -151,16 +157,22 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 16
+        y: 24
         width: 16
-        height: 16
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      physicsShape:
+      - - {x: 7, y: -3}
+        - {x: 3, y: 1}
+        - {x: -2, y: 2}
+        - {x: -7, y: -3}
+        - {x: -7, y: -4}
+        - {x: 7, y: -4}
+      tessellationDetail: 0
       bones: []
       spriteID: 82eb180adcbab89d0800000000000000
       internalID: -2770932246066905560
@@ -173,16 +185,22 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 16
+        y: 24
         width: 16
-        height: 16
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      physicsShape:
+      - - {x: 7, y: -3}
+        - {x: 3, y: 1}
+        - {x: -2, y: 2}
+        - {x: -7, y: -3}
+        - {x: -7, y: -4}
+        - {x: 7, y: -4}
+      tessellationDetail: 0
       bones: []
       spriteID: 272a21f4cddf1cc80800000000000000
       internalID: -8304077115233230222
@@ -195,16 +213,22 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 16
+        y: 24
         width: 16
-        height: 16
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      physicsShape:
+      - - {x: 7, y: -3}
+        - {x: 3, y: 1}
+        - {x: -2, y: 2}
+        - {x: -7, y: -3}
+        - {x: -7, y: -4}
+        - {x: 7, y: -4}
+      tessellationDetail: 1
       bones: []
       spriteID: 5cc00bc485964c780800000000000000
       internalID: -8663683955189347131
@@ -217,16 +241,22 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 16
         width: 16
-        height: 16
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
-      tessellationDetail: -1
+      physicsShape:
+      - - {x: 8, y: -2}
+        - {x: 8, y: 4}
+        - {x: -7, y: 4}
+        - {x: -8, y: 0}
+        - {x: -5, y: -4}
+        - {x: 6, y: -4}
+      tessellationDetail: 0
       bones: []
       spriteID: f07e6f827ec273a70800000000000000
       internalID: 8806556967682631439
@@ -239,15 +269,21 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 0
+        y: 16
         width: 16
-        height: 16
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 8, y: -2}
+        - {x: 8, y: 4}
+        - {x: -7, y: 4}
+        - {x: -8, y: 0}
+        - {x: -5, y: -4}
+        - {x: 6, y: -4}
       tessellationDetail: 0
       bones: []
       spriteID: 502836c72ff60cc4cac73c385358e343
@@ -261,15 +297,21 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 0
+        y: 16
         width: 16
-        height: 16
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 8, y: -2}
+        - {x: 8, y: 4}
+        - {x: -7, y: 4}
+        - {x: -8, y: 0}
+        - {x: -5, y: -4}
+        - {x: 6, y: -4}
       tessellationDetail: 0
       bones: []
       spriteID: e52b99573a9282143a5041962cadd1b7
@@ -283,19 +325,245 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 0
+        y: 16
         width: 16
-        height: 16
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
-      physicsShape: []
-      tessellationDetail: 0
+      physicsShape:
+      - - {x: 8, y: -1}
+        - {x: 8, y: 4}
+        - {x: -7, y: 4}
+        - {x: -8, y: 0}
+        - {x: -4, y: -4}
+        - {x: 5, y: -4}
+      tessellationDetail: 1
       bones: []
       spriteID: 72377e83324a93841a7e05810db29635
       internalID: -1745887403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 8, y: 2}
+        - {x: 4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -8, y: 0}
+        - {x: -8, y: -4}
+        - {x: 8, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6f7bebfabcecb4594235d90306b397
+      internalID: 1709889717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush_9
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 8
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 8, y: 2}
+        - {x: 4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -8, y: 0}
+        - {x: -8, y: -4}
+        - {x: 8, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78516136f50d8741b3d5655b8bff7aa
+      internalID: 771952703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 8
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 8, y: 2}
+        - {x: 4, y: 4}
+        - {x: -5, y: 4}
+        - {x: -8, y: 0}
+        - {x: -8, y: -4}
+        - {x: 8, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3b4afa97fce6f6479506ab76a38843d
+      internalID: -2060498901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush_11
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 8
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 8, y: 0}
+        - {x: 5, y: 4}
+        - {x: -5, y: 4}
+        - {x: -8, y: 1}
+        - {x: -8, y: -4}
+        - {x: 8, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f21c69da6f459014bbe20fc1de80ecb3
+      internalID: -1735843633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 8, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: -2}
+        - {x: -6, y: -4}
+        - {x: 8, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a27fa6c0144cd4594ad117176f9bf9
+      internalID: 1955914471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 8, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: -2}
+        - {x: -6, y: -4}
+        - {x: 8, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4e0d2db35250c489b0fd34ec113306
+      internalID: -93843198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush_14
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 8, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: -2}
+        - {x: -6, y: -4}
+        - {x: 8, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b51cdac7587224988d9e43a1e38722
+      internalID: 1169689101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bush_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 8, y: 4}
+        - {x: -8, y: 4}
+        - {x: -8, y: -2}
+        - {x: -6, y: -4}
+        - {x: 8, y: -4}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3670fb3ecadba6b428b1f23e650d5338
+      internalID: -460877409
       vertices: []
       indices: 
       edges: []
@@ -316,12 +584,20 @@ TextureImporter:
     nameFileIdTable:
       Bush_0: 4296193443984631328
       Bush_1: -2770932246066905560
+      Bush_10: -2060498901
+      Bush_11: -1735843633
+      Bush_12: 1955914471
+      Bush_13: -93843198
+      Bush_14: 1169689101
+      Bush_15: -460877409
       Bush_2: -8304077115233230222
       Bush_3: -8663683955189347131
       Bush_4: 8806556967682631439
       Bush_5: 935494602
       Bush_6: -975171368
       Bush_7: -1745887403
+      Bush_8: 1709889717
+      Bush_9: 771952703
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

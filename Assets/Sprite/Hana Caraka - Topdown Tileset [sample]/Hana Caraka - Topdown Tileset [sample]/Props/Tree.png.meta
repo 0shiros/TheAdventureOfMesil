@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -125,10 +125,10 @@ TextureImporter:
       name: Tree_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 0
-        width: 24
-        height: 45
+        x: 0
+        y: 10
+        width: 32
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,10 +147,10 @@ TextureImporter:
       name: Tree_1
       rect:
         serializedVersion: 2
-        x: 36
-        y: 0
-        width: 24
-        height: 45
+        x: 32
+        y: 10
+        width: 32
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,10 +169,10 @@ TextureImporter:
       name: Tree_2
       rect:
         serializedVersion: 2
-        x: 68
-        y: 0
-        width: 24
-        height: 45
+        x: 64
+        y: 10
+        width: 32
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +191,10 @@ TextureImporter:
       name: Tree_3
       rect:
         serializedVersion: 2
-        x: 100
-        y: 0
-        width: 24
-        height: 45
+        x: 96
+        y: 10
+        width: 32
+        height: 38
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,11 +209,99 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Tree_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e07d6450c0d850349961fb5d97e8b472
+      internalID: -1587334890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e83ed90503be340a6dcd837d6661a0
+      internalID: 1177531963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c8195a544899d4b8cd43f8ec0f97a7
+      internalID: -1194817261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tree_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c643074569b606f44b11d9a3d2b6079a
+      internalID: -961343629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 076ea2dfc05e8e6499563db0270da001
     internalID: 0
     vertices: []
     indices: 
@@ -227,6 +315,10 @@ TextureImporter:
       Tree_1: 4134985361545656292
       Tree_2: -1566730818833404899
       Tree_3: -7301469273254094464
+      Tree_4: -1587334890
+      Tree_5: 1177531963
+      Tree_6: -1194817261
+      Tree_7: -961343629
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
