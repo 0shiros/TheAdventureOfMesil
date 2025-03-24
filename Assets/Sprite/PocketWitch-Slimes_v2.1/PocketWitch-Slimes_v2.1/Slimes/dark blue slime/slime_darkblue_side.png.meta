@@ -55,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -69,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -135,19 +135,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 49
-        height: 13
+        y: 0
+        width: 12
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e0e30fd68d4b66530800000000000000
-      internalID: 3847961773285064206
+      spriteID: 99c1be865b63d364f92e65e7488ace18
+      internalID: -2081216281
       vertices: []
       indices: 
       edges: []
@@ -156,20 +156,20 @@ TextureImporter:
       name: slime_darkblue_side_1
       rect:
         serializedVersion: 2
-        x: 48
+        x: 12
         y: 0
         width: 12
-        height: 12
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3039b2713feca10f0800000000000000
-      internalID: -1145375611751263485
+      spriteID: 64a8b0af7b7874d4ab94311af55cf17b
+      internalID: -1102239604
       vertices: []
       indices: 
       edges: []
@@ -178,20 +178,20 @@ TextureImporter:
       name: slime_darkblue_side_2
       rect:
         serializedVersion: 2
-        x: 60
+        x: 24
         y: 0
         width: 12
-        height: 11
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9ad49267cd02c1090800000000000000
-      internalID: -8062533101652718167
+      spriteID: d24694929b669e0478269465a2558c35
+      internalID: -1611580831
       vertices: []
       indices: 
       edges: []
@@ -200,20 +200,20 @@ TextureImporter:
       name: slime_darkblue_side_3
       rect:
         serializedVersion: 2
-        x: 71
+        x: 36
         y: 0
-        width: 38
-        height: 9
+        width: 12
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: dd6d5e4a71f854b60800000000000000
-      internalID: 7729741667164870365
+      spriteID: 25b53275f4e21434297a1db556feb95e
+      internalID: -1149103758
       vertices: []
       indices: 
       edges: []
@@ -222,20 +222,20 @@ TextureImporter:
       name: slime_darkblue_side_4
       rect:
         serializedVersion: 2
-        x: 108
+        x: 48
         y: 0
         width: 12
-        height: 11
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5104618cd82a47ce0800000000000000
-      internalID: -1408322053629132779
+      spriteID: c4d068583e5663440890508a41aaddd9
+      internalID: -113259005
       vertices: []
       indices: 
       edges: []
@@ -244,20 +244,20 @@ TextureImporter:
       name: slime_darkblue_side_5
       rect:
         serializedVersion: 2
-        x: 120
+        x: 60
         y: 0
         width: 12
-        height: 12
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 25197c6c35ce6a930800000000000000
-      internalID: 4154267550857269586
+      spriteID: efec2bb8dd63b5d47bc0c044826cca30
+      internalID: -1830984704
       vertices: []
       indices: 
       edges: []
@@ -266,20 +266,218 @@ TextureImporter:
       name: slime_darkblue_side_6
       rect:
         serializedVersion: 2
-        x: 131
-        y: 1
-        width: 61
-        height: 13
+        x: 72
+        y: 0
+        width: 12
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3b5868ec82b4b1a80800000000000000
-      internalID: -8495113633468611149
+      spriteID: 788d2b44e0f6b3345bcb520cdd9d7031
+      internalID: -1179001399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_darkblue_side_7
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0110fc42df95a324682309063be3ad65
+      internalID: -870973648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_darkblue_side_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d385b2182d992944a033d0a22646e48
+      internalID: 1641661893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_darkblue_side_9
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9911e5a178d59af49860277e2fbb6b79
+      internalID: 341583429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_darkblue_side_10
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 0
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769636977f5f0c04f9f8a478f9e71a76
+      internalID: -2016022920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_darkblue_side_11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5416a81f9e5bb98409edb4aaf53b43d1
+      internalID: -1034621657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_darkblue_side_12
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d03cbe4c5d2ecc47a1d2f33cc2d8f39
+      internalID: -218944545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_darkblue_side_13
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 0
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cefc6a8726cfd4438cf598fe9a9de70
+      internalID: 1348249971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_darkblue_side_14
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de4668684072db449b870af52d88923e
+      internalID: 267320834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: slime_darkblue_side_15
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 0
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91d15b20a7e2fd44c8b02e2d5960640c
+      internalID: -530155354
       vertices: []
       indices: 
       edges: []
@@ -288,7 +486,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 31eac71d23927264b8aef9458a749818
     internalID: 0
     vertices: []
     indices: 
@@ -297,7 +495,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      slime_darkblue_side_0: -2081216281
+      slime_darkblue_side_1: -1102239604
+      slime_darkblue_side_10: -2016022920
+      slime_darkblue_side_11: -1034621657
+      slime_darkblue_side_12: -218944545
+      slime_darkblue_side_13: 1348249971
+      slime_darkblue_side_14: 267320834
+      slime_darkblue_side_15: -530155354
+      slime_darkblue_side_2: -1611580831
+      slime_darkblue_side_3: -1149103758
+      slime_darkblue_side_4: -113259005
+      slime_darkblue_side_5: -1830984704
+      slime_darkblue_side_6: -1179001399
+      slime_darkblue_side_7: -870973648
+      slime_darkblue_side_8: 1641661893
+      slime_darkblue_side_9: 341583429
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
