@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class InGameUI : MonoBehaviour
 {
     [SerializeField] private GameObject _pauseMenu;
+    [SerializeField] private GameObject _introduction;
 
     private void Awake()
     {
@@ -12,7 +13,7 @@ public class InGameUI : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P))
+        if(Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown(KeyCode.P) && !_introduction.activeSelf)
         {
             PauseMenu();
         }
