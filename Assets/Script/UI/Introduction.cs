@@ -35,7 +35,7 @@ public class Introduction : MonoBehaviour
         _IntrodutionText.gameObject.SetActive(false);
         _player.SetActive(true);
         _playerText.gameObject.SetActive(true);
-        yield return new WaitForSeconds(6);
+        yield return new WaitForSeconds(4);
         gameObject.SetActive(false);
     }
 }
