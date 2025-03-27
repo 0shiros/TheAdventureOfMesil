@@ -17,7 +17,7 @@ public class Introduction : MonoBehaviour
 
     private void Update()
     {
-        if(_continueText.gameObject.activeSelf && Input.GetKeyDown(KeyCode.Q))
+        if(_continueText.gameObject.activeSelf && _IntrodutionText.gameObject.activeSelf && Input.GetKeyDown(KeyCode.Q))
         {
            StartCoroutine(IntroductionScene());
         }

@@ -9,6 +9,7 @@ public class PlayerInteraction : MonoBehaviour
     private PlayerAttack _playerAttack;
     private Transform _playerTransform;
     [SerializeField] private LayerMask _interactionLayer;
+    [SerializeField] private SlimonFishing _slimonFishing;
 
     [Header("UI")]
     [SerializeField] private GameObject _interactableText;
@@ -33,11 +34,21 @@ public class PlayerInteraction : MonoBehaviour
 
         if (hit.collider)
         {
-            Interactions interactions = hit.collider.GetComponent<Interactions>();
-
-            if (Input.GetKeyDown(KeyCode.Q))
+            if(hit.collider.CompareTag("Slimon"))
             {
-               Interact(interactions._interactionMessage);
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    _slimonFishing.ChoiceFishing();
+                }
+            }
+            else
+            {
+                Interactions interactions = hit.collider.GetComponent<Interactions>();
+
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    Interact(interactions._interactionMessage);
+                }
             }
         }
         else
