@@ -8,6 +8,7 @@ public class PlayerInteraction : MonoBehaviour
     [Header("References")]
     private PlayerAttack _playerAttack;
     private Transform _playerTransform;
+    private PlayerPotion _playerPotion;
     [SerializeField] private LayerMask _interactionLayer;
     [SerializeField] private SlimonFishing _slimonFishing;
 
@@ -19,6 +20,7 @@ public class PlayerInteraction : MonoBehaviour
     {
         _playerAttack = GetComponent<PlayerAttack>();
         _playerTransform = GetComponent<Transform>();
+        _playerPotion = GetComponent<PlayerPotion>();
     }
 
     private void Update()
@@ -48,6 +50,11 @@ public class PlayerInteraction : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.Q))
                 {
                     Interact(interactions._interactionMessage);
+
+                    if (hit.collider.CompareTag("SlimonPotion"))
+                    {
+                        _playerPotion.ResetPotionNumber();
+                    }
                 }
             }
         }

@@ -9,6 +9,7 @@ public class StopPlayer : MonoBehaviour
     private PlayerInteraction _playerInteraction;
     [SerializeField] private GameObject _playerGameObject;
     [SerializeField] private Image _blockPlayer;
+    [SerializeField] private Vector3 _playerKnockback;
 
     private void Awake()
     {
@@ -30,7 +31,7 @@ public class StopPlayer : MonoBehaviour
     private IEnumerator ExitVillageBeforeAttack()
     {
         _playerMovement.canPlayerMove = false;
-        _playerMovement.playerTransform.position += new Vector3(0, 0.5f, 0);
+        _playerMovement.playerTransform.position += _playerKnockback;
         _blockPlayer.gameObject.SetActive(true);
         yield return new WaitForSeconds(2f);
         _blockPlayer.gameObject.SetActive(false);

@@ -24,17 +24,8 @@ public class PlayerPotion : MonoBehaviour
         {
             UsePotion();
         }
-
-        if(Input.GetKeyDown(KeyCode.R))
-        {
-            ResetPotionNumber();
-        }
-
-        if (Input.GetKeyDown(KeyCode.T))
-        {
-            AddPotion();
-        }
     }
+
     public void UsePotion()
     {
         if(_potionCount > 0 && _playerCharacteristics.currentHealth < _playerCharacteristics.maxHealth)

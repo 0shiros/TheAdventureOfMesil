@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemy
   - Slimon
+  - SlimonPotion
   layers:
   - Default
   - TransparentFX
