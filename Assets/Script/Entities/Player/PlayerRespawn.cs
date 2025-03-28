@@ -9,6 +9,8 @@ public class PlayerRespawn : MonoBehaviour
     private PlayerBar _playerBar;
     private PlayerCharacteristics _playerCharacteristics;
 
+    [SerializeField] private Vector3 _respawnPosition;
+
     private void Awake()
     {
         instance = this;
@@ -20,7 +22,7 @@ public class PlayerRespawn : MonoBehaviour
     public void Respawn()
     {
         gameObject.SetActive(true);
-        _playerTransform.position = new Vector3(3, 3, 0);
+        _playerTransform.position = _respawnPosition;
         _playerCharacteristics.currentHealth = _playerCharacteristics.maxHealth;
         _playerBar.UpdateHealthBar();
     }

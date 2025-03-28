@@ -56,7 +56,9 @@ public class PlayerCharacteristics : Characteristics
     public void UpgradeStatistics(int level)
     {
         maxHealth = statistics[level].maxHealth;
+        currentHealth = maxHealth;
         maxStamina = statistics[level].maxStamina;
+        currentStamina = maxStamina;
         damage = statistics[level].damage;
     }
 }
