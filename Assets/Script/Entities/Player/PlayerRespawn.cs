@@ -10,6 +10,7 @@ public class PlayerRespawn : MonoBehaviour
     private PlayerCharacteristics _playerCharacteristics;
 
     [SerializeField] private Vector3 _respawnPosition;
+    [SerializeField] private Animator[] _doorGridAnimators;
 
     private void Awake()
     {
@@ -25,5 +26,9 @@ public class PlayerRespawn : MonoBehaviour
         _playerTransform.position = _respawnPosition;
         _playerCharacteristics.currentHealth = _playerCharacteristics.maxHealth;
         _playerBar.UpdateHealthBar();
+        for(int i = 0; i < _doorGridAnimators.Length; i++)
+        {
+            _doorGridAnimators[i].SetBool("IsPlayerEnter", false);
+        }
     }
 }
