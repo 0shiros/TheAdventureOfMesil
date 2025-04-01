@@ -46,7 +46,7 @@ public class PlayerInteraction : MonoBehaviour
             }
             else if(hit.collider.CompareTag("PNJQuest"))
             {
-                QuestSlimeDoc quest = hit.collider.GetComponent<QuestSlimeDoc>();
+                Quest quest = hit.collider.GetComponent<Quest>();
 
                 if (Input.GetKeyDown(KeyCode.Q))
                 {

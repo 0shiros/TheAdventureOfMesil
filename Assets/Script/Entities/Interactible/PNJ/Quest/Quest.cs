@@ -2,7 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class QuestSlimeDoc : MonoBehaviour
+public class Quest : MonoBehaviour
 {
     [SerializeField] private GameObject _player;
     private PlayerMovement _playerMovement;
@@ -13,6 +13,7 @@ public class QuestSlimeDoc : MonoBehaviour
     [SerializeField] private string[] _questDialogue;
     [SerializeField] private Image _dialogueQuest;
     [SerializeField] private TextMeshProUGUI _dialogueQuestText;
+    [SerializeField] private int _questExperience;
     public bool _hasPlayerTakeQuest = false;
     public bool _hasPlayerFinishQuest = false;
 
@@ -49,7 +50,6 @@ public class QuestSlimeDoc : MonoBehaviour
         }
         else
         {
-            Debug.Log("fff");
             _dialogueQuest.gameObject.SetActive(false);
             _playerMovement.canPlayerMove = true;
             _exclamationMark.SetActive(false);
@@ -84,7 +84,9 @@ public class QuestSlimeDoc : MonoBehaviour
         {
             _dialogueQuest.gameObject.SetActive(false);
             _playerMovement.canPlayerMove = true;
-            _playerCharacteristics.GainExperience(30);
+            _playerCharacteristics.GainExperience(_questExperience);
+            _interrogationMarkComplete.gameObject.SetActive(false);
+            _hasPlayerFinishQuest = true;
             gameObject.tag = "Untagged";
         }
     }
