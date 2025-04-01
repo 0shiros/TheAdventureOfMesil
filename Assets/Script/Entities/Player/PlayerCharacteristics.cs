@@ -22,10 +22,12 @@ public class PlayerCharacteristics : Characteristics
     public List<Statistics> statistics = new();
 
     private PlayerUICharacteristics _playerUICharacteristics;
+    private PlayerBar _playerBar;
 
     private void Awake()
     {
         _playerUICharacteristics = GetComponent<PlayerUICharacteristics>();
+        _playerBar = GetComponent<PlayerBar>();
     }
 
     public void GainExperience(int experience)
@@ -41,6 +43,8 @@ public class PlayerCharacteristics : Characteristics
                 level++;
                 UpgradeStatistics(level);
                 _playerUICharacteristics.UpdateStatisticsUI();
+                _playerBar.UpdateHealthBar();
+                _playerBar.UpdateStaminaBar();
                 if (level >= maxLevel)
                 {
                     currentExperience = 0;

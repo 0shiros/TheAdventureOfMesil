@@ -29,7 +29,7 @@ public class PlayerUICharacteristics : MonoBehaviour
 
     public void UpdateStatisticsUI()
     {
-        PlayerCharacteristics _playerCharacteristics = _playerCharacteristics = GetComponent<PlayerCharacteristics>();
+        PlayerCharacteristics _playerCharacteristics = GetComponent<PlayerCharacteristics>();
 
         _levelTxt.text = $"Niveau : {_playerCharacteristics.level.ToString()}";
 

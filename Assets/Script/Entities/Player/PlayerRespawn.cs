@@ -10,6 +10,7 @@ public class PlayerRespawn : MonoBehaviour
     private PlayerCharacteristics _playerCharacteristics;
 
     [SerializeField] private Vector3 _respawnPosition;
+    [SerializeField] private Camera _camera;
     [SerializeField] private Animator[] _doorGridAnimators;
 
     private void Awake()
@@ -24,6 +25,7 @@ public class PlayerRespawn : MonoBehaviour
     {
         gameObject.SetActive(true);
         _playerTransform.position = _respawnPosition;
+        _camera.transform.position = new Vector3(0, 0, -10);
         _playerCharacteristics.currentHealth = _playerCharacteristics.maxHealth;
         _playerBar.UpdateHealthBar();
         for(int i = 0; i < _doorGridAnimators.Length; i++)

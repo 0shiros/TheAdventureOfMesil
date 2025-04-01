@@ -314,7 +314,7 @@ TextureImporter:
         x: 147
         y: 95
         width: 18
-        height: 49
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -708,6 +708,28 @@ TextureImporter:
       bones: []
       spriteID: ff129cb367ee5c84a80451d4a048eac5
       internalID: 1599295813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: decor_24
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 107
+        width: 18
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc255a1c55921a4595622f750df09c7
+      internalID: -1564468718
       vertices: []
       indices: 
       edges: []

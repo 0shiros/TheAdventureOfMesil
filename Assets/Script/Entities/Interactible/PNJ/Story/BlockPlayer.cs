@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class StopPlayer : MonoBehaviour
+public class BlockPlayer : MonoBehaviour
 {
     [SerializeField] private GameEvents _gameEvents;
     private PlayerMovement _playerMovement;
@@ -19,7 +19,7 @@ public class StopPlayer : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            if (!_gameEvents.hasVillageBeenAttacked)
+            if (!_gameEvents.hasPlayerKilledFirstBoss)
             {
                 StartCoroutine(ExitVillageBeforeAttack());
             }

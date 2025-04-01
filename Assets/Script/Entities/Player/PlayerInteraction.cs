@@ -10,7 +10,6 @@ public class PlayerInteraction : MonoBehaviour
     private Transform _playerTransform;
     private PlayerPotion _playerPotion;
     [SerializeField] private LayerMask _interactionLayer;
-    [SerializeField] private SlimonFishing _slimonFishing;
 
     [Header("UI")]
     [SerializeField] private GameObject _interactableText;
@@ -38,9 +37,20 @@ public class PlayerInteraction : MonoBehaviour
         {
             if(hit.collider.CompareTag("Slimon"))
             {
+                SlimonFishing slimonFishing = hit.collider.GetComponent<SlimonFishing>();
+
                 if (Input.GetKeyDown(KeyCode.Q))
                 {
-                    _slimonFishing.ChoiceFishing();
+                    slimonFishing.ChoiceFishing();
+                }
+            }
+            else if(hit.collider.CompareTag("PNJQuest"))
+            {
+                QuestSlimeDoc quest = hit.collider.GetComponent<QuestSlimeDoc>();
+
+                if (Input.GetKeyDown(KeyCode.Q))
+                {
+                    quest.CurrentCompletionQuest();
                 }
             }
             else
