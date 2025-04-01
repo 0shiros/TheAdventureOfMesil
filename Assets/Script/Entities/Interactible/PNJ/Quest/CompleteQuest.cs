@@ -5,14 +5,16 @@ using UnityEngine.UI;
 public class CompleteQuest : MonoBehaviour
 {
     [SerializeField] private PlayerMovement _playerMovement;
-    [SerializeField] private Quest _questSlimeDoc;
+    [SerializeField] private Quest _quest;
     [SerializeField] private Image _questDialogues;
     [SerializeField] private TextMeshProUGUI _questDialoguesText;
     [SerializeField] private string _dialogue;
+    [SerializeField] private bool _canTalk;
+    [SerializeField] private bool _canTalkAgain = true;
 
-    private void OnTriggerStay2D(Collider2D collision)
+    private void Update()
     {
-        if(_questSlimeDoc._hasPlayerTakeQuest && !_questSlimeDoc._hasPlayerFinishQuest)
+        if (_canTalk)
         {
             if (Input.GetKeyDown(KeyCode.Q))
             {
@@ -24,6 +26,21 @@ public class CompleteQuest : MonoBehaviour
             return;
         }
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(_quest._hasPlayerTakeQuest && _canTalkAgain)
+        {
+            _canTalk = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (_quest._hasPlayerTakeQuest)
+        {
+            _canTalk = false;
+        }
+    }
 
     private void SpeakCow()
     {
@@ -31,14 +48,16 @@ public class CompleteQuest : MonoBehaviour
         {
             _playerMovement.canPlayerMove = false;
             _questDialoguesText.text = _dialogue;
-            _questDialogues.gameObject.SetActive(true);
+            _questDialogues.gameObject.SetActive(true);          
         }
         else
         {
             _questDialogues.gameObject.SetActive(false);
-            _questSlimeDoc._interrogationMarkUncomplete.SetActive(false);
-            _questSlimeDoc._interrogationMarkComplete.SetActive(true);
+            _quest._interrogationMarkUncomplete.SetActive(false);
+            _quest._interrogationMarkComplete.SetActive(true);
             _playerMovement.canPlayerMove = true;
+            _canTalk = false;
+            _canTalkAgain = false;
         }        
     }
 }
