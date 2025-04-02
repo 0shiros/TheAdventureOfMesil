@@ -3226,7 +3226,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.21875
+  m_Radius: 0.25
 --- !u!212 &60618362
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5197,7 +5197,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.21875
+  m_Radius: 0.25
 --- !u!114 &102433675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5432,7 +5432,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.21875
+  m_Radius: 0.25
 --- !u!95 &163611703
 Animator:
   serializedVersion: 7
@@ -7000,7 +7000,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.1875
+  m_Radius: 0.25
 --- !u!114 &247899755
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10562,7 +10562,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.1875
+  m_Radius: 0.25
 --- !u!114 &329083853
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21971,7 +21971,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &408781347
 Transform:
   m_ObjectHideFlags: 0
@@ -27513,7 +27513,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -10, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -29453,7 +29453,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.21875
+  m_Radius: 0.25
 --- !u!114 &575510690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31744,7 +31744,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.21875
+  m_Radius: 0.25
 --- !u!114 &652577350
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32901,7 +32901,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.21874999
+  m_Radius: 0.25
 --- !u!114 &707239026
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33484,7 +33484,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.21875
+  m_Radius: 0.25
 --- !u!212 &788986332
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -52650,7 +52650,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.21875
+  m_Radius: 0.25
 --- !u!114 &1086536814
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60165,7 +60165,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1109079871
 Transform:
   m_ObjectHideFlags: 0
@@ -80539,7 +80539,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.21874999
+  m_Radius: 0.25
 --- !u!114 &1196753193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105828,7 +105828,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.21875
+  m_Radius: 0.25
 --- !u!114 &1426133437
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116350,8 +116350,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.118394375}
-  m_Radius: 0.33714437
+  m_Offset: {x: 0, y: -0.08}
+  m_Radius: 0.3
 --- !u!114 &1585949312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117437,7 +117437,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.1875
+  m_Radius: 0.25
 --- !u!114 &1635107511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -118158,7 +118158,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.1875
+  m_Radius: 0.25
 --- !u!212 &1662887202
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -119349,7 +119349,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.21875
+  m_Radius: 0.25
 --- !u!114 &1691634016
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -119980,7 +119980,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1718592345
 Transform:
   m_ObjectHideFlags: 0
@@ -120195,7 +120195,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.21875
+  m_Radius: 0.25
 --- !u!212 &1731701848
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -120642,7 +120642,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.1875
+  m_Radius: 0.25
 --- !u!212 &1758353353
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -125896,7 +125896,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1825673510
 RectTransform:
   m_ObjectHideFlags: 0
@@ -126206,8 +126206,8 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: -0.11839485}
-  m_Radius: 0.33714485
+  m_Offset: {x: 0, y: -0.08}
+  m_Radius: 0.3
 --- !u!114 &1836131843
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151768,7 +151768,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.1875
+  m_Radius: 0.25
 --- !u!114 &2007492131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151967,7 +151967,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.21875
+  m_Radius: 0.25
 --- !u!114 &2017243687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161198,7 +161198,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.21875
+  m_Radius: 0.25
 --- !u!114 &2140981691
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161336,7 +161336,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.21875
+  m_Radius: 0.25
 --- !u!114 &2147184951
 MonoBehaviour:
   m_ObjectHideFlags: 0

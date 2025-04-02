@@ -9,6 +9,8 @@ public class PlayerInteraction : MonoBehaviour
     private PlayerAttack _playerAttack;
     private Transform _playerTransform;
     private PlayerPotion _playerPotion;
+    private PlayerCharacteristics _playerCharacteristics;
+    private PlayerBar _playerBar;
     [SerializeField] private LayerMask _interactionLayer;
 
     [Header("UI")]
@@ -20,6 +22,8 @@ public class PlayerInteraction : MonoBehaviour
         _playerAttack = GetComponent<PlayerAttack>();
         _playerTransform = GetComponent<Transform>();
         _playerPotion = GetComponent<PlayerPotion>();
+        _playerCharacteristics = GetComponent<PlayerCharacteristics>();
+        _playerBar = GetComponent<PlayerBar>();
     }
 
     private void Update()
@@ -64,6 +68,8 @@ public class PlayerInteraction : MonoBehaviour
                     if (hit.collider.CompareTag("SlimonPotion"))
                     {
                         _playerPotion.ResetPotionNumber();
+                        _playerCharacteristics.currentHealth = _playerCharacteristics.maxHealth;
+                        _playerBar.UpdateHealthBar();
                     }
                 }
             }
