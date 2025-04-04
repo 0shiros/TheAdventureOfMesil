@@ -85,6 +85,7 @@ public class Quest : MonoBehaviour
             _dialogueQuest.gameObject.SetActive(false);
             _playerMovement.canPlayerMove = true;
             _playerCharacteristics.GainExperience(_questExperience);
+            SFXManager.instance.PlaySFX("GetExperience");
             _interrogationMarkComplete.gameObject.SetActive(false);
             _hasPlayerFinishQuest = true;
             gameObject.tag = "Untagged";

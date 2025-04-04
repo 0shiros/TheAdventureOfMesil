@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 782b49353894198438faf0fb23d31198
+guid: 4815278bb89c8ea4a8688f19a022f19c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8486281950366394452
-    second: BerryAndFood_0
+      213: 2550490887302723411
+    second: Berry 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BerryAndFood_0
+      name: Berry 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 7071
-        height: 3536
+        x: 162
+        y: 18
+        width: 29
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ca71a94478baa3a80800000000000000
-      internalID: -8486281950366394452
+      spriteID: 357bc8ce2f9256320800000000000000
+      internalID: 2550490887302723411
       vertices: []
       indices: 
       edges: []
@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Berry 1_0: 2550490887302723411
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
