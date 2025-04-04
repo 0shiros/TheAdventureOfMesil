@@ -134623,64 +134623,64 @@ MonoBehaviour:
     damage: 0
   - maxHealth: 100
     maxStamina: 200
-    damage: 5
+    damage: 8
   - maxHealth: 120
     maxStamina: 210
-    damage: 6
+    damage: 10
   - maxHealth: 140
     maxStamina: 220
-    damage: 7
+    damage: 15
   - maxHealth: 160
     maxStamina: 230
-    damage: 8
+    damage: 20
   - maxHealth: 180
     maxStamina: 240
-    damage: 9
+    damage: 30
   - maxHealth: 200
     maxStamina: 250
-    damage: 12
+    damage: 40
   - maxHealth: 220
     maxStamina: 260
-    damage: 15
+    damage: 60
   - maxHealth: 240
     maxStamina: 270
-    damage: 18
+    damage: 80
   - maxHealth: 260
     maxStamina: 280
-    damage: 21
+    damage: 100
   - maxHealth: 280
     maxStamina: 290
-    damage: 24
+    damage: 125
   - maxHealth: 300
     maxStamina: 300
-    damage: 30
+    damage: 150
   - maxHealth: 320
     maxStamina: 310
-    damage: 36
+    damage: 175
   - maxHealth: 340
     maxStamina: 320
-    damage: 42
+    damage: 200
   - maxHealth: 360
     maxStamina: 330
-    damage: 48
+    damage: 230
   - maxHealth: 380
     maxStamina: 340
-    damage: 54
+    damage: 260
   - maxHealth: 400
     maxStamina: 350
-    damage: 60
+    damage: 290
   - maxHealth: 420
     maxStamina: 360
-    damage: 70
+    damage: 330
   - maxHealth: 440
     maxStamina: 370
-    damage: 80
+    damage: 370
   - maxHealth: 460
     maxStamina: 380
-    damage: 90
+    damage: 410
   - maxHealth: 500
     maxStamina: 400
-    damage: 100
+    damage: 450
 --- !u!114 &1877859034
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -143266,12 +143266,12 @@ RectTransform:
   - {fileID: 2015249660}
   - {fileID: 859997763}
   - {fileID: 1366208154}
-  - {fileID: 1866973031}
-  - {fileID: 1439475772}
   - {fileID: 882184909}
   - {fileID: 1825673510}
   - {fileID: 1154616245}
   - {fileID: 1296879713}
+  - {fileID: 1866973031}
+  - {fileID: 1439475772}
   - {fileID: 1676982815}
   - {fileID: 2126499361}
   m_Father: {fileID: 0}

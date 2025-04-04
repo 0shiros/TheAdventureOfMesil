@@ -30,7 +30,9 @@ public class PlayerRespawn : MonoBehaviour
         _playerBar.UpdateHealthBar();
         for(int i = 0; i < _doorGridAnimators.Length; i++)
         {
+            Collider2D[] _doorGrid = _doorGridAnimators[i].GetComponentsInChildren<Collider2D>();
             _doorGridAnimators[i].SetBool("IsPlayerEnter", false);
+            _doorGrid[i].isTrigger = true;
         }
     }
 }
