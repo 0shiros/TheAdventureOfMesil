@@ -34,6 +34,7 @@ public class PlayerAnimation : MonoBehaviour
                 _playerBar.UpdateStaminaBar();
                 _playerBar._staminaDelay = Time.time;
                 _playerAnimator.SetBool("IsAttacking", true);
+                SFXManager.instance.PlaySFX("SwordAttack");
             }
         }
         else
@@ -50,6 +51,7 @@ public class PlayerAnimation : MonoBehaviour
                 _playerBar.UpdateStaminaBar();
                 _playerBar._staminaDelay = Time.time;
                 _playerAnimator.SetBool("IsDefending", true);
+                SFXManager.instance.PlaySFX("ShieldProtect");
             }
         }
         else

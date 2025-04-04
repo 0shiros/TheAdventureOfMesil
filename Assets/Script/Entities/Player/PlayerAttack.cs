@@ -79,6 +79,7 @@ public class PlayerAttack : MonoBehaviour
                     _playerCharacteristics.GainExperience(_enemyCharacteristics.grantExperience);
                 }
                 _enemyRb.AddForce(attackDirection * _enemyKnockback, ForceMode2D.Impulse);
+                SFXManager.instance.PlaySFX("EnemyTakeDamage");
                 _enemyRenderer.material.color = Color.red;
                 yield return new WaitForSeconds(0.1f);
                 _enemyRenderer.material.color = Color.white;
