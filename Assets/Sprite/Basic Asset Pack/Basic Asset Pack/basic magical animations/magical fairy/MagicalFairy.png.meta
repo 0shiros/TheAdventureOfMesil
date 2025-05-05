@@ -197,7 +197,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      MagicalFairy_0: -4043056224896946024
+      MagicalFairy_1: 3851877120521778101
+      MagicalFairy_2: -680640037652907844
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

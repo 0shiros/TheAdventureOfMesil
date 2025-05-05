@@ -1,13 +1,14 @@
 using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerPotion : MonoBehaviour
 {
     [SerializeField] private float _healthPotionPercentage = 0.3f;
     [SerializeField] private int _potionCount = 3;
     [SerializeField] private int _maxPotionCount = 3;
-    [SerializeField] private GameObject[] _potions;
+    [SerializeField] private Image[] _potions;
 
     private PlayerCharacteristics _playerCharacteristics;
     private PlayerBar _playerBar;
@@ -63,11 +64,11 @@ public class PlayerPotion : MonoBehaviour
         {
             if(i < _potionCount)
             {
-                _potions[i].SetActive(true);
+                _potions[i].gameObject.SetActive(true);
             }
             else
             {
-                _potions[i].SetActive(false);
+                _potions[i].gameObject.SetActive(false);
             }
         }
     }

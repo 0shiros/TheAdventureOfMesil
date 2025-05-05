@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      minislime_gold_front_0: 4603245628868376647
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -15,7 +15,7 @@ public class PlayerInteraction : MonoBehaviour
 
     [Header("UI")]
     [SerializeField] private GameObject _interactableText;
-    [SerializeField] private TextMeshProUGUI _interactionText;
+    private TextMeshProUGUI _interactionText;
 
     private void Awake()
     {
@@ -24,6 +24,7 @@ public class PlayerInteraction : MonoBehaviour
         _playerPotion = GetComponent<PlayerPotion>();
         _playerCharacteristics = GetComponent<PlayerCharacteristics>();
         _playerBar = GetComponent<PlayerBar>();
+        _interactionText = _interactableText.GetComponentInChildren<TextMeshProUGUI>();
     }
 
     private void Update()
@@ -39,39 +40,42 @@ public class PlayerInteraction : MonoBehaviour
 
         if (hit.collider)
         {
-            if(hit.collider.CompareTag("Slimon"))
+            switch (hit.collider.tag)
             {
-                SlimonFishing slimonFishing = hit.collider.GetComponent<SlimonFishing>();
+                case "PNJQuest":
+                    Quest quest = hit.collider.GetComponent<Quest>();
 
-                if (Input.GetKeyDown(KeyCode.Q))
-                {
-                    slimonFishing.ChoiceFishing();
-                }
-            }
-            else if(hit.collider.CompareTag("PNJQuest"))
-            {
-                Quest quest = hit.collider.GetComponent<Quest>();
-
-                if (Input.GetKeyDown(KeyCode.Q))
-                {
-                    quest.CurrentCompletionQuest();
-                }
-            }
-            else
-            {
-                Interactions interactions = hit.collider.GetComponent<Interactions>();
-
-                if (Input.GetKeyDown(KeyCode.Q))
-                {
-                    Interact(interactions._interactionMessage);
-
-                    if (hit.collider.CompareTag("SlimonPotion"))
+                    if(Input.GetKeyDown(KeyCode.Q))
                     {
+                        quest.CurrentCompletionQuest();
+                    }
+
+                    break;
+
+                case "SlimonPotion":
+
+                    Interactions potionInteraction = hit.collider.GetComponent<Interactions>();
+
+                    if (Input.GetKeyDown(KeyCode.Q))
+                    {
+                        Interact(potionInteraction._interactionMessage);
                         _playerPotion.ResetPotionNumber();
                         _playerCharacteristics.currentHealth = _playerCharacteristics.maxHealth;
                         _playerBar.UpdateHealthBar();
                     }
-                }
+
+                    break;
+
+                default:
+
+                    Interactions interactions = hit.collider.GetComponent<Interactions>();
+
+                    if (Input.GetKeyDown(KeyCode.Q))
+                    {
+                        Interact(interactions._interactionMessage);
+                    }
+
+                    break;
             }
         }
         else

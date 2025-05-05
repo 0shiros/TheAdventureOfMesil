@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CorruptedTreant_0: -6311312199389515016
+      CorruptedTreant_1: 3465285478326889048
+      CorruptedTreant_2: -8596152365505629088
+      CorruptedTreant_3: -5775853561010887978
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

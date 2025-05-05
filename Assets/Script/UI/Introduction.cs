@@ -7,8 +7,12 @@ public class Introduction : MonoBehaviour
 {    
     [SerializeField] private TextMeshProUGUI _continueText;
     [SerializeField] private GameObject _player;
-    [SerializeField] private Image _playerText;
-    [SerializeField] private Image _IntrodutionText;
+    private GameObject _introduction;
+
+    private void Awake()
+    {
+        _introduction = GetComponent<Introduction>().gameObject;
+    }
 
     private void Start()
     {        
@@ -17,7 +21,7 @@ public class Introduction : MonoBehaviour
 
     private void Update()
     {
-        if(_continueText.gameObject.activeSelf && _IntrodutionText.gameObject.activeSelf && Input.GetKeyDown(KeyCode.Q))
+        if(_continueText.gameObject.activeSelf && _introduction.activeSelf && Input.GetKeyDown(KeyCode.Q))
         {
            StartCoroutine(IntroductionScene());
         }
@@ -32,9 +36,8 @@ public class Introduction : MonoBehaviour
     private IEnumerator IntroductionScene()
     {
         SFXManager.instance.PlaySFX("OpenDoor");
-        _IntrodutionText.gameObject.SetActive(false);
+        _introduction.SetActive(false);
         _player.SetActive(true);
-        _playerText.gameObject.SetActive(true);
         yield return new WaitForSeconds(4);
         gameObject.SetActive(false);
     }

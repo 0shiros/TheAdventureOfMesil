@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      EarthElemental_0: 7196845808019019188
+      EarthElemental_1: 7919985254051600952
+      EarthElemental_2: 1825053949609945666
+      EarthElemental_3: 1492734731729493583
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

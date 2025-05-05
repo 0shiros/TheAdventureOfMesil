@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DeftSorceress_0: -29211346904250535
+      DeftSorceress_1: 151896099947256638
+      DeftSorceress_2: -2214780775185906693
+      DeftSorceress_3: 7750630283930343834
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

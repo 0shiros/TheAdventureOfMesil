@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      VileWitch_0: -9025276331962846728
+      VileWitch_1: 2401471801537504783
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

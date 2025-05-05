@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FlutteringPixie_0: 135460232057897836
+      FlutteringPixie_1: 1917967766908566345
+      FlutteringPixie_2: 3576600206063275534
+      FlutteringPixie_3: -4354837005342716217
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

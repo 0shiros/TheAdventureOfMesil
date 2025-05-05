@@ -297,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      minislime_maroon_front_0: 6626352741002445557
+      minislime_maroon_front_1: 2240404727336708551
+      minislime_maroon_front_2: 1928109222066633000
+      minislime_maroon_front_3: 644218493428272206
+      minislime_maroon_front_4: -7317420636991342129
+      minislime_maroon_front_5: -1377331678268308759
+      minislime_maroon_front_6: -5820331750464747009
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

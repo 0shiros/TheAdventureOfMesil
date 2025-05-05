@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      NovicePyromancer_0: -4082833042883823249
+      NovicePyromancer_1: 5991835518768762333
+      NovicePyromancer_2: 8802126060413236609
+      NovicePyromancer_3: -1265303620751928140
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

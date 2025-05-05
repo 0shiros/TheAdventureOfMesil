@@ -172,7 +172,9 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gold_slime_shinyeffect_0: -7151764046549922959
+      gold_slime_shinyeffect_1: -7495325412266606507
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

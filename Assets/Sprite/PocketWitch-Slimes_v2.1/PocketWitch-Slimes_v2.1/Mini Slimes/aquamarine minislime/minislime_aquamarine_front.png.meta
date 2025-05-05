@@ -297,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      minislime_aquamarine_front_0: -7985715395547913005
+      minislime_aquamarine_front_1: 1558111780654958416
+      minislime_aquamarine_front_2: 5262581076202942737
+      minislime_aquamarine_front_3: -5392314632445407649
+      minislime_aquamarine_front_4: -5494321421041796195
+      minislime_aquamarine_front_5: 2659016507941842335
+      minislime_aquamarine_front_6: -516057323087976320
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

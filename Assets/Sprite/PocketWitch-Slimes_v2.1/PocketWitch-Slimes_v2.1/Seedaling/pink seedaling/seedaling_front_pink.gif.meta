@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      seedaling_front_pink_0: -2713505291194810306
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

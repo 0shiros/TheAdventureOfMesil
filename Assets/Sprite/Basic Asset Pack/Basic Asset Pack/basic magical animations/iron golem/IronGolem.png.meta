@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      IronGolem_0: 7212670643075273769
+      IronGolem_1: 7576312299578454682
+      IronGolem_2: 3721865664150571608
+      IronGolem_3: -2208388708350353525
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

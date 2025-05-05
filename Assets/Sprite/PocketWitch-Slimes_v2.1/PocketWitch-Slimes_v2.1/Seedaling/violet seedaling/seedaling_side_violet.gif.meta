@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      seedaling_side_violet_0: -6392242682022334028
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

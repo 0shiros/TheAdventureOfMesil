@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      FireElemental_0: 5270528129628455424
+      FireElemental_1: 6549566284200848012
+      FireElemental_2: 5171788801180238705
+      FireElemental_3: -5644755087758772062
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

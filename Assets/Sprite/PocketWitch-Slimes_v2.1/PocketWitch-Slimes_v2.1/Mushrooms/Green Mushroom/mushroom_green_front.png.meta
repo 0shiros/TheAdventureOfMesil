@@ -397,7 +397,18 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      mushroom_green_front_0: -8278995149080629070
+      mushroom_green_front_1: -254113230991033340
+      mushroom_green_front_10: 4235209468841419422
+      mushroom_green_front_2: -8250911543683921328
+      mushroom_green_front_3: 2221695559938160336
+      mushroom_green_front_4: 8440611009491194024
+      mushroom_green_front_5: 933040400784838605
+      mushroom_green_front_6: -7795317058217594154
+      mushroom_green_front_7: -3582220528059145803
+      mushroom_green_front_8: 8343136845198167102
+      mushroom_green_front_9: 4837212005810082458
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

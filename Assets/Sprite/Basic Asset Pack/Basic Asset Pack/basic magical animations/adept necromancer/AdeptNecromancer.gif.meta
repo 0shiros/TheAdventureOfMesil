@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AdeptNecromancer_0: -5428268510093732355
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

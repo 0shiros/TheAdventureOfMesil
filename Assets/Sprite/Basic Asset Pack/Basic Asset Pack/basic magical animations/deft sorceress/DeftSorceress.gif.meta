@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      DeftSorceress_0: -29211346904250535
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

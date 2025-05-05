@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      minislime_red_side_0: -5587120748842100844
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

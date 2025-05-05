@@ -297,7 +297,14 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      minislime_blue_front_0: -1531371549574605218
+      minislime_blue_front_1: 441393361153092588
+      minislime_blue_front_2: 4602450985885776661
+      minislime_blue_front_3: -209054673109206771
+      minislime_blue_front_4: -699831580811546329
+      minislime_blue_front_5: -2176338883449005310
+      minislime_blue_front_6: 2502593336431873329
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

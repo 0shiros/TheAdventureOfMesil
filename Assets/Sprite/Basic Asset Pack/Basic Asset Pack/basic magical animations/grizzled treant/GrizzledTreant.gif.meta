@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GrizzledTreant_0: 2242823582637958412
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

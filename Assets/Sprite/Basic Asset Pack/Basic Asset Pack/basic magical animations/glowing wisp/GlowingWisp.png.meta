@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GlowingWisp_0: -7742516688333903413
+      GlowingWisp_1: -7426637106282456283
+      GlowingWisp_2: -6791384052565396701
+      GlowingWisp_3: 801611063761653731
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
