@@ -8,6 +8,7 @@ TagManager:
   - Slimon
   - SlimonPotion
   - PNJQuest
+  - ObjectQuest
   layers:
   - Default
   - TransparentFX

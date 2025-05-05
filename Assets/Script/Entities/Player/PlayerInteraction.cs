@@ -43,11 +43,24 @@ public class PlayerInteraction : MonoBehaviour
             switch (hit.collider.tag)
             {
                 case "PNJQuest":
+
                     Quest quest = hit.collider.GetComponent<Quest>();
 
                     if(Input.GetKeyDown(KeyCode.Q))
                     {
                         quest.CurrentCompletionQuest();
+                        Interact(quest._interactionMessage);
+                    }
+
+                    break;
+
+                case "ObjectQuest":
+
+                    CompleteQuest questObject = hit.collider.GetComponent<CompleteQuest>();
+
+                    if (Input.GetKeyDown(KeyCode.Q))
+                    {
+                        Interact(questObject._interactionMessage);
                     }
 
                     break;
