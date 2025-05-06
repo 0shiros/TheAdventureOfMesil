@@ -48,8 +48,8 @@ public class PlayerInteraction : MonoBehaviour
 
                     if(Input.GetKeyDown(KeyCode.Q))
                     {
-                        quest.CurrentCompletionQuest();
-                        Interact(quest._interactionMessage);
+                        quest.CurrentQuestState();
+                        Interact(quest._currentDialogue);
                     }
 
                     break;
@@ -60,7 +60,8 @@ public class PlayerInteraction : MonoBehaviour
 
                     if (Input.GetKeyDown(KeyCode.Q))
                     {
-                        Interact(questObject._interactionMessage);
+                        questObject.UpdateQuest();
+                        Interact(questObject._objectDialogue);
                     }
 
                     break;
@@ -84,8 +85,8 @@ public class PlayerInteraction : MonoBehaviour
                     Interactions interactions = hit.collider.GetComponent<Interactions>();
 
                     if (Input.GetKeyDown(KeyCode.Q))
-                    {
-                        Interact(interactions._interactionMessage);
+                    {                        
+                        Interact(interactions._interactionMessage);                        
                     }
 
                     break;

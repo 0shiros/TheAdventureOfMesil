@@ -5,51 +5,59 @@ using UnityEngine.UI;
 
 public class Quest : MonoBehaviour
 {
-    private string _questState;
-    private Image _sign;
-    [SerializeField] private Sprite[] _signs;
-    [HideInInspector] public string _interactionMessage;
-    [SerializeField] private string[] _dialogues;
+    public string[] _dialogues;
+    public Sprite[] _signSprites;
+    [SerializeField] private int _experienceReward;
 
-    // GenericPropertyJSON:{"name":"_dialogues","type":-1,"arraySize":3,"arrayType":"string","children":[{"name":"Array","type":-1,"arraySize":3,"arrayType":"string","children":[{"name":"size","type":12,"val":3},{"name":"data","type":3,"val":"Vas me slimer des baies dans la slor\u00eat au slud-est, je te serai slredevable "},{"name":"data","type":3,"val":"Les baies que je slerche sont dans la slor\u00eat au slud-est  "},{"name":"data","type":3,"val":"Slimerci, \u00e7a va m'aider \u00e0 slimager sa douleir"}]}]}
+    [SerializeField] private PlayerCharacteristics _playerCharacteristics;
+    private GameObject _questObject;
+    [HideInInspector] public Image _signImage;
+    [HideInInspector] public string _currentDialogue;
+
+    public bool _isQuestStarted = false;
+    public bool _isQuestCompleted = false;
+
+    //GenericPropertyJSON:{"name":"_dialogues","type":-1,"arraySize":3,"arrayType":"string","children":[{"name":"Array","type":-1,"arraySize":3,"arrayType":"string","children":[{"name":"size","type":12,"val":3},{"name":"data","type":3,"val":"Vas me slimer des baies dans la sloret au slud-est, je te serai slredevable"},{"name":"data","type":3,"val":"Les baies que je slerche sont dans la sloret au slud-est "},{"name":"data","type":3,"val":"Slimerci, \u00e7a va m'aider \u00e0 slimager sa douleur"}]}]}
 
     private void Awake()
     {
-        _sign = GetComponentInChildren<Image>();
+        _questObject = GetComponent<Quest>().gameObject;
+        _signImage = GetComponentInChildren<Image>();
     }
 
-    public void CurrentCompletionQuest()
+    public void CurrentQuestState()
     {
-        switch (_questState)
+        switch (true) 
         {
-            case "Available":
-                Available();
+            case var _ when !_isQuestStarted: 
+                StartQuest();
                 break;
-            case "InProgress":
-                InProgress();
+            case var _ when _isQuestStarted && !_isQuestCompleted:
+                InProgressQuest();
                 break;
-            case "Complete":
-                Complete();
+            case var _ when _isQuestCompleted:
+                CompleteQuest();
                 break;
         }
-
     }
 
-    private void Available()
+    private void StartQuest()
     {
-        _questState = "InProgress";
-        _sign.sprite = _signs[0];
-        _interactionMessage = _dialogues[0];
+        _signImage.sprite = _signSprites[1];
+        _currentDialogue = _dialogues[0];
+        _isQuestStarted = true;
     }
 
-    private void InProgress()
+    private void InProgressQuest()
     {
-        _interactionMessage = _dialogues[1];
+        _currentDialogue = _dialogues[1];
     }
 
-    private void Complete()
+    private void CompleteQuest()
     {
-        _interactionMessage = _dialogues[2];
+        _signImage.gameObject.SetActive(false);
+        _questObject.tag = "Untagged";
+        _playerCharacteristics.GainExperience(_experienceReward);
     }
 }
 
