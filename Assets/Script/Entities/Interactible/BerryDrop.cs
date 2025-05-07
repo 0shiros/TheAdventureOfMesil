@@ -3,9 +3,11 @@ using UnityEngine;
 
 public class BerryDrop : MonoBehaviour
 {
-    private List<GameObject> _berries;
-
+    [Header("References")]
     private CompleteQuest _completeQuest;
+
+    [Header("Settings")]
+    private List<GameObject> _berries;
 
     private void Awake()
     {

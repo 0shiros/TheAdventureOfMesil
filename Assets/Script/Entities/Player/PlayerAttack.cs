@@ -41,8 +41,8 @@ public class PlayerAttack : MonoBehaviour
         {
             StartCoroutine(_playerBar.StaminaRegen());
         }
-
-        SetAttackDirection();
+        
+        SetAttackDirection();        
     }
 
     public void SetAttackDirection()

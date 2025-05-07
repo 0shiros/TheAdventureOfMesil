@@ -14,8 +14,8 @@ public class PlayerInteraction : MonoBehaviour
     [SerializeField] private LayerMask _interactionLayer;
 
     [Header("UI")]
-    [SerializeField] private GameObject _interactableText;
-    private TextMeshProUGUI _interactionText;
+    [SerializeField] private GameObject _interactionsGameObject;
+    [HideInInspector] public TextMeshProUGUI _interactionText;
 
     private void Awake()
     {
@@ -24,12 +24,12 @@ public class PlayerInteraction : MonoBehaviour
         _playerPotion = GetComponent<PlayerPotion>();
         _playerCharacteristics = GetComponent<PlayerCharacteristics>();
         _playerBar = GetComponent<PlayerBar>();
-        _interactionText = _interactableText.GetComponentInChildren<TextMeshProUGUI>();
+        _interactionText = _interactionsGameObject.GetComponentInChildren<TextMeshProUGUI>();
     }
 
     private void Update()
     {
-        DirectionLook();
+        DirectionLook();               
     }
 
     private void DirectionLook()
@@ -68,11 +68,11 @@ public class PlayerInteraction : MonoBehaviour
 
                 case "SlimonPotion":
 
-                    Interactions potionInteraction = hit.collider.GetComponent<Interactions>();
+                    Interactions interaction = hit.collider.GetComponent<Interactions>();
 
                     if (Input.GetKeyDown(KeyCode.Q))
                     {
-                        Interact(potionInteraction._interactionMessage);
+                        Interact(interaction.CurrentMessage());
                         _playerPotion.ResetPotionNumber();
                         _playerCharacteristics.currentHealth = _playerCharacteristics.maxHealth;
                         _playerBar.UpdateHealthBar();
@@ -80,13 +80,17 @@ public class PlayerInteraction : MonoBehaviour
 
                     break;
 
+
                 default:
 
                     Interactions interactions = hit.collider.GetComponent<Interactions>();
 
                     if (Input.GetKeyDown(KeyCode.Q))
-                    {                        
-                        Interact(interactions._interactionMessage);                        
+                    {                 
+                        if(interactions != null)
+                        {
+                            Interact(interactions.CurrentMessage());
+                        }                  
                     }
 
                     break;
@@ -94,22 +98,17 @@ public class PlayerInteraction : MonoBehaviour
         }
         else
         {
-            _interactableText.SetActive(false);
+            _interactionsGameObject.SetActive(false);
         }
     }
 
     public void Interact(string message)
     {
-        if (!_interactableText.activeSelf)
+        if (!_interactionsGameObject.activeSelf)
         {
-            _interactableText.SetActive(true);
-            _interactionText.text = message;
+            _interactionsGameObject.SetActive(true);
         }
-        else
-        {
-            _interactableText.SetActive(false);
-        }
-    }
 
-    
+        _interactionText.text = message;
+    }    
 }

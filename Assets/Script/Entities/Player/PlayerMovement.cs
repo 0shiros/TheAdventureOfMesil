@@ -7,7 +7,7 @@ public class PlayerMovement : MonoBehaviour
     [HideInInspector] public Transform playerTransform;
     [HideInInspector] public Vector2 _movementInput = Vector2.zero;
     private PlayerDefense _playerDefense;
-    public bool canPlayerMove = true;
+    public bool _canPlayerMove = true;
 
     private void Awake()
     {
@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (canPlayerMove && !_playerDefense.isDefending)
+        if (_canPlayerMove && !_playerDefense.isDefending)
         {
             Move();
         }

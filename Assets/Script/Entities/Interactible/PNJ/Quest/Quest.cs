@@ -5,19 +5,20 @@ using UnityEngine.UI;
 
 public class Quest : MonoBehaviour
 {
-    public string[] _dialogues;
-    public Sprite[] _signSprites;
-    [SerializeField] private int _experienceReward;
-
+    [Header("References")]
     [SerializeField] private PlayerCharacteristics _playerCharacteristics;
     private GameObject _questObject;
     [HideInInspector] public Image _signImage;
-    [HideInInspector] public string _currentDialogue;
 
+    [Header("QuestSettings")]
+    public string[] _dialogues;
+    [HideInInspector] public string _currentDialogue;    
+    public Sprite[] _signSprites;
     public bool _isQuestStarted = false;
     public bool _isQuestCompleted = false;
 
-    //GenericPropertyJSON:{"name":"_dialogues","type":-1,"arraySize":3,"arrayType":"string","children":[{"name":"Array","type":-1,"arraySize":3,"arrayType":"string","children":[{"name":"size","type":12,"val":3},{"name":"data","type":3,"val":"Vas me slimer des baies dans la sloret au slud-est, je te serai slredevable"},{"name":"data","type":3,"val":"Les baies que je slerche sont dans la sloret au slud-est "},{"name":"data","type":3,"val":"Slimerci, \u00e7a va m'aider \u00e0 slimager sa douleur"}]}]}
+    [Header("QuestReward")]
+    [SerializeField] private int _experienceReward;
 
     private void Awake()
     {

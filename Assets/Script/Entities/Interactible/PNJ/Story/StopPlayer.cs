@@ -32,12 +32,12 @@ public class StopPlayer : MonoBehaviour
 
     private IEnumerator ExitVillageBeforeAttack(string dialogueInteraction)
     {
-        _playerMovement.canPlayerMove = false;
+        _playerMovement._canPlayerMove = false;
         _playerMovement.playerTransform.position += _playerKnockback;
         _interaction.SetActive(true);
         _interactionText.text = dialogueInteraction;
         yield return new WaitForSeconds(2f);
         _interaction.SetActive(false);
-        _playerMovement.canPlayerMove = true;
+        _playerMovement._canPlayerMove = true;
     }
 }

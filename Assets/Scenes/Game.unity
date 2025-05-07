@@ -3294,7 +3294,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: Je suis slartant
+  _interactionMessage: []
+  _randomizeMessage: 0
 --- !u!1 &76988625
 GameObject:
   m_ObjectHideFlags: 0
@@ -4879,7 +4880,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: Il faut slimant beau aujourd'hui
+  _interactionMessage: []
+  _randomizeMessage: 0
 --- !u!1 &108666080
 GameObject:
   m_ObjectHideFlags: 0
@@ -5251,7 +5253,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: A slimi slimoi ?
+  _interactionMessage: []
+  _randomizeMessage: 0
 --- !u!1 &175944158
 GameObject:
   m_ObjectHideFlags: 0
@@ -5413,7 +5416,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: Cot cot
+  _interactionMessage:
+  - Cot cot !
+  _randomizeMessage: 0
 --- !u!1 &179460286
 GameObject:
   m_ObjectHideFlags: 0
@@ -6207,7 +6212,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: "Il ne faut pas tarder \xE0 r\xE9colter le bl\xE9"
+  _interactionMessage:
+  - "Le bl\xE9 doit \xEAtre r\xE9colt\xE9 !"
+  _randomizeMessage: 0
 --- !u!1 &214787117
 GameObject:
   m_ObjectHideFlags: 0
@@ -6346,7 +6353,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: "Il ne faut pas tarder \xE0 r\xE9colter le bl\xE9"
+  _interactionMessage:
+  - "Le bl\xE9 doit \xEAtre r\xE9colt\xE9 !"
+  _randomizeMessage: 0
 --- !u!1 &247011565
 GameObject:
   m_ObjectHideFlags: 0
@@ -6620,7 +6629,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: Je vais slien les slenfants, aie
+  _interactionMessage: []
+  _randomizeMessage: 0
 --- !u!1 &269420365
 GameObject:
   m_ObjectHideFlags: 0
@@ -6901,7 +6911,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: Maison de Slimon
+  _interactionMessage:
+  - Maison de Slimon
+  _randomizeMessage: 0
 --- !u!1 &284127884
 GameObject:
   m_ObjectHideFlags: 0
@@ -9967,7 +9979,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: Slourquoi nous ?
+  _interactionMessage: []
+  _randomizeMessage: 0
 --- !u!1 &330083843
 GameObject:
   m_ObjectHideFlags: 0
@@ -19801,14 +19814,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.27044016, g: 0.27044016, b: 0.27044016, a: 0.8352941}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.93333334}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 9a6560e5bacb40847bb1b879ede354fb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21365,7 +21378,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: "Les carottes sont bient\xF4t m\xFBres"
+  _interactionMessage:
+  - "Les carottes commencent \xE0 \xEAtre m\xFBres"
+  _randomizeMessage: 0
 --- !u!1 &408781346
 GameObject:
   m_ObjectHideFlags: 0
@@ -22160,6 +22175,108 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 472801842}
   m_CullTransparentMesh: 1
+--- !u!1 &481050983
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 481050984}
+  - component: {fileID: 481050987}
+  - component: {fileID: 481050986}
+  - component: {fileID: 481050985}
+  m_Layer: 8
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &481050984
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481050983}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1167179619}
+  m_Father: {fileID: 857432084}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &481050985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481050983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &481050986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481050983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &481050987
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 481050983}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 1
+  m_Camera: {fileID: 519420031}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 5
+  m_TargetDisplay: 0
 --- !u!1 &482120772
 GameObject:
   m_ObjectHideFlags: 0
@@ -22616,7 +22733,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: "Les carottes sont bient\xF4t m\xFBres"
+  _interactionMessage:
+  - "Les carottes commencent \xE0 \xEAtre m\xFBres"
+  _randomizeMessage: 0
 --- !u!1 &493965339
 GameObject:
   m_ObjectHideFlags: 0
@@ -26736,7 +26855,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: "Slac de G\xE9lat'ine"
+  _interactionMessage: []
+  _randomizeMessage: 0
 --- !u!1 &510846141
 GameObject:
   m_ObjectHideFlags: 0
@@ -26861,7 +26981,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -27224,7 +27344,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: Cot cot
+  _interactionMessage:
+  - Cot cot !
+  _randomizeMessage: 0
 --- !u!1 &530667976
 GameObject:
   m_ObjectHideFlags: 0
@@ -27435,7 +27557,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: "Les carottes sont bient\xF4t m\xFBres"
+  _interactionMessage:
+  - "Les carottes commencent \xE0 \xEAtre m\xFBres"
+  _randomizeMessage: 0
 --- !u!1 &546619542
 GameObject:
   m_ObjectHideFlags: 0
@@ -27843,7 +27967,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 150}
-  m_SizeDelta: {x: 650, y: 200}
+  m_SizeDelta: {x: 625, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &551585171
 MonoBehaviour:
@@ -28647,8 +28771,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: "Non, mais j'ai vu Slimoque ramasser des slimignons tout \xE0
-    l'heure"
+  _interactionMessage: []
+  _randomizeMessage: 0
 --- !u!1 &589475428
 GameObject:
   m_ObjectHideFlags: 0
@@ -30876,7 +31000,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: Oui, des slimnier entier
+  _interactionMessage: []
+  _randomizeMessage: 0
 --- !u!1 &664793450
 GameObject:
   m_ObjectHideFlags: 0
@@ -31835,7 +31960,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: Slaman ne slouge pas !
+  _interactionMessage: []
+  _randomizeMessage: 0
 --- !u!114 &734592745 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 293756656671917755, guid: 12e71a35d81a4574bbdcec8c9ab5a4e3, type: 3}
@@ -32334,7 +32460,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: Slimon ne t'attends pas pour Slicher ?
+  _interactionMessage: []
+  _randomizeMessage: 0
 --- !u!1 &794423318
 GameObject:
   m_ObjectHideFlags: 0
@@ -33155,7 +33282,7 @@ GameObject:
   - component: {fileID: 857432084}
   - component: {fileID: 857432085}
   - component: {fileID: 857432086}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BeginAdventure
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33171,10 +33298,11 @@ Transform:
   m_GameObject: {fileID: 857432083}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.2, y: -6.59, z: 0}
+  m_LocalPosition: {x: -0.2, y: -6.47, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 481050984}
   m_Father: {fileID: 1109079871}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &857432085
@@ -33235,28 +33363,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61d1dfeb762b1b0489a11f288bb74657, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _playerMovement: {fileID: 1877859021}
-  _slimon: {fileID: 0}
-  _slimonDialogues: {fileID: 0}
-  _choice1: {fileID: 0}
-  _choice2: {fileID: 0}
-  _dialoguesPreChoice:
-  - "Mesil, Mordac nous a slattaqu\xE9"
-  - "C'est un slimaudit squelette tr\xE8s sluissant"
-  - "Il a enlev\xE9 plein de nos slitoyen"
-  - Je ne peux slalhreusement rien faire
-  _dialoguesPostChoice:
-  - Slerci beaucoup Mesil
-  - Il s'est slenfui vers le slud
-  - "Je sais que tu n'es pas slimdou\xE9 \xE0 l'\xE9p\xE9e"
-  - "Pour te slim\xE9morer la m\xE9moire, tu peux slattaquer avec espace et te sl\xE9fendre
-    avec shift, mais fait attention \xE0 ton slendurance"
-  - Tiens des slotion, utilise les avec E et reviens me slarler si tu en manque
-  - "Je serais \xE0 slot\xE9 de la slaison"
-  - Bonne slance mon fils
-  _slimonArea3bis: {fileID: 331699089}
-  _slimonArea2: {fileID: 1662887200}
-  _badEnd: {fileID: 1676982814}
+  _slimon: {fileID: 331699089}
+  _slimonPotion: {fileID: 1662887200}
+  _Dialogues:
+  - "Mesil ! Mordac nous a slattaqu\xE9s"
+  - "Il a enlev\xE9 plein de nos slitoyen "
+  - "Tu es le seul \xE0 pouvoir slaire quelque chose "
+  - 'Il est slarti au sud du slillage '
+  - 'Tiens des slotion que tu peux sloire avec "E" '
+  - Si tu n'en a plus, viens me slarler pour en avoir de slouvelle
+  _interactionsGameObject: {fileID: 1167179618}
 --- !u!1 &859997762
 GameObject:
   m_ObjectHideFlags: 0
@@ -50322,7 +50438,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: Meuh
+  _interactionMessage:
+  - Meuh !
+  _randomizeMessage: 0
 --- !u!1 &956913066
 GameObject:
   m_ObjectHideFlags: 0
@@ -50943,7 +51061,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: Non pas trop
+  _interactionMessage: []
+  _randomizeMessage: 0
 --- !u!1 &1103048946
 GameObject:
   m_ObjectHideFlags: 0
@@ -51082,7 +51201,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: "Il ne faut pas tarder \xE0 r\xE9colter le bl\xE9"
+  _interactionMessage:
+  - "Le bl\xE9 doit \xEAtre r\xE9colt\xE9 !"
+  _randomizeMessage: 0
 --- !u!1 &1107313872
 GameObject:
   m_ObjectHideFlags: 0
@@ -58445,7 +58566,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1109079871
 Transform:
   m_ObjectHideFlags: 0
@@ -76430,6 +76551,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da13b1240b146514bb8ea8bdb0f54d32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1167179618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1167179619}
+  m_Layer: 5
+  m_Name: Interactions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1167179619
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167179618}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 90}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 1996025804}
+  - {fileID: 1197064450}
+  m_Father: {fileID: 481050984}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1169802915
 GameObject:
   m_ObjectHideFlags: 0
@@ -78772,7 +78930,144 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: "Le slidoc va bient\xF4t arriver"
+  _interactionMessage: []
+  _randomizeMessage: 0
+--- !u!1 &1197064449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1197064450}
+  - component: {fileID: 1197064452}
+  - component: {fileID: 1197064451}
+  m_Layer: 5
+  m_Name: Dialogues
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1197064450
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197064449}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1167179619}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 150}
+  m_SizeDelta: {x: 625, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1197064451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197064449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1197064452
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197064449}
+  m_CullTransparentMesh: 1
 --- !u!1 &1210085339
 GameObject:
   m_ObjectHideFlags: 0
@@ -78911,7 +79206,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: "Il ne faut pas tarder \xE0 r\xE9colter le bl\xE9"
+  _interactionMessage:
+  - "Le bl\xE9 doit \xEAtre r\xE9colt\xE9 !"
+  _randomizeMessage: 0
 --- !u!1 &1215410822
 GameObject:
   m_ObjectHideFlags: 0
@@ -103041,7 +103338,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: Slimon a du verrouiller la porte
+  _interactionMessage:
+  - "La maison est ferm\xE9, papa doit m'attendre au lac !"
+  _randomizeMessage: 0
 --- !u!1 &1411249045
 GameObject:
   m_ObjectHideFlags: 0
@@ -103636,7 +103935,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: 'Tu es slimenifique '
+  _interactionMessage: []
+  _randomizeMessage: 0
 --- !u!1 &1426405257
 GameObject:
   m_ObjectHideFlags: 0
@@ -114029,7 +114329,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: Je sloccupe de vous
+  _interactionMessage: []
+  _randomizeMessage: 0
 --- !u!114 &1585949313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114042,21 +114343,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5200e32c43af99b4cb3f49f6f4cdbd06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _playerCharacteristics: {fileID: 1877859033}
+  _signImage: {fileID: 0}
   _dialogues:
   - J'ai slimebesoin de lait pour mes slotions de sloin
   - La slache de chez vous doit en avoir
   - "Slerci beaucoup, je te suis slimement redevable (Vous avez gagn\xE9 50 points
     d'exp\xE9rience)"
+  _currentDialogue: 
   _signSprites:
   - {fileID: 21300000, guid: e9d4143c19529834981ac6821a04aecd, type: 3}
   - {fileID: 21300000, guid: f73f68fe6815f5548a6c2a61b9e49add, type: 3}
   - {fileID: 21300000, guid: f26fa8880b3aeef4b8516c82dc12f2a5, type: 3}
-  _experienceReward: 50
-  _playerCharacteristics: {fileID: 1877859033}
-  _signImage: {fileID: 0}
-  _currentDialogue: 
   _isQuestStarted: 0
   _isQuestCompleted: 0
+  _experienceReward: 50
 --- !u!1 &1590176230
 GameObject:
   m_ObjectHideFlags: 0
@@ -114862,7 +115163,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: Je slouffre
+  _interactionMessage: []
+  _randomizeMessage: 0
 --- !u!1 &1641353344
 GameObject:
   m_ObjectHideFlags: 0
@@ -115024,7 +115326,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: Cot cot
+  _interactionMessage:
+  - Cot cot !
+  _randomizeMessage: 0
 --- !u!1 &1644047386
 GameObject:
   m_ObjectHideFlags: 0
@@ -115531,7 +115835,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: Tiens prends ces slotions
+  _interactionMessage:
+  - Tiens des Slotions
+  - Reviens me voir si tu n'as plus de slotion
+  _randomizeMessage: 1
 --- !u!1 &1669125165
 GameObject:
   m_ObjectHideFlags: 0
@@ -116652,7 +116959,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: Il se fait tard Mesil donc plus de slortie
+  _interactionMessage: []
+  _randomizeMessage: 0
 --- !u!1 &1692633363
 GameObject:
   m_ObjectHideFlags: 0
@@ -117328,7 +117636,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: "On joue \xE0 quoi ?"
+  _interactionMessage: []
+  _randomizeMessage: 0
 --- !u!1 &1734970602
 GameObject:
   m_ObjectHideFlags: 0
@@ -122932,7 +123241,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: "Les carottes sont bient\xF4t m\xFBres"
+  _interactionMessage:
+  - "Les carottes commencent \xE0 \xEAtre m\xFBres"
+  _randomizeMessage: 0
 --- !u!1 &1825673509
 GameObject:
   m_ObjectHideFlags: 0
@@ -123269,7 +123580,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: Ne slarle pas, je vais te sloigner
+  _interactionMessage: []
+  _randomizeMessage: 0
 --- !u!114 &1836131844
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123282,21 +123594,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5200e32c43af99b4cb3f49f6f4cdbd06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _playerCharacteristics: {fileID: 1877859033}
+  _signImage: {fileID: 0}
   _dialogues:
   - Vas me slimer des baies dans la sloret au slud-est, je te serai slredevable
   - 'Les baies que je slerche sont dans la sloret au slud-est '
   - "Slimerci, \xE7a va m'aider \xE0 slimager sa douleur (Vous avez gagn\xE9 50 points
     d'exp\xE9rience)"
+  _currentDialogue: 
   _signSprites:
   - {fileID: 21300000, guid: e9d4143c19529834981ac6821a04aecd, type: 3}
   - {fileID: 21300000, guid: f73f68fe6815f5548a6c2a61b9e49add, type: 3}
   - {fileID: 21300000, guid: f26fa8880b3aeef4b8516c82dc12f2a5, type: 3}
-  _experienceReward: 50
-  _playerCharacteristics: {fileID: 1877859033}
-  _signImage: {fileID: 0}
-  _currentDialogue: 
   _isQuestStarted: 0
   _isQuestCompleted: 0
+  _experienceReward: 50
 --- !u!1 &1849156096
 GameObject:
   m_ObjectHideFlags: 0
@@ -131414,7 +131726,7 @@ MonoBehaviour:
   _playerSpeed: 5
   playerTransform: {fileID: 0}
   _movementInput: {x: 0, y: 0}
-  canPlayerMove: 1
+  _canPlayerMove: 1
 --- !u!212 &1877859023
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -131479,7 +131791,7 @@ Transform:
   m_GameObject: {fileID: 1877859020}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.09, y: -8.17, z: 0}
+  m_LocalPosition: {x: 5.52, y: -1.44, z: 0}
   m_LocalScale: {x: 2.5, y: 2.5, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -131794,7 +132106,8 @@ MonoBehaviour:
   _interactionLayer:
     serializedVersion: 2
     m_Bits: 256
-  _interactableText: {fileID: 1946819610}
+  _interactionsGameObject: {fileID: 1946819610}
+  _interactionText: {fileID: 0}
 --- !u!1 &1883676464
 GameObject:
   m_ObjectHideFlags: 0
@@ -148240,6 +148553,81 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1996025803
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1996025804}
+  - component: {fileID: 1996025806}
+  - component: {fileID: 1996025805}
+  m_Layer: 5
+  m_Name: Background
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1996025804
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996025803}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1167179619}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 150}
+  m_SizeDelta: {x: 700, y: 250}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1996025805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996025803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.93333334}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 9a6560e5bacb40847bb1b879ede354fb, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1996025806
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1996025803}
+  m_CullTransparentMesh: 1
 --- !u!1 &2003761529
 GameObject:
   m_ObjectHideFlags: 0
@@ -148409,7 +148797,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: J'ai si slimal
+  _interactionMessage: []
+  _randomizeMessage: 0
 --- !u!1 &2015249659
 GameObject:
   m_ObjectHideFlags: 0
@@ -148608,8 +148997,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: "Es-tu all\xE9 chercher des slimignons pour le repas de ce
-    soir ?"
+  _interactionMessage: []
+  _randomizeMessage: 0
 --- !u!1 &2018661335
 GameObject:
   m_ObjectHideFlags: 0
@@ -149508,7 +149897,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: Cot cot
+  _interactionMessage:
+  - Cot cot !
+  _randomizeMessage: 0
 --- !u!1 &2103198125
 GameObject:
   m_ObjectHideFlags: 0
@@ -157792,7 +158183,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: Tu as vu Slimope aujourd'hui ?
+  _interactionMessage: []
+  _randomizeMessage: 0
 --- !u!1 &2147184947
 GameObject:
   m_ObjectHideFlags: 0
@@ -157930,7 +158322,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: "Arr\xEAtes, tu vas me faire rosir "
+  _interactionMessage: []
+  _randomizeMessage: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

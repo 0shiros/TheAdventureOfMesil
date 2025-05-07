@@ -5,9 +5,12 @@ using UnityEngine.UI;
 
 public class CompleteQuest : MonoBehaviour
 {
+    [Header("References")]
     [SerializeField] private Quest _quest;
-    public string _objectDialogue;
     private GameObject _questObject;
+
+    [Header("Dialogue")]
+    public string _objectDialogue;
 
     public Action OnQuestUpdated { get; internal set; }
 
