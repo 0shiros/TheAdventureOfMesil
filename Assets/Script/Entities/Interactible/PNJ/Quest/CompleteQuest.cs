@@ -16,7 +16,7 @@ public class CompleteQuest : MonoBehaviour
 
     private void Awake()
     {
-        _questObject = GetComponent<CompleteQuest>().gameObject;
+        _questObject = gameObject;
     }
 
     public void UpdateQuest()

@@ -119,6 +119,10 @@ public class PlayerInteraction : MonoBehaviour
         {
             _interactionsGameObject.SetActive(true);
         }
+        else
+        {
+            _interactionsGameObject.SetActive(false);
+        }
 
         _interactionText.text = message;
     }    

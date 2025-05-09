@@ -9,6 +9,7 @@ public class Quest : MonoBehaviour
     [SerializeField] private PlayerCharacteristics _playerCharacteristics;
     private GameObject _questObject;
     [HideInInspector] public Image _signImage;
+    [SerializeField] private CompleteQuest _completeQuest;
 
     [Header("QuestSettings")]
     public string[] _dialogues;
@@ -47,6 +48,7 @@ public class Quest : MonoBehaviour
         _signImage.sprite = _signSprites[1];
         _currentDialogue = _dialogues[0];
         _isQuestStarted = true;
+        _completeQuest.tag = "ObjectQuest";
     }
 
     private void InProgressQuest()

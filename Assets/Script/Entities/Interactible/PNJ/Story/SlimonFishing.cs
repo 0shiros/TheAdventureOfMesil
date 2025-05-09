@@ -38,9 +38,10 @@ public class SlimonFishing : MonoBehaviour
 
     public void AcceptFishing()
     {
+        _choices.SetActive(false);       
         _dialogueIndex++;
         _text.text = _dialogues[_dialogueIndex];
-        _choices.SetActive(false);       
+        _dialogueIndex++;
     }
 
     public void RefuseFishing()
@@ -51,19 +52,19 @@ public class SlimonFishing : MonoBehaviour
 
     private IEnumerator SlimonDialogues()
     {
-        while (_dialogueIndex < _dialogues.Length)
+        if (_dialogueIndex < _dialogues.Length)
         {
-            _text.text = _dialogues[_dialogueIndex++];
+            _text.text = _dialogues[_dialogueIndex];
             _dialogueIndex++;
-            
-            yield return null;
         }
-
-        _blackscreen.SetActive(true);
-        yield return new WaitForSecondsRealtime(1f);
-        _blackscreen.SetActive(false);
-        gameObject.SetActive(false);
-        _map3.SetActive(false);
-        _map3Bis.SetActive(true);        
+        else
+        {
+            _blackscreen.SetActive(true);
+            yield return new WaitForSecondsRealtime(0.5f);
+            gameObject.SetActive(false);
+            _blackscreen.SetActive(false);
+            _map3.SetActive(false);
+            _map3Bis.SetActive(true);
+        }
     }
 }
