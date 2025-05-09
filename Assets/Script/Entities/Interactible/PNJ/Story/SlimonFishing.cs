@@ -5,77 +5,65 @@ using UnityEngine.UI;
 
 public class SlimonFishing : MonoBehaviour
 {
-    [SerializeField] private GameEvents _gameEvents;
-    [SerializeField] private GameObject _player;
-    [SerializeField] private GameObject _playerFishing;
-    [SerializeField] private GameObject _area3;
-    [SerializeField] private GameObject _area3Bis;
-    [SerializeField] private Image _blackScreen;
-    [SerializeField] private Image _slimonFish;
-    [SerializeField] private TextMeshProUGUI _choiceText;
-    [SerializeField] private TextMeshProUGUI _dialogueText;
+    [Header("References")]
+    [SerializeField] private GameObject _interactions;
+    [SerializeField] private GameObject _choices;
+    [SerializeField] private GameObject _blackscreen;
+    [SerializeField] private GameObject _map3;
+    [SerializeField] private GameObject _map3Bis;
     [SerializeField] private string[] _dialogues;
-    private int _currentDialogueIndex = 0;
+    private TextMeshProUGUI _text;
+
+    private int _dialogueIndex;
+
+    private void Awake()
+    {
+        _text = GetComponentInChildren<TextMeshProUGUI>(true);
+    }
 
     public void ChoiceFishing()
     {
-        _slimonFish.gameObject.SetActive(true);
-    }
-
-    public void WantToFish()
-    {
-        _slimonFish.gameObject.SetActive(false);
-        StartCoroutine(FishingTime());
-    }
-
-    public void DoesntWantToFish()
-    {
-        _slimonFish.gameObject.SetActive(false);
-    }
-
-    private IEnumerator FishingTime()
-    {
-        _blackScreen.gameObject.SetActive(true);
-        _choiceText.gameObject.SetActive(false);
-        _player.SetActive(false);
-        _playerFishing.SetActive(true);
-        yield return new WaitForSeconds(0.1f);
-        _slimonFish.gameObject.SetActive(true);
-        _dialogueText.gameObject.SetActive(true);
-        _blackScreen.gameObject.SetActive(false);
-        StartCoroutine(ShowNextDialogue());
-    }
-
-    private IEnumerator ShowNextDialogue()
-    {
-        while (_currentDialogueIndex < _dialogues.Length)
+        if (_dialogueIndex == 0)
         {
-            _dialogueText.text = _dialogues[_currentDialogueIndex];
+            _dialogueIndex = 0;
+            _text.text = _dialogues[_dialogueIndex];
+            _interactions.SetActive(true);
+            _choices.SetActive(true);
+        }
+        else if (_dialogueIndex > 0) 
+        {
+            StartCoroutine(SlimonDialogues());
+        }
+    }
 
-            while (!Input.GetKeyDown(KeyCode.Q))
-            {
-                yield return null;
-            }
+    public void AcceptFishing()
+    {
+        _dialogueIndex++;
+        _text.text = _dialogues[_dialogueIndex];
+        _choices.SetActive(false);       
+    }
 
-            yield return new WaitForSeconds(0.2f);
+    public void RefuseFishing()
+    {
+        _interactions.SetActive(false);
+        _choices.SetActive(false);
+    }
 
-            _currentDialogueIndex++;
+    private IEnumerator SlimonDialogues()
+    {
+        while (_dialogueIndex < _dialogues.Length)
+        {
+            _text.text = _dialogues[_dialogueIndex++];
+            _dialogueIndex++;
+            
+            yield return null;
         }
 
-        StartCoroutine(AttackOnVillage());
-    }
-
-    private IEnumerator AttackOnVillage()
-    {
-        _blackScreen.gameObject.SetActive(true);
-        _playerFishing.SetActive(false);
-        yield return new WaitForSeconds(0.1f);
-        _slimonFish.gameObject.SetActive(false);
-        _player.SetActive(true);
-        _blackScreen.gameObject.SetActive(false);
+        _blackscreen.SetActive(true);
+        yield return new WaitForSecondsRealtime(1f);
+        _blackscreen.SetActive(false);
         gameObject.SetActive(false);
-        _gameEvents.hasVillageBeenAttacked = true;
-        _area3.SetActive(false);
-        _area3Bis.SetActive(true);
+        _map3.SetActive(false);
+        _map3Bis.SetActive(true);        
     }
 }

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using TMPro;
 using UnityEngine;
@@ -42,6 +43,16 @@ public class PlayerInteraction : MonoBehaviour
         {
             switch (hit.collider.tag)
             {
+                case "Slimon":
+
+                    SlimonFishing slimon = hit.collider.GetComponent<SlimonFishing>();
+                    if (Input.GetKeyDown(KeyCode.Q))
+                    {
+                        slimon.ChoiceFishing();
+                    }
+
+                    break;
+
                 case "PNJQuest":
 
                     Quest quest = hit.collider.GetComponent<Quest>();
