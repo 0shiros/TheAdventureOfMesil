@@ -53,6 +53,15 @@ public class PlayerInteraction : MonoBehaviour
 
                     break;
 
+                case "BreakRock":
+
+                    DestroyStone stone = hit.collider.GetComponent<DestroyStone>();
+                    if (Input.GetKeyDown(KeyCode.Q))
+                    {
+                        stone.StoneChoice();
+                    }
+                    break;
+
                 case "PNJQuest":
 
                     Quest quest = hit.collider.GetComponent<Quest>();

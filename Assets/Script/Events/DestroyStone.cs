@@ -16,15 +16,14 @@ public class DestroyStone : MonoBehaviour
     {
         if (_secondBossKilled._hasSecondBossBeenKilled)
         {
-            StoneChoice();
+            _stone.tag = "BreakRock";
         }
     }
 
-    private void StoneChoice()
-    {
-        _stone.tag = "Untagged";
+    public void StoneChoice()
+    {            
         _interactions.SetActive(true);
-        _choices.SetActive(true);
+        _choices.SetActive(true);        
     }
 
     public void AcceptStoneChoice()

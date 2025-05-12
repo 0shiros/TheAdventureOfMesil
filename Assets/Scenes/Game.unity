@@ -3161,6 +3161,10 @@ PrefabInstance:
       propertyPath: _player
       value: 
       objectReference: {fileID: 1877859020}
+    - target: {fileID: 1537478163811196536, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
+      propertyPath: _cam
+      value: 
+      objectReference: {fileID: 519420031}
     - target: {fileID: 1661011233898410246, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
       propertyPath: m_Name
       value: Spectre (3)
@@ -4719,6 +4723,17 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &79477953 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 863814014085283690, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
+  m_PrefabInstance: {fileID: 49891449}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da13b1240b146514bb8ea8bdb0f54d32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &87528346
 GameObject:
   m_ObjectHideFlags: 0
@@ -5254,9 +5269,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1758353355}
-        m_TargetAssemblyTypeName: SlimonFishing, Assembly-CSharp
-        m_MethodName: RefuseFishing
+      - m_Target: {fileID: 1979375959}
+        m_TargetAssemblyTypeName: DestroyStone, Assembly-CSharp
+        m_MethodName: RefuseStoneChoice
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10356,6 +10371,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5461163910510284630, guid: cd383685e5f3ca847a141c6f560361dd, type: 3}
+      propertyPath: _cam
+      value: 
+      objectReference: {fileID: 519420031}
     - target: {fileID: 6478140135433271920, guid: cd383685e5f3ca847a141c6f560361dd, type: 3}
       propertyPath: m_Name
       value: StoneElemental (1)
@@ -28102,6 +28121,16 @@ MonoBehaviour:
   - {fileID: 1157083426}
   - {fileID: 1710471205}
   - {fileID: 1738529181}
+  - {fileID: 1744557592}
+  - {fileID: 1682582295}
+  - {fileID: 79477953}
+  - {fileID: 2828672695174279505}
+  - {fileID: 1935933760}
+  - {fileID: 999147095}
+  - {fileID: 3331866279106979833}
+  - {fileID: 7760219245388492856}
+  - {fileID: 1861052559}
+  - {fileID: 3805917944082844924}
 --- !u!61 &519420034
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31446,7 +31475,7 @@ MonoBehaviour:
   - name: GetExperience
     audioClip: {fileID: 8300000, guid: ebe513662df71114290a0904ab23d87e, type: 3}
   - name: RockExplosion
-    audioClip: {fileID: 8300000, guid: ebe513662df71114290a0904ab23d87e, type: 3}
+    audioClip: {fileID: 8300000, guid: 6607862eaa0197f4f8050fb13f8ee25d, type: 3}
 --- !u!1 &643893531
 GameObject:
   m_ObjectHideFlags: 0
@@ -42051,6 +42080,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3396032341409984560, guid: 07f9c5ee83d69084c84333f4763d195f, type: 3}
+      propertyPath: _cam
+      value: 
+      objectReference: {fileID: 519420031}
     - target: {fileID: 3596884866376376052, guid: 07f9c5ee83d69084c84333f4763d195f, type: 3}
       propertyPath: m_Name
       value: FireElemental (2)
@@ -42398,6 +42431,10 @@ PrefabInstance:
       propertyPath: _player
       value: 
       objectReference: {fileID: 1877859020}
+    - target: {fileID: 1537478163811196536, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
+      propertyPath: _cam
+      value: 
+      objectReference: {fileID: 519420031}
     - target: {fileID: 1661011233898410246, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
       propertyPath: m_Name
       value: Spectre (1)
@@ -60537,6 +60574,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 973280410}
   m_CullTransparentMesh: 1
+--- !u!114 &999147095 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4446612248577289707, guid: 07f9c5ee83d69084c84333f4763d195f, type: 3}
+  m_PrefabInstance: {fileID: 806071979}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da13b1240b146514bb8ea8bdb0f54d32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1033769416
 GameObject:
   m_ObjectHideFlags: 0
@@ -122741,6 +122789,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3396032341409984560, guid: 07f9c5ee83d69084c84333f4763d195f, type: 3}
+      propertyPath: _cam
+      value: 
+      objectReference: {fileID: 519420031}
     - target: {fileID: 3596884866376376052, guid: 07f9c5ee83d69084c84333f4763d195f, type: 3}
       propertyPath: m_Name
       value: FireElemental (1)
@@ -140630,6 +140682,10 @@ PrefabInstance:
       propertyPath: _player
       value: 
       objectReference: {fileID: 1877859020}
+    - target: {fileID: 1537478163811196536, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
+      propertyPath: _cam
+      value: 
+      objectReference: {fileID: 519420031}
     - target: {fileID: 1661011233898410246, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
       propertyPath: m_Name
       value: Spectre (2)
@@ -141371,7 +141427,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: "Voulez-vous d\xE9truire le rocher avec les min\xE9rais explosifs ?"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -142442,6 +142498,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1682582295 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 863814014085283690, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
+  m_PrefabInstance: {fileID: 1604935956}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da13b1240b146514bb8ea8bdb0f54d32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1682644241
 GameObject:
   m_ObjectHideFlags: 0
@@ -144263,6 +144330,17 @@ Transform:
   - {fileID: 1710471203}
   m_Father: {fileID: 2018661336}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1744557592 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 863814014085283690, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
+  m_PrefabInstance: {fileID: 851108540}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da13b1240b146514bb8ea8bdb0f54d32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1758353351
 GameObject:
   m_ObjectHideFlags: 0
@@ -157910,6 +157988,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1859878073}
   m_CullTransparentMesh: 1
+--- !u!114 &1861052559 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9115970357114160722, guid: cd383685e5f3ca847a141c6f560361dd, type: 3}
+  m_PrefabInstance: {fileID: 296322182}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da13b1240b146514bb8ea8bdb0f54d32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1862358028
 GameObject:
   m_ObjectHideFlags: 0
@@ -167099,6 +167188,17 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &1935933760 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4446612248577289707, guid: 07f9c5ee83d69084c84333f4763d195f, type: 3}
+  m_PrefabInstance: {fileID: 1438782317}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da13b1240b146514bb8ea8bdb0f54d32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1936702263
 GameObject:
   m_ObjectHideFlags: 0
@@ -176055,9 +176155,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1758353355}
-        m_TargetAssemblyTypeName: SlimonFishing, Assembly-CSharp
-        m_MethodName: AcceptFishing
+      - m_Target: {fileID: 1979375959}
+        m_TargetAssemblyTypeName: DestroyStone, Assembly-CSharp
+        m_MethodName: AcceptStoneChoice
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -185122,6 +185222,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3396032341409984560, guid: 07f9c5ee83d69084c84333f4763d195f, type: 3}
+      propertyPath: _cam
+      value: 
+      objectReference: {fileID: 519420031}
     - target: {fileID: 3596884866376376052, guid: 07f9c5ee83d69084c84333f4763d195f, type: 3}
       propertyPath: m_Name
       value: FireElemental
@@ -185195,6 +185299,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5461163910510284630, guid: cd383685e5f3ca847a141c6f560361dd, type: 3}
+      propertyPath: _cam
+      value: 
+      objectReference: {fileID: 519420031}
     - target: {fileID: 6478140135433271920, guid: cd383685e5f3ca847a141c6f560361dd, type: 3}
       propertyPath: m_Name
       value: StoneElemental
@@ -185225,11 +185333,44 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2241515941838505097, guid: 9d44dbebdaff854478d45c89ffeab768, type: 3}
   m_PrefabInstance: {fileID: 7697022230829448771}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2828672695174279505 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 863814014085283690, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
+  m_PrefabInstance: {fileID: 7265647726124889332}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da13b1240b146514bb8ea8bdb0f54d32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3331866279106979833 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4446612248577289707, guid: 07f9c5ee83d69084c84333f4763d195f, type: 3}
+  m_PrefabInstance: {fileID: 154101463501464916}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da13b1240b146514bb8ea8bdb0f54d32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &3708648047790085390 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2128465152334835916, guid: cd383685e5f3ca847a141c6f560361dd, type: 3}
   m_PrefabInstance: {fileID: 1863841996202453520}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &3805917944082844924 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1326955490521082875, guid: 9d44dbebdaff854478d45c89ffeab768, type: 3}
+  m_PrefabInstance: {fileID: 7697022230829448771}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2794642518485717832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da13b1240b146514bb8ea8bdb0f54d32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &7265647726124889332
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -185254,6 +185395,10 @@ PrefabInstance:
       propertyPath: _player
       value: 
       objectReference: {fileID: 1877859020}
+    - target: {fileID: 1537478163811196536, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
+      propertyPath: _cam
+      value: 
+      objectReference: {fileID: 519420031}
     - target: {fileID: 1661011233898410246, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
       propertyPath: m_Name
       value: Spectre
@@ -185327,6 +185472,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2007418622}
     m_Modifications:
+    - target: {fileID: 1294122198602907985, guid: 9d44dbebdaff854478d45c89ffeab768, type: 3}
+      propertyPath: _cam
+      value: 
+      objectReference: {fileID: 519420031}
     - target: {fileID: 1326955490521082875, guid: 9d44dbebdaff854478d45c89ffeab768, type: 3}
       propertyPath: _playerTransform
       value: 
@@ -185409,6 +185558,17 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 8795861352460663697}
   m_SourcePrefab: {fileID: 100100000, guid: 9d44dbebdaff854478d45c89ffeab768, type: 3}
+--- !u!114 &7760219245388492856 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 9115970357114160722, guid: cd383685e5f3ca847a141c6f560361dd, type: 3}
+  m_PrefabInstance: {fileID: 1863841996202453520}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da13b1240b146514bb8ea8bdb0f54d32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &7788768561143048650 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2242314723535541594, guid: 9d44dbebdaff854478d45c89ffeab768, type: 3}

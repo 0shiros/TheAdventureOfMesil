@@ -9,6 +9,7 @@ TagManager:
   - SlimonPotion
   - PNJQuest
   - ObjectQuest
+  - BreakRock
   layers:
   - Default
   - TransparentFX
