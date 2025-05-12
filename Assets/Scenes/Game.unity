@@ -3150,6 +3150,22 @@ PrefabInstance:
     m_TransformParent: {fileID: 387988327}
     m_Modifications:
     - target: {fileID: 116678896853170214, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
+      propertyPath: damage
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 116678896853170214, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
+      propertyPath: maxHealth
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 116678896853170214, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
+      propertyPath: currentHealth
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 116678896853170214, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
+      propertyPath: grantExperience
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 116678896853170214, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
       propertyPath: startPosition.x
       value: -15
       objectReference: {fileID: 0}
@@ -10387,6 +10403,22 @@ PrefabInstance:
       propertyPath: _playerTransform
       value: 
       objectReference: {fileID: 1877859024}
+    - target: {fileID: 9150064882650443991, guid: cd383685e5f3ca847a141c6f560361dd, type: 3}
+      propertyPath: damage
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150064882650443991, guid: cd383685e5f3ca847a141c6f560361dd, type: 3}
+      propertyPath: maxHealth
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150064882650443991, guid: cd383685e5f3ca847a141c6f560361dd, type: 3}
+      propertyPath: currentHealth
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150064882650443991, guid: cd383685e5f3ca847a141c6f560361dd, type: 3}
+      propertyPath: grantExperience
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 9150064882650443991, guid: cd383685e5f3ca847a141c6f560361dd, type: 3}
       propertyPath: startPosition.x
       value: -50
@@ -42089,6 +42121,22 @@ PrefabInstance:
       value: FireElemental (2)
       objectReference: {fileID: 0}
     - target: {fileID: 4081678789736147647, guid: 07f9c5ee83d69084c84333f4763d195f, type: 3}
+      propertyPath: damage
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081678789736147647, guid: 07f9c5ee83d69084c84333f4763d195f, type: 3}
+      propertyPath: maxHealth
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081678789736147647, guid: 07f9c5ee83d69084c84333f4763d195f, type: 3}
+      propertyPath: currentHealth
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081678789736147647, guid: 07f9c5ee83d69084c84333f4763d195f, type: 3}
+      propertyPath: grantExperience
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081678789736147647, guid: 07f9c5ee83d69084c84333f4763d195f, type: 3}
       propertyPath: startPosition.x
       value: -40
       objectReference: {fileID: 0}
@@ -42419,6 +42467,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 387988327}
     m_Modifications:
+    - target: {fileID: 116678896853170214, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
+      propertyPath: damage
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 116678896853170214, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
+      propertyPath: maxHealth
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 116678896853170214, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
+      propertyPath: currentHealth
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 116678896853170214, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
+      propertyPath: grantExperience
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 116678896853170214, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
       propertyPath: startPosition.x
       value: -25
@@ -122798,6 +122862,22 @@ PrefabInstance:
       value: FireElemental (1)
       objectReference: {fileID: 0}
     - target: {fileID: 4081678789736147647, guid: 07f9c5ee83d69084c84333f4763d195f, type: 3}
+      propertyPath: damage
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081678789736147647, guid: 07f9c5ee83d69084c84333f4763d195f, type: 3}
+      propertyPath: maxHealth
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081678789736147647, guid: 07f9c5ee83d69084c84333f4763d195f, type: 3}
+      propertyPath: currentHealth
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081678789736147647, guid: 07f9c5ee83d69084c84333f4763d195f, type: 3}
+      propertyPath: grantExperience
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081678789736147647, guid: 07f9c5ee83d69084c84333f4763d195f, type: 3}
       propertyPath: startPosition.x
       value: -33
       objectReference: {fileID: 0}
@@ -140666,6 +140746,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 387988327}
     m_Modifications:
+    - target: {fileID: 116678896853170214, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
+      propertyPath: damage
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 116678896853170214, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
+      propertyPath: maxHealth
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 116678896853170214, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
+      propertyPath: currentHealth
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 116678896853170214, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
+      propertyPath: grantExperience
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 116678896853170214, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
       propertyPath: startPosition.x
       value: -20
@@ -185231,6 +185327,22 @@ PrefabInstance:
       value: FireElemental
       objectReference: {fileID: 0}
     - target: {fileID: 4081678789736147647, guid: 07f9c5ee83d69084c84333f4763d195f, type: 3}
+      propertyPath: damage
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081678789736147647, guid: 07f9c5ee83d69084c84333f4763d195f, type: 3}
+      propertyPath: maxHealth
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081678789736147647, guid: 07f9c5ee83d69084c84333f4763d195f, type: 3}
+      propertyPath: currentHealth
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081678789736147647, guid: 07f9c5ee83d69084c84333f4763d195f, type: 3}
+      propertyPath: grantExperience
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 4081678789736147647, guid: 07f9c5ee83d69084c84333f4763d195f, type: 3}
       propertyPath: startPosition.x
       value: -35
       objectReference: {fileID: 0}
@@ -185316,6 +185428,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1877859024}
     - target: {fileID: 9150064882650443991, guid: cd383685e5f3ca847a141c6f560361dd, type: 3}
+      propertyPath: damage
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150064882650443991, guid: cd383685e5f3ca847a141c6f560361dd, type: 3}
+      propertyPath: maxHealth
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150064882650443991, guid: cd383685e5f3ca847a141c6f560361dd, type: 3}
+      propertyPath: currentHealth
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150064882650443991, guid: cd383685e5f3ca847a141c6f560361dd, type: 3}
+      propertyPath: grantExperience
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 9150064882650443991, guid: cd383685e5f3ca847a141c6f560361dd, type: 3}
       propertyPath: startPosition.x
       value: -50
       objectReference: {fileID: 0}
@@ -185379,6 +185507,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 387988327}
     m_Modifications:
+    - target: {fileID: 116678896853170214, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
+      propertyPath: damage
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 116678896853170214, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
+      propertyPath: maxHealth
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 116678896853170214, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
+      propertyPath: currentHealth
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 116678896853170214, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
+      propertyPath: grantExperience
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 116678896853170214, guid: ac880185914dadb4286cd3b90fe4818c, type: 3}
       propertyPath: startPosition.x
       value: -13
@@ -185537,6 +185681,22 @@ PrefabInstance:
     - target: {fileID: 2242314723535541594, guid: 9d44dbebdaff854478d45c89ffeab768, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2356460617625828498, guid: 9d44dbebdaff854478d45c89ffeab768, type: 3}
+      propertyPath: damage
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 2356460617625828498, guid: 9d44dbebdaff854478d45c89ffeab768, type: 3}
+      propertyPath: maxHealth
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 2356460617625828498, guid: 9d44dbebdaff854478d45c89ffeab768, type: 3}
+      propertyPath: currentHealth
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 2356460617625828498, guid: 9d44dbebdaff854478d45c89ffeab768, type: 3}
+      propertyPath: grantExperience
+      value: 600
       objectReference: {fileID: 0}
     - target: {fileID: 2356460617625828498, guid: 9d44dbebdaff854478d45c89ffeab768, type: 3}
       propertyPath: startPosition.x
