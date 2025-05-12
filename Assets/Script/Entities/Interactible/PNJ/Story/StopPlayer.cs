@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class StopPlayer : MonoBehaviour
 {
-    [SerializeField] private GameEvents _gameEvents;
     private PlayerMovement _playerMovement;
     [SerializeField] private GameObject _playerGameObject;
     [SerializeField] private Vector3 _playerKnockback;
@@ -22,22 +21,17 @@ public class StopPlayer : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
-        {
-            if (!_gameEvents.hasVillageBeenAttacked)
-            {
-                StartCoroutine(ExitVillageBeforeAttack(_interactionTextValue));
-            }
+        {            
+            KnockbackPlayer(_interactionTextValue);            
         }
     }
 
-    private IEnumerator ExitVillageBeforeAttack(string dialogueInteraction)
+    private void KnockbackPlayer(string dialogueInteraction)
     {
         _playerMovement._canPlayerMove = false;
         _playerMovement.playerTransform.position += _playerKnockback;
         _interaction.SetActive(true);
         _interactionText.text = dialogueInteraction;
-        yield return new WaitForSeconds(2f);
-        _interaction.SetActive(false);
         _playerMovement._canPlayerMove = true;
     }
 }

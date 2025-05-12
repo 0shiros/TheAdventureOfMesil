@@ -9,9 +9,8 @@ public class PlayerRespawn : MonoBehaviour
     private PlayerBar _playerBar;
     private PlayerCharacteristics _playerCharacteristics;
 
-    [SerializeField] private Vector3 _respawnPosition;
+    public Vector3 _respawnPosition;
     [SerializeField] private Camera _camera;
-    [SerializeField] private Animator[] _doorGridAnimators;
 
     private void Awake()
     {
@@ -27,12 +26,6 @@ public class PlayerRespawn : MonoBehaviour
         _playerTransform.position = _respawnPosition;
         _camera.transform.position = new Vector3(0, 0, -10);
         _playerCharacteristics.currentHealth = _playerCharacteristics.maxHealth;
-        _playerBar.UpdateHealthBar();
-        for(int i = 0; i < _doorGridAnimators.Length; i++)
-        {
-            Collider2D[] _doorGrid = _doorGridAnimators[i].GetComponentsInChildren<Collider2D>();
-            _doorGridAnimators[i].SetBool("IsPlayerEnter", false);
-            _doorGrid[i].isTrigger = true;
-        }
+        _playerBar.UpdateHealthBar();       
     }
 }

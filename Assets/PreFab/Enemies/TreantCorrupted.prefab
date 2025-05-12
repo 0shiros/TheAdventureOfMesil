@@ -16,6 +16,8 @@ GameObject:
   - component: {fileID: 2040043799776029768}
   - component: {fileID: 293756656671917755}
   - component: {fileID: 5391892218535539159}
+  - component: {fileID: 3661423523679299550}
+  - component: {fileID: 901273778939601024}
   m_Layer: 6
   m_Name: TreantCorrupted
   m_TagString: Enemy
@@ -226,6 +228,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _player: {fileID: 0}
   _playerKnockback: 0.02
+--- !u!114 &3661423523679299550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588192575918610703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 086acb8f2f3854049a6aa7b1e0675466, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _textStory: "Vous avez vaincu le premier Donjon ! \nVous retournez au village pour
+    le raconter \xE0 votre p\xE8re et vous devez dor\xE9navant vous diriger vers
+    le d\xE9sert."
+  _panelStory: {fileID: 0}
+  _player: {fileID: 0}
+  _playerTeleport: {x: 5.5, y: -1.55, z: 0}
+--- !u!114 &901273778939601024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1588192575918610703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 752a0708787597146abbe41e8098d49f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3385353080280428451
 GameObject:
   m_ObjectHideFlags: 0
