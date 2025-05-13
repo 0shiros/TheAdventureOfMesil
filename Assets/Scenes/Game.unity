@@ -50671,38 +50671,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &742113679
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 742113680}
-  m_Layer: 0
-  m_Name: PlayerEvents
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &742113680
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 742113679}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.960914, y: 2.5594356, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 902094334}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &742907127
 GameObject:
   m_ObjectHideFlags: 0
@@ -51089,6 +51057,22 @@ PrefabInstance:
     - target: {fileID: 7080764566743210624, guid: 73d69e6b1964e7b459aeda1912ab97b7, type: 3}
       propertyPath: m_Name
       value: Pyromancien (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8069531519234720387, guid: 73d69e6b1964e7b459aeda1912ab97b7, type: 3}
+      propertyPath: damage
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8069531519234720387, guid: 73d69e6b1964e7b459aeda1912ab97b7, type: 3}
+      propertyPath: maxHealth
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8069531519234720387, guid: 73d69e6b1964e7b459aeda1912ab97b7, type: 3}
+      propertyPath: currentHealth
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8069531519234720387, guid: 73d69e6b1964e7b459aeda1912ab97b7, type: 3}
+      propertyPath: grantExperience
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8069531519234720387, guid: 73d69e6b1964e7b459aeda1912ab97b7, type: 3}
       propertyPath: startPosition.x
@@ -55978,93 +55962,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &902094333
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 902094334}
-  - component: {fileID: 902094335}
-  m_Layer: 0
-  m_Name: PlayerFishing
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &902094334
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 902094333}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.48, y: 8.5, z: 0}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 742113680}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &902094335
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 902094333}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 8276834685723025959, guid: b49a65b8c4c9c1f46ac5eb71c68d8852, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.64, y: 0.64}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &902161577
 GameObject:
   m_ObjectHideFlags: 0
@@ -71883,6 +71780,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 488383595}
     m_Modifications:
+    - target: {fileID: 422847848108435477, guid: f6e2960081c13d0499c93f554394da53, type: 3}
+      propertyPath: damage
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 422847848108435477, guid: f6e2960081c13d0499c93f554394da53, type: 3}
+      propertyPath: maxHealth
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 422847848108435477, guid: f6e2960081c13d0499c93f554394da53, type: 3}
+      propertyPath: currentHealth
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 422847848108435477, guid: f6e2960081c13d0499c93f554394da53, type: 3}
+      propertyPath: grantExperience
+      value: 700
+      objectReference: {fileID: 0}
     - target: {fileID: 422847848108435477, guid: f6e2960081c13d0499c93f554394da53, type: 3}
       propertyPath: startPosition.x
       value: 4.5
@@ -98747,6 +98660,22 @@ PrefabInstance:
       propertyPath: _cam
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 5100105545528239697, guid: fad58c37576ba6447914786bdef719ff, type: 3}
+      propertyPath: damage
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100105545528239697, guid: fad58c37576ba6447914786bdef719ff, type: 3}
+      propertyPath: maxHealth
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100105545528239697, guid: fad58c37576ba6447914786bdef719ff, type: 3}
+      propertyPath: currentHealth
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100105545528239697, guid: fad58c37576ba6447914786bdef719ff, type: 3}
+      propertyPath: grantExperience
+      value: 150
+      objectReference: {fileID: 0}
     - target: {fileID: 5100105545528239697, guid: fad58c37576ba6447914786bdef719ff, type: 3}
       propertyPath: startPosition.x
       value: 5
@@ -148119,6 +148048,22 @@ PrefabInstance:
     m_TransformParent: {fileID: 488383595}
     m_Modifications:
     - target: {fileID: 422847848108435477, guid: f6e2960081c13d0499c93f554394da53, type: 3}
+      propertyPath: damage
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 422847848108435477, guid: f6e2960081c13d0499c93f554394da53, type: 3}
+      propertyPath: maxHealth
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 422847848108435477, guid: f6e2960081c13d0499c93f554394da53, type: 3}
+      propertyPath: currentHealth
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 422847848108435477, guid: f6e2960081c13d0499c93f554394da53, type: 3}
+      propertyPath: grantExperience
+      value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: 422847848108435477, guid: f6e2960081c13d0499c93f554394da53, type: 3}
       propertyPath: startPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -148470,6 +148415,22 @@ PrefabInstance:
     - target: {fileID: 7080764566743210624, guid: 73d69e6b1964e7b459aeda1912ab97b7, type: 3}
       propertyPath: m_Name
       value: Pyromancien (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8069531519234720387, guid: 73d69e6b1964e7b459aeda1912ab97b7, type: 3}
+      propertyPath: damage
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8069531519234720387, guid: 73d69e6b1964e7b459aeda1912ab97b7, type: 3}
+      propertyPath: maxHealth
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8069531519234720387, guid: 73d69e6b1964e7b459aeda1912ab97b7, type: 3}
+      propertyPath: currentHealth
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8069531519234720387, guid: 73d69e6b1964e7b459aeda1912ab97b7, type: 3}
+      propertyPath: grantExperience
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8069531519234720387, guid: 73d69e6b1964e7b459aeda1912ab97b7, type: 3}
       propertyPath: startPosition.x
@@ -225194,6 +225155,22 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 519420031}
     - target: {fileID: 5100105545528239697, guid: fad58c37576ba6447914786bdef719ff, type: 3}
+      propertyPath: damage
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100105545528239697, guid: fad58c37576ba6447914786bdef719ff, type: 3}
+      propertyPath: maxHealth
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100105545528239697, guid: fad58c37576ba6447914786bdef719ff, type: 3}
+      propertyPath: currentHealth
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100105545528239697, guid: fad58c37576ba6447914786bdef719ff, type: 3}
+      propertyPath: grantExperience
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100105545528239697, guid: fad58c37576ba6447914786bdef719ff, type: 3}
       propertyPath: startPosition.x
       value: -5
       objectReference: {fileID: 0}
@@ -225249,6 +225226,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 488383595}
     m_Modifications:
+    - target: {fileID: 422847848108435477, guid: f6e2960081c13d0499c93f554394da53, type: 3}
+      propertyPath: damage
+      value: 70
+      objectReference: {fileID: 0}
+    - target: {fileID: 422847848108435477, guid: f6e2960081c13d0499c93f554394da53, type: 3}
+      propertyPath: maxHealth
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 422847848108435477, guid: f6e2960081c13d0499c93f554394da53, type: 3}
+      propertyPath: currentHealth
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 422847848108435477, guid: f6e2960081c13d0499c93f554394da53, type: 3}
+      propertyPath: grantExperience
+      value: 700
+      objectReference: {fileID: 0}
     - target: {fileID: 422847848108435477, guid: f6e2960081c13d0499c93f554394da53, type: 3}
       propertyPath: startPosition.x
       value: -5
@@ -225342,6 +225335,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2109526454}
     m_Modifications:
+    - target: {fileID: 1175129500408228428, guid: 564f895698e06994c9c7b61ef16c267a, type: 3}
+      propertyPath: damage
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175129500408228428, guid: 564f895698e06994c9c7b61ef16c267a, type: 3}
+      propertyPath: maxHealth
+      value: 2500
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175129500408228428, guid: 564f895698e06994c9c7b61ef16c267a, type: 3}
+      propertyPath: currentHealth
+      value: 2500
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175129500408228428, guid: 564f895698e06994c9c7b61ef16c267a, type: 3}
+      propertyPath: grantExperience
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1175129500408228428, guid: 564f895698e06994c9c7b61ef16c267a, type: 3}
       propertyPath: startPosition.x
       value: 0
@@ -225744,6 +225753,22 @@ PrefabInstance:
       value: Pyromancien
       objectReference: {fileID: 0}
     - target: {fileID: 8069531519234720387, guid: 73d69e6b1964e7b459aeda1912ab97b7, type: 3}
+      propertyPath: damage
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8069531519234720387, guid: 73d69e6b1964e7b459aeda1912ab97b7, type: 3}
+      propertyPath: maxHealth
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8069531519234720387, guid: 73d69e6b1964e7b459aeda1912ab97b7, type: 3}
+      propertyPath: currentHealth
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 8069531519234720387, guid: 73d69e6b1964e7b459aeda1912ab97b7, type: 3}
+      propertyPath: grantExperience
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8069531519234720387, guid: 73d69e6b1964e7b459aeda1912ab97b7, type: 3}
       propertyPath: startPosition.x
       value: -6
       objectReference: {fileID: 0}
@@ -225787,7 +225812,6 @@ SceneRoots:
   - {fileID: 1877859024}
   - {fileID: 1939425559}
   - {fileID: 1849476250}
-  - {fileID: 742113680}
   - {fileID: 1115549671}
   - {fileID: 243082300}
   - {fileID: 1944573059}
