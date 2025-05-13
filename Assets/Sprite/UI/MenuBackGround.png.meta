@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 26272b3fe2398a34a9c19cfaa468bf06
+guid: 04baba4fb09c3304bb74ecaac90a3f5c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1193244260982978176
-    second: dark-fantasy-pixel-art-v0-mgvs67abw19c1_0
+      213: 2294532315239703244
+    second: 46ac9e282d3c303934a72d941845785b-1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dark-fantasy-pixel-art-v0-mgvs67abw19c1_0
+      name: 46ac9e282d3c303934a72d941845785b-1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1024
-        height: 1024
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 086f92255514f8010800000000000000
-      internalID: 1193244260982978176
+      spriteID: cc26487dbf0d7df10800000000000000
+      internalID: 2294532315239703244
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dark-fantasy-pixel-art-v0-mgvs67abw19c1_0: 1193244260982978176
+      46ac9e282d3c303934a72d941845785b-1_0: 2294532315239703244
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
