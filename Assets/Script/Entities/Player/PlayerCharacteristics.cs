@@ -55,6 +55,8 @@ public class PlayerCharacteristics : Characteristics
         {
             currentExperience = 0;
         }           
+
+        SFXManager.instance.PlaySFX("GetExperience");
     }
 
     public void UpgradeStatistics(int level)

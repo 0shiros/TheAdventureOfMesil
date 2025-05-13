@@ -77,7 +77,6 @@ public class PlayerAttack : MonoBehaviour
                 if (!_enemyCharacteristics.gameObject.activeSelf)
                 {
                     _playerCharacteristics.GainExperience(_enemyCharacteristics.grantExperience);
-                    SFXManager.instance.PlaySFX("GetExperience");
                 }
                 _enemyRb.AddForce(attackDirection * _enemyKnockback, ForceMode2D.Impulse);
                 SFXManager.instance.PlaySFX("EnemyTakeDamage");

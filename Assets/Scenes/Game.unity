@@ -10739,7 +10739,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: []
+  _interactionMessage:
+  - "Non, \xE0 la slimarelle !"
   _randomizeMessage: 0
 --- !u!1 &76988625
 GameObject:
@@ -12336,7 +12337,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: []
+  _interactionMessage:
+  - "Salut M\xE9sil, quoi de neuf ?"
   _randomizeMessage: 0
 --- !u!1 &108666080
 GameObject:
@@ -12842,7 +12844,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: []
+  _interactionMessage:
+  - Au sloot
   _randomizeMessage: 0
 --- !u!1 &164156643
 GameObject:
@@ -35606,7 +35609,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: []
+  _interactionMessage:
+  - "Slage de G\xE9lat'ine"
   _randomizeMessage: 0
 --- !u!1 &510846141
 GameObject:
@@ -35782,7 +35786,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: -20, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -38191,7 +38195,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: []
+  _interactionMessage:
+  - "Non, je l'ai pas slim\xE9 de la journ\xE9e"
   _randomizeMessage: 0
 --- !u!1 &589475428
 GameObject:
@@ -42200,7 +42205,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: []
+  _interactionMessage:
+  - Oui, nous devrions aller slimer des fleurs
   _randomizeMessage: 0
 --- !u!1 &664793450
 GameObject:
@@ -50746,7 +50752,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 2550490887302723411, guid: 4815278bb89c8ea4a8688f19a022f19c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -50821,11 +50827,11 @@ PrefabInstance:
       objectReference: {fileID: 1877859020}
     - target: {fileID: 6689454679399113613, guid: 1fdc13132c0594441a41d9a50ceff9d4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.93
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 6689454679399113613, guid: 1fdc13132c0594441a41d9a50ceff9d4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -17.35
+      value: -17
       objectReference: {fileID: 0}
     - target: {fileID: 6689454679399113613, guid: 1fdc13132c0594441a41d9a50ceff9d4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -51107,8 +51113,7 @@ GameObject:
   - component: {fileID: 788986330}
   - component: {fileID: 788986332}
   - component: {fileID: 788986331}
-  - component: {fileID: 788986333}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: slime_red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -51221,20 +51226,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &788986333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 788986329}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactionMessage: []
-  _randomizeMessage: 0
 --- !u!1 &794423318
 GameObject:
   m_ObjectHideFlags: 0
@@ -56082,7 +56073,7 @@ GameObject:
   m_Component:
   - component: {fileID: 907212461}
   m_Layer: 0
-  m_Name: InteractablesObjects
+  m_Name: Objects
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -73137,7 +73128,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: []
+  _interactionMessage:
+  - "Slimon ne t'attend pas sl\xEAcher ?"
   _randomizeMessage: 0
 --- !u!1 &1103048946
 GameObject:
@@ -96352,11 +96344,11 @@ PrefabInstance:
       objectReference: {fileID: 1877859020}
     - target: {fileID: 6689454679399113613, guid: 1fdc13132c0594441a41d9a50ceff9d4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 17.24
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 6689454679399113613, guid: 1fdc13132c0594441a41d9a50ceff9d4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -22.27
+      value: -22
       objectReference: {fileID: 0}
     - target: {fileID: 6689454679399113613, guid: 1fdc13132c0594441a41d9a50ceff9d4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -148540,7 +148532,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 2550490887302723411, guid: 4815278bb89c8ea4a8688f19a022f19c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -151136,7 +151128,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: []
+  _interactionMessage:
+  - En train de slimer quelque chose
   _randomizeMessage: 0
 --- !u!1 &1426405257
 GameObject:
@@ -171611,8 +171604,7 @@ GameObject:
   - component: {fileID: 1691634014}
   - component: {fileID: 1691634013}
   - component: {fileID: 1691634015}
-  - component: {fileID: 1691634016}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: slime_red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171725,20 +171717,6 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.25
---- !u!114 &1691634016
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1691634012}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _interactionMessage: []
-  _randomizeMessage: 0
 --- !u!114 &1696453086 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 293756656671917755, guid: b62a63b0f7544bd459e36920d7eb46fb, type: 3}
@@ -172264,7 +172242,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: []
+  _interactionMessage:
+  - "On slime \xE0 quoi aujurd'hui ?"
   _randomizeMessage: 0
 --- !u!1 &1734970602
 GameObject:
@@ -172987,7 +172966,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 2550490887302723411, guid: 4815278bb89c8ea4a8688f19a022f19c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -173029,11 +173008,11 @@ PrefabInstance:
       objectReference: {fileID: 1877859020}
     - target: {fileID: 6689454679399113613, guid: 1fdc13132c0594441a41d9a50ceff9d4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 23.29
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 6689454679399113613, guid: 1fdc13132c0594441a41d9a50ceff9d4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -17.65
+      value: -17.5
       objectReference: {fileID: 0}
     - target: {fileID: 6689454679399113613, guid: 1fdc13132c0594441a41d9a50ceff9d4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -186831,7 +186810,7 @@ Transform:
   m_GameObject: {fileID: 1877859020}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.4, y: -1.53, z: 0}
+  m_LocalPosition: {x: 5.5, y: -1.7, z: 0}
   m_LocalScale: {x: 2.5, y: 2.5, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -212916,8 +212895,8 @@ GameObject:
   - component: {fileID: 2017243683}
   - component: {fileID: 2017243685}
   - component: {fileID: 2017243684}
-  - component: {fileID: 2017243687}
   - component: {fileID: 2017243686}
+  - component: {fileID: 2017243687}
   m_Layer: 8
   m_Name: slime_aquamarine
   m_TagString: Untagged
@@ -213065,7 +213044,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: []
+  _interactionMessage:
+  - Il fait slimant beau aujourd'hui
   _randomizeMessage: 0
 --- !u!1 &2018661335
 GameObject:
@@ -215943,7 +215923,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_Sprite: {fileID: 2550490887302723411, guid: 4815278bb89c8ea4a8688f19a022f19c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -224727,7 +224707,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: []
+  _interactionMessage:
+  - Tu aurais slimer Slima ?
   _randomizeMessage: 0
 --- !u!1 &2147184947
 GameObject:
@@ -224866,7 +224847,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ed132d0d32e984689c503efc47e8f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _interactionMessage: []
+  _interactionMessage:
+  - Je m'ennuie...
   _randomizeMessage: 0
 --- !u!1001 &154101463501464916
 PrefabInstance:

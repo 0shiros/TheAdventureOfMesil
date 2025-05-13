@@ -16,7 +16,7 @@ public class EnemyPattern : MonoBehaviour
 
     private void Start()
     {
-        _enemyTransform.position = _enemyCharacteristics.startPosition;
+        _enemyCharacteristics.startPosition = _enemyTransform.position;
     }
 
     public void FollowPlayer()
