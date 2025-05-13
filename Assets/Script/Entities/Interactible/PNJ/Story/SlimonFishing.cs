@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class SlimonFishing : MonoBehaviour
 {
     [Header("References")]
+    [SerializeField] private PlayerMovement _playerMovement;
     [SerializeField] private GameObject _interactions;
     [SerializeField] private GameObject _choices;
     [SerializeField] private GameObject _blackscreen;
@@ -29,6 +30,7 @@ public class SlimonFishing : MonoBehaviour
             _text.text = _dialogues[_dialogueIndex];
             _interactions.SetActive(true);
             _choices.SetActive(true);
+            _playerMovement._canPlayerMove = false;
         }
         else if (_dialogueIndex > 0) 
         {
@@ -48,6 +50,7 @@ public class SlimonFishing : MonoBehaviour
     {
         _interactions.SetActive(false);
         _choices.SetActive(false);
+        _playerMovement._canPlayerMove = true;
     }
 
     private IEnumerator SlimonDialogues()
@@ -65,6 +68,7 @@ public class SlimonFishing : MonoBehaviour
             _blackscreen.SetActive(false);
             _map3.SetActive(false);
             _map3Bis.SetActive(true);
+            _playerMovement._canPlayerMove = true;      
         }
     }
 }
